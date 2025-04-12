@@ -573,7 +573,21 @@ export default {
         background: #1b3c90;
         color: #fff;
 
+        animation-name: widthHover;
+        animation-duration: 0.5s;
+
         .date {
+          color: #fff;
+        }
+      }
+
+      @keyframes widthHover {
+        from {
+          width: 92%;
+        }
+        to {
+          width: 100%;
+          background: #1b3c90;
           color: #fff;
         }
       }
@@ -622,6 +636,7 @@ export default {
       display: flex;
       align-items: flex-end;
       justify-content: center;
+      cursor: pointer;
 
       &::before {
         content: "";
@@ -666,10 +681,28 @@ export default {
         position: absolute;
         z-index: -1;
       }
+
+      &:hover {
+        &::after {
+          opacity: 0;
+          animation-name: bgAfter;
+          animation-duration: 0.5s;
+        }
+      }
+
+      @keyframes bgAfter {
+        from {
+          opacity: 0.25;
+        }
+        to {
+          opacity: 0;
+        }
+      }
     }
 
     .fb-title {
       width: 80%;
+      padding-bottom: 20px;
       font-size: 36px;
       color: #fff;
       text-align: left;
