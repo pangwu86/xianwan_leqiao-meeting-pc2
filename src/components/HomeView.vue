@@ -11,8 +11,66 @@
   </div>
 
   <!-- welcome -->
+  <div class="welcome-container mt-5">
+    <div class="header mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 title">WELCOME</div>
+          <div class="col-8 desc">
+            Following the 1st congress in Lisbon (Portugal) in 2013, and
+            additional congresses organized in Graz (Austria) in 2015 and Milan
+            (Italy) in 2019, the 4th International Congress on Stratigraphy has
+            been delegated by the International Commission on Stratigraphy (ICS)
+            to Lille (France).
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-4">
+            <div class="read-desc">
+              With famous pioneers, such as Cuvier and Lamarck, France is
+              considered the birthplace of palaeontology (the word
+              ‘paléontologie’ was created by de Blainville in 1822), and French
+              scientists were also the first to develop stratigraphical
+              concepts. For instance, d’Orbigny introduced stages as …
+            </div>
+            <div class="read-more-btn mt-3">Read more</div>
+          </div>
+          <div class="col-8">
+            <div class="news-img"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="welcome-menu-btns row">
+          <div class="col welcom-menu-btn">
+            <img src="../imgs/welcome_menu1.png" alt="" />
+            <div class="title">Themes</div>
+          </div>
+          <div class="col welcom-menu-btn">
+            <img src="../imgs/welcome_menu2.png" alt="" />
+            <div class="title">Plenary/Invited Speakers</div>
+          </div>
+          <div class="col welcom-menu-btn">
+            <img src="../imgs/welcome_menu3.png" alt="" />
+            <div class="title">Program</div>
+          </div>
+          <div class="col welcom-menu-btn">
+            <img src="../imgs/welcome_menu4.png" alt="" />
+            <div class="title">Registration</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Important Dates -->
+  <div class="important-container mt-5"></div>
 
   <!-- News&Events -->
 
@@ -20,7 +78,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss">
@@ -61,32 +123,117 @@ export default {};
     position: absolute;
     z-index: -1;
   }
+
+  .banner-info {
+    color: #fff;
+    font-family: "Arial";
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    .title {
+      font-size: 90px;
+    }
+    .sub-title {
+      font-size: 45px;
+      width: 45%;
+      line-height: 1;
+    }
+    .other {
+      margin-top: 16px;
+      color: #ffce00;
+      font-size: 26px;
+    }
+  }
 }
 
-.banner-info {
-  color: #fff;
-  font-family: "Arial";
-  font-weight: bold;
-  height: 100%;
-  width: 100%;
+.welcome-container {
+  .header {
+    .row {
+      align-items: flex-start;
+    }
 
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
+    .title {
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 1;
+    }
 
-  .title {
-    font-size: 90px;
+    .desc {
+      border-left: solid 4px #1b3c90;
+      padding-left: 30px;
+      // line-height: 1.5;
+    }
   }
-  .sub-title {
-    font-size: 45px;
-    width: 45%;
-    line-height: 1;
-  }
-  .other {
-    margin-top: 16px;
-    color: #ffce00;
-    font-size: 26px;
+
+  .body {
+    background-image: url("../imgs/welcome_body_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 32px 0;
+
+    .read-desc {
+      width: 80%;
+    }
+
+    .read-more-btn {
+      display: inline-block;
+      color: #fff;
+      background-color: #1b3c90;
+      padding: 6px 32px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .news-img {
+      width: 100%;
+      height: 100%;
+      border-left: solid 10px #1b3c90;
+      background-image: url("../imgs/welcome_body_news1.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .welcome-menu-btns {
+      height: 100px;
+      width: 100%;
+      background: #f2f4f7;
+      border-radius: 50px 0 0 50px;
+      position: relative;
+
+      &::after {
+        content: "";
+        background: #f2f4f7;
+        top: 0;
+        left: 100%;
+        bottom: 0;
+        right: -30%;
+        position: absolute;
+      }
+
+      .welcom-menu-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        cursor: pointer;
+        img {
+          width: 30px;
+        }
+        .title {
+          font-size: 14px;
+          color: #1b3c90;
+        }
+      }
+    }
   }
 }
 </style>
