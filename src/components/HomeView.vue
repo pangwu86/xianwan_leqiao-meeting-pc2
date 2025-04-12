@@ -140,7 +140,35 @@
       </div>
     </div>
   </div>
+
   <!-- 4 ImgBtn -->
+
+  <div class="fourbtns-container mt-5">
+    <div class="container">
+      <div class="fb-list">
+        <div class="fb-item">
+          <div class="fb-bg">
+            <div class="fb-title">PROGRAMME</div>
+          </div>
+        </div>
+        <div class="fb-item">
+          <div class="fb-bg bg2">
+            <div class="fb-title">FIELD TRIPS</div>
+          </div>
+        </div>
+        <div class="fb-item">
+          <div class="fb-bg bg3">
+            <div class="fb-title">LOCATION</div>
+          </div>
+        </div>
+        <div class="fb-item">
+          <div class="fb-bg bg4">
+            <div class="fb-title">THE VENUE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -520,7 +548,7 @@ export default {
     padding: 32px 0;
 
     .news-item {
-      width: 95%;
+      width: 92%;
       padding: 16px;
       background: #f2f4f7;
       color: #000;
@@ -549,6 +577,102 @@ export default {
           color: #fff;
         }
       }
+    }
+  }
+}
+
+.fourbtns-container {
+  position: relative;
+  padding-bottom: 50px;
+
+  &::after {
+    content: "";
+    background-image: url("../imgs/fourbtns_bg_left.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: -10%;
+    bottom: 0;
+    right: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .fb-list {
+    display: flex;
+  }
+
+  .fb-item {
+    display: inline-flex;
+    width: 25%;
+
+    &:nth-child(even) {
+      padding-bottom: 100px;
+    }
+
+    &:nth-child(odd) {
+      padding-top: 100px;
+    }
+
+    .fb-bg {
+      width: 100%;
+      height: 600px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+
+      &::before {
+        content: "";
+        background-image: url("../imgs/fourbtn_bg1.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+      }
+
+      &.bg2 {
+        &::before {
+          background-image: url("../imgs/fourbtn_bg2.png");
+        }
+      }
+
+      &.bg3 {
+        &::before {
+          background-image: url("../imgs/fourbtn_bg3.png");
+        }
+      }
+
+      &.bg4 {
+        &::before {
+          background-image: url("../imgs/fourbtn_bg4.png");
+        }
+      }
+
+      &::after {
+        content: "";
+        background-color: #1b3c90;
+        opacity: 0.25;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+      }
+    }
+
+    .fb-title {
+      width: 80%;
+      font-size: 36px;
+      color: #fff;
+      text-align: left;
     }
   }
 }
