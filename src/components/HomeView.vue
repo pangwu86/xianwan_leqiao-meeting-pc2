@@ -111,7 +111,35 @@
   </div>
 
   <!-- News&Events -->
+  <div class="news-container mt-5">
+    <div class="header mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 home-title">News & Events</div>
+          <div class="col-8 controls">
+            <i>More+</i>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="body">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-6"
+            v-for="(ni, nidx) in newsList"
+            :key="'news-item-' + nidx"
+          >
+            <div class="news-item row">
+              <div class="title col-9">{{ ni.title }}</div>
+              <div class="date col-3">{{ ni.date }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- 4 ImgBtn -->
 </template>
 
@@ -132,6 +160,48 @@ export default {
         {
           title: "December 2025",
           content: "2nd circular issued - Download",
+        },
+      ],
+      newsList: [
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
+        },
+        {
+          title: "IMA 2026 website online",
+          date: "2025-01-02",
         },
       ],
     };
@@ -326,9 +396,11 @@ export default {
     }
 
     .controls {
-      text-align: right;
-      height: 100%;
-      padding: 10px 0;
+      height: 45px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
     }
   }
 
@@ -412,6 +484,70 @@ export default {
         width: 80%;
         text-align: center;
         font-size: 14px;
+      }
+    }
+  }
+}
+
+.news-container {
+  .header {
+    .row {
+      align-items: flex-start;
+      height: 100%;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 45px;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-end;
+      height: 45px;
+
+      i {
+        color: #1b3c90;
+      }
+    }
+  }
+
+  .body {
+    padding: 32px 0;
+
+    .news-item {
+      width: 95%;
+      padding: 16px;
+      background: #f2f4f7;
+      color: #000;
+      font-size: 14px;
+      cursor: pointer;
+
+      .title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .date {
+        text-align: right;
+        font-size: 12px;
+        font-style: italic;
+        color: #1b3c90;
+      }
+
+      &:hover {
+        width: 100%;
+        background: #1b3c90;
+        color: #fff;
+
+        .date {
+          color: #fff;
+        }
       }
     }
   }
