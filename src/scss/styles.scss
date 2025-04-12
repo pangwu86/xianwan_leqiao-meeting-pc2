@@ -37,34 +37,6 @@ body {
     display: flex;
   }
 
-  .menu-logo {
-    width: 290px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .logo-img {
-      width: 110px;
-      height: 80px;
-      margin-right: 10px;
-    }
-    .logo-name {
-      width: 170px;
-
-      .sub-title {
-        font-size: 12px;
-        font-weight: bold;
-      }
-
-      .title {
-        font-family: "Arial";
-        font-size: 28px;
-        font-weight: bold;
-        font-style: italic;
-      }
-    }
-  }
-
   .menu-list {
     display: flex;
     flex: 1;
@@ -141,40 +113,34 @@ body {
 
 .footer-container {
   width: 100%;
-  // border-top: 3px solid rgba(0, 0, 0, 0.6) !important;
   color: #898989;
   font-size: 14px;
   position: relative;
   z-index: 1;
   background: #27282d;
-  padding: 16px 0;
+  padding: 32px 0 16px 0;
+  background-color: #1b3c90;
 
-  background-image: url("../imgs/footer_pc.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #ccc;
-
-  .footer-company {
+  &::after {
+    content: "";
+    background-image: url("../imgs/footer_pc.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.17;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
+
   .footer-copyright {
-    margin-top: 20px;
+    margin-top: 50px;
     line-height: 1.5;
     color: #fff;
-  }
-
-  .footer-logos {
-    height: 200px;
-    margin-top: 30px;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    background: url("../imgs/footer_logo2.svg") no-repeat bottom / 100%;
-    padding-bottom: 20px;
-
-    .school-logo {
-      width: 30%;
-    }
+    text-align: center;
   }
 
   .footer-info {
@@ -188,15 +154,22 @@ body {
       position: relative;
       margin-bottom: 10px;
 
-      &:after {
-        content: "";
-        width: 50px;
-        height: 1px;
-        background: #fff;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-      }
+      // &:after {
+      //   content: "";
+      //   width: 50px;
+      //   height: 1px;
+      //   background: #fff;
+      //   position: absolute;
+      //   left: 0;
+      //   bottom: 0;
+      // }
+    }
+
+    .fi-desc {
+      color: #fff;
+      font-size: 16px;
+      color: #fff;
+      width: 80%;
     }
 
     .fi-links {

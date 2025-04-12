@@ -4,15 +4,7 @@
     <div class="head-menu-container container" v-if="showMenu">
       <div class="head-menu">
         <!-- logo -->
-        <div class="menu-logo">
-          <img src="../imgs/logo2.png" alt="" class="logo-img" />
-          <div class="logo-name">
-            <div class="sub-title">
-              5th International Congress on Stratigraphy
-            </div>
-            <div class="title">STRATI 2026</div>
-          </div>
-        </div>
+        <Logo></Logo>
         <!-- menu -->
         <div class="menu-list">
           <!-- 搜索 -->
@@ -67,7 +59,11 @@
 
 <script>
 import { getToken } from "../api/token";
+import Logo from "./Logo.vue";
 export default {
+  components: {
+    Logo,
+  },
   data() {
     return {
       hasToken: false,
