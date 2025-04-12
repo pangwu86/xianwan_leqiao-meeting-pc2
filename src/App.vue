@@ -39,20 +39,11 @@ export default {
   <PageHeader></PageHeader>
 
   <!-- 中间内容 -->
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-3" v-if="showSideMenu">
-        <PageSideMenu></PageSideMenu>
-      </div>
-      <div :class="showSideMenu ? 'col-9' : 'col-12'">
-        <router-view v-slot="{ Component }">
-          <transition name="fade">
-            <component :is="Component" />
-          </transition>
-        </router-view>
-      </div>
-    </div>
-  </div>
+  <router-view v-slot="{ Component }">
+    <transition name="fade">
+      <component :is="Component" />
+    </transition>
+  </router-view>
 
   <!-- 底部 -->
   <PageFooter></PageFooter>

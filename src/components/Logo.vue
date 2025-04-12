@@ -14,27 +14,27 @@ export default {};
 
 <style lang="scss">
 .menu-logo {
-  width: 290px;
+  width: 265px;
   display: flex;
   align-items: center;
   justify-content: center;
 
   .logo-img {
-    width: 110px;
-    height: 80px;
+    width: 95px;
+    height: 75px;
     margin-right: 10px;
   }
   .logo-name {
-    width: 170px;
+    width: 160px;
 
     .sub-title {
-      font-size: 12px;
+      font-size: 11px;
       font-weight: bold;
     }
 
     .title {
       font-family: "Arial";
-      font-size: 28px;
+      font-size: 26px;
       font-weight: bold;
       font-style: italic;
     }
