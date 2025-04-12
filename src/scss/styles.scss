@@ -1,12 +1,12 @@
 // 覆写 放最前面
-// $blue: #590a54 !default;
+// $blue: #1B3C90 !default;
 // 主题色
-$main-color: #590a54 !default;
+$main-color: #1b3c90 !default;
 // bs 原版
 @import "~bootstrap/scss/bootstrap";
 
 .bg-main-color {
-  background-color: #590a54;
+  background-color: #1b3c90;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
-  background-color: #ecedf4;
+  background-color: #ffffff;
   height: 100%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,103 +28,89 @@ body {
 
 .head-img-container {
   width: 100%;
-
-  .head-img {
-    width: 100%;
-    height: 400px;
-    background-image: url("../imgs/head_pc.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
-    // align-items: flex-end;
-    justify-content: center;
-  }
-
-  .head-welcome {
-    padding: 50px 40px;
-    background-color: #590a5433;
-    color: #fff;
-    // height: 200px;
-    width: 70%;
-
-    h1 {
-      text-shadow: black 0.1em 0.1em 0.2em;
-      font-weight: bold;
-    }
-
-    p {
-      font-size: 16px;
-      color: #ffffff;
-      text-shadow: black 0.1em 0.1em 0.2em;
-      margin: 0;
-      line-height: 1.6em;
-      font-weight: bold;
-    }
-
-    a {
-      font-weight: bold;
-      color: #fff;
-    }
-
-    .head-title {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
 }
 
 .head-menu-container {
-  background-color: $main-color !important;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  .head-menu {
+    display: flex;
+  }
+
+  .menu-logo {
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo-img {
+      width: 110px;
+      height: 80px;
+      margin-right: 10px;
+    }
+    .logo-name {
+      width: 170px;
+
+      .sub-title {
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .title {
+        font-family: "Arial";
+        font-size: 28px;
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
+  }
+
+  .menu-list {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    .search-bar {
+      text-align: right;
+      margin-right: 16px;
+      .search-btn {
+        display: inline-flex;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background-color: rgba(27, 60, 144, 0.8);
+        align-items: center;
+        justify-content: center;
+        i {
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .nav-bar {
+    }
+  }
 
   .nav-item {
     position: relative;
     box-sizing: border-box;
 
-    &:hover {
-      background-color: #ffffff66;
-    }
-
-    &::after {
-      position: absolute;
-      content: "";
-      display: block;
-      width: 1px;
-      height: 30px;
-      background: rgba(255, 255, 255, 0.6);
-      top: 50%;
-      margin-top: -15px;
-      right: 1px;
-    }
-
-    &:first-child::before {
-      position: absolute;
-      content: "";
-      display: block;
-      width: 1px;
-      height: 30px;
-      background: rgba(255, 255, 255, 0.6);
-      top: 50%;
-      margin-top: -15px;
-      left: 1px;
-    }
-
     .nav-link {
-      color: #fff !important;
+      color: #000;
       text-align: center;
       line-height: 1.2em;
       font-size: 15px;
-      font-weight: bold;
       white-space: normal;
-      padding: 20px 12px;
 
       &.active {
-        background-color: #fff !important;
-        color: #740066 !important;
+        color: $main-color !important;
+      }
+
+      &:hover {
+        color: $main-color !important;
       }
     }
 

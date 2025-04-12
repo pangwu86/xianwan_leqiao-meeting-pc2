@@ -15,56 +15,56 @@
                 <div class="position-relative">
                   <table class="table table-striped table-hover">
                     <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Session Title</th>
-                      <th scope="col">Submission Time</th>
-                      <th scope="col">Actions</th>
-                    </tr>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Session Title</th>
+                        <th scope="col">Submission Time</th>
+                        <th scope="col">Actions</th>
+                      </tr>
                     </thead>
                     <tbody>
-                    <tr
+                      <tr
                         v-for="(di, didx) in dataList"
                         :key="di.conferenceProposalId"
-                    >
-                      <td>{{ didx + 1 }}</td>
-                      <td>{{ di.proposalTitle }}</td>
-                      <td>{{ di.submitTime }}</td>
-                      <td>
-                        <div class="d-grid gap-2 d-md-block btn-container">
-                          <button
+                      >
+                        <td>{{ didx + 1 }}</td>
+                        <td>{{ di.proposalTitle }}</td>
+                        <td>{{ di.submitTime }}</td>
+                        <td>
+                          <div class="d-grid gap-2 d-md-block btn-container">
+                            <button
                               type="button"
                               class="btn btn-outline-success btn-sm"
                               data-bs-toggle="tooltip"
                               data-bs-title="View"
                               data-bs-placement="top"
                               @click="viewData(di)"
-                          >
-                            <i class="bi bi-file-earmark-text-fill"></i>
-                          </button>
-                          <button
+                            >
+                              <i class="bi bi-file-earmark-text-fill"></i>
+                            </button>
+                            <button
                               type="button"
                               class="btn btn-outline-primary btn-sm"
                               data-bs-toggle="tooltip"
                               data-bs-title="Edit"
                               data-bs-placement="top"
                               @click="editData(di)"
-                          >
-                            <i class="bi bi-pencil-square"></i></button
-                          >
-                          <button
+                            >
+                              <i class="bi bi-pencil-square"></i>
+                            </button>
+                            <button
                               type="button"
                               class="btn btn-outline-danger btn-sm"
                               data-bs-toggle="tooltip"
                               data-bs-title="Delete"
                               data-bs-placement="top"
                               @click="deleteData(di)"
-                          >
-                            <i class="bi bi-trash"></i>
-                          </button>
-                        </div>
-                      </td>
-                    </tr>
+                            >
+                              <i class="bi bi-trash"></i>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
 
@@ -75,9 +75,9 @@
             <!-- 更新 -->
             <div class="d-grid mt-5">
               <button
-                  class="btn btn-primary"
-                  type="submit"
-                  @click="toSubmitProposal"
+                class="btn btn-primary"
+                type="submit"
+                @click="toSubmitProposal"
               >
                 Create New Proposal
               </button>
@@ -92,8 +92,8 @@
 </template>
 
 <script>
-import {clearToken, getToken} from "../api/token.js";
-import {Modal, Tooltip} from "bootstrap";
+import { clearToken, getToken } from "../api/token.js";
+import { Modal, Tooltip } from "bootstrap";
 import axios from "axios";
 
 export default {
@@ -119,32 +119,29 @@ export default {
       this.$router.push(`/proposal?id=${di.conferenceProposalId}`);
     },
     editData(di) {
-      this.$router.push(
-          `/proposal?id=${di.conferenceProposalId}&mode=edit`
-      );
+      this.$router.push(`/proposal?id=${di.conferenceProposalId}&mode=edit`);
     },
     deleteData(di) {
       if (
-          window.confirm(
-              "Are you sure to delete this session, it will not be restored after deletion?"
-          )
+        window.confirm(
+          "Are you sure to delete this session, it will not be restored after deletion?"
+        )
       ) {
         this.$api
-            .deleteProposal({
-              conferenceProposalId: di.conferenceProposalId,
-            })
-            .then((resp) => {
-              console.log(resp);
-              if (resp.code == 200) {
-                this.loadDataList();
-              } else {
-                alert(resp.msg);
-              }
-            });
+          .deleteProposal({
+            conferenceProposalId: di.conferenceProposalId,
+          })
+          .then((resp) => {
+            console.log(resp);
+            if (resp.code == 200) {
+              this.loadDataList();
+            } else {
+              alert(resp.msg);
+            }
+          });
       }
     },
-    tooltipRefresh() {
-    },
+    tooltipRefresh() {},
   },
   mounted() {
     this.userProfile = this.getStorage("user_profile");
@@ -168,7 +165,7 @@ export default {
   position: relative;
   margin-bottom: 30px;
   margin-top: 20px;
-  border-bottom: 2px solid #590a54;
+  border-bottom: 2px solid #1b3c90;
 }
 
 .btn-container {

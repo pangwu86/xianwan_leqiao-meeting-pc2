@@ -18,7 +18,7 @@ export default {};
   padding-bottom: 200px;
 
   h1 {
-    color: #590a54;
+    color: #1b3c90;
   }
 }
 </style>

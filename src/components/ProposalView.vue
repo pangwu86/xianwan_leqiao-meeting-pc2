@@ -34,7 +34,9 @@
                       interiors)
                     </option>
                     <option>Societal Mineralogy</option>
-                    <option>Mineralogy for DDE (Deep-time Digital Earth)</option>
+                    <option>
+                      Mineralogy for DDE (Deep-time Digital Earth)
+                    </option>
                     <option>Other</option>
                   </select>
                 </div>
@@ -801,7 +803,7 @@ export default {
   position: relative;
   margin-bottom: 30px;
   margin-top: 20px;
-  border-bottom: 2px solid #590a54;
+  border-bottom: 2px solid #1b3c90;
 }
 
 .moveable-item {
