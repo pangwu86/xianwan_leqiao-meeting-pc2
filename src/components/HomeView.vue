@@ -15,7 +15,7 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 title">WELCOME</div>
+          <div class="col-4 home-title">Welcome</div>
           <div class="col-8 desc">
             Following the 1st congress in Lisbon (Portugal) in 2013, and
             additional congresses organized in Graz (Austria) in 2015 and Milan
@@ -38,7 +38,7 @@
               scientists were also the first to develop stratigraphical
               concepts. For instance, d’Orbigny introduced stages as …
             </div>
-            <div class="read-more-btn mt-3">Read more</div>
+            <div class="home-btn mt-3">Read more</div>
           </div>
           <div class="col-8">
             <div class="news-img"></div>
@@ -70,7 +70,25 @@
   </div>
 
   <!-- Important Dates -->
-  <div class="important-container mt-5"></div>
+  <div class="important-container mt-5">
+    <div class="header mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 home-title">Important Dates</div>
+          <div class="col-8 controls">
+            <div class="home-btns">
+              <div class="home-btn">
+                <i class="bi bi-caret-left-fill"></i>
+              </div>
+              <div class="home-btn">
+                <i class="bi bi-caret-right-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- News&Events -->
 
@@ -86,6 +104,30 @@ export default {
 </script>
 
 <style lang="scss">
+.home-title {
+  font-size: 45px;
+  font-family: "Arial";
+  font-weight: bold;
+  line-height: 1;
+}
+
+.home-btns {
+  .home-btn {
+    margin-left: 20px;
+  }
+}
+
+.home-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #1b3c90;
+  padding: 6px 32px;
+  font-size: 13px;
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
 .banner-container {
   width: 100%;
   font-size: 14px;
@@ -182,15 +224,6 @@ export default {
       width: 80%;
     }
 
-    .read-more-btn {
-      display: inline-block;
-      color: #fff;
-      background-color: #1b3c90;
-      padding: 6px 32px;
-      font-size: 13px;
-      cursor: pointer;
-    }
-
     .news-img {
       width: 100%;
       height: 100%;
@@ -233,6 +266,28 @@ export default {
           color: #1b3c90;
         }
       }
+    }
+  }
+}
+
+.important-container {
+  .header {
+    .row {
+      align-items: flex-start;
+      height: 100%;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 45px;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    .controls {
+      text-align: right;
+      height: 100%;
+      padding: 10px 0;
     }
   }
 }
