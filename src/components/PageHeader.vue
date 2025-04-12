@@ -75,7 +75,7 @@ export default {
         },
         {
           title: "ABOUT STRATI 2026",
-          to: "/about",
+          to: "/",
         },
         {
           title: "COMMITTEES",
