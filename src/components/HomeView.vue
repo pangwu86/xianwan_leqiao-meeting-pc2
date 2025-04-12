@@ -88,6 +88,26 @@
         </div>
       </div>
     </div>
+
+    <div class="body">
+      <div class="timeline-container container">
+        <div
+          :class="'timeline-item ' + (tidx == timeLineIdx ? 'active' : '')"
+          v-for="(ti, tidx) in timeLine"
+          :key="ti.title"
+          @click="changeTimeLineIdx(tidx)"
+        >
+          <div class="item-container">
+            <div class="item-bg">
+              <div class="title">{{ ti.title }}</div>
+              <div class="icon"></div>
+              <div class="content">{{ ti.content }}</div>
+            </div>
+          </div>
+          <div class="item-sp" v-if="tidx != timeLine.length - 1"></div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- News&Events -->
@@ -98,7 +118,28 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      timeLineIdx: 0,
+      timeLine: [
+        {
+          title: "May 1st, 2025",
+          content: "Distribution of the final circular with programme",
+        },
+        {
+          title: "February 28th, 2025",
+          content: "Abstract submission and early registration deadline",
+        },
+        {
+          title: "December 2025",
+          content: "2nd circular issued - Download",
+        },
+      ],
+    };
+  },
+  methods: {
+    changeTimeLineIdx(idx) {
+      this.timeLineIdx = idx;
+    },
   },
 };
 </script>
@@ -288,6 +329,90 @@ export default {
       text-align: right;
       height: 100%;
       padding: 10px 0;
+    }
+  }
+
+  .body {
+    padding: 32px 0;
+    .timeline-container {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      overflow: auto;
+    }
+
+    .timeline-item-sp {
+      width: 10%;
+    }
+
+    .timeline-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      .item-container {
+        width: 300px;
+        height: 280px;
+        background-image: url("../imgs/important_date_bg.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &.active {
+        .item-container {
+          background-image: url("../imgs/welcome_body_news1.jpg");
+          background-size: cover;
+          .item-bg {
+            background-color: rgba(27, 60, 144, 0.68);
+            color: #fff;
+          }
+          .icon {
+            display: none;
+          }
+        }
+      }
+
+      .item-sp {
+        width: 190px;
+        height: 4px;
+        background: #1b3c90;
+      }
+
+      .item-bg {
+        width: 85%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .title {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      .icon {
+        width: 30px;
+        height: 25px;
+        background-image: url("../imgs/logo2.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .content {
+        margin-top: 20px;
+        width: 80%;
+        text-align: center;
+        font-size: 14px;
+      }
     }
   }
 }
