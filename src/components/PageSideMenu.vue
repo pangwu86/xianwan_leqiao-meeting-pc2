@@ -107,12 +107,12 @@ export default {
   }
 
   &.active {
-    background: #5b125c;
+    background: #1b3c90;
     color: #fff;
   }
 
   &:hover {
-    background: #5b125c;
+    background: #1b3c90;
     color: #fff;
     cursor: pointer;
   }

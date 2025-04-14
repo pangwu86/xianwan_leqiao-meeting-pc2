@@ -15,7 +15,7 @@
                 <label class="form-label"
                   >Theme<span class="text-danger">*</span></label
                 >
-                <div class="position-relative">
+                <!-- <div class="position-relative">
                   <select
                     class="form-select"
                     v-model="dataInfo.theme"
@@ -39,6 +39,16 @@
                     </option>
                     <option>Other</option>
                   </select>
+                </div> -->
+
+                <div class="position-relative">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Please enter the theme."
+                    v-model="dataInfo.theme"
+                    :disabled="mode == 'view'"
+                  />
                 </div>
               </div>
               <div class="mb-3 col-12">
