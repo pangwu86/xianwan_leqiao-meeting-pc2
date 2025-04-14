@@ -10,7 +10,7 @@
           <!-- 搜索 -->
           <div class="search-bar">
             <div class="search-btn">
-              <i class="bi bi-search"></i>
+              <i class="bi bi-person-fill" @click="toUserLogin"></i>
             </div>
           </div>
           <!-- 按钮 -->
@@ -54,6 +54,19 @@
         </div>
       </div>
     </div>
+
+    <!-- banner -->
+    <div class="banner-container">
+      <div class="container">
+        <div class="banner-info">
+          <div class="title">STRATI 2026</div>
+          <div class="sub-title">
+            5th International Congress on Stratigraphy
+          </div>
+          <div class="other">June 28 – July 3, 2026，Suzhou，China</div>
+        </div>
+      </div>
+    </div>
   </header>
 </template>
 
@@ -78,8 +91,8 @@ export default {
           to: "/",
         },
         {
-          title: "COMMITTEES",
-          to: "/",
+          title: "PROPOSAL",
+          to: "/proposal",
         },
         {
           title: "PROGRAMME",
@@ -112,6 +125,9 @@ export default {
       } else {
         this.hasToken = false;
       }
+    },
+    toUserLogin() {
+      this.$router.push("/user/home");
     },
   },
   mounted() {

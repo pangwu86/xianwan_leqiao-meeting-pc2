@@ -1,15 +1,4 @@
 <template>
-  <!-- banner -->
-  <div class="banner-container">
-    <div class="container">
-      <div class="banner-info">
-        <div class="title">STRATI 2026</div>
-        <div class="sub-title">5th International Congress on Stratigraphy</div>
-        <div class="other">June 28 – July 3, 2026，Suzhou，China</div>
-      </div>
-    </div>
-  </div>
-
   <!-- welcome -->
   <div class="welcome-container mt-5">
     <div class="header mb-3">

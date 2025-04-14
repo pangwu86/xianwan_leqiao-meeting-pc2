@@ -13,18 +13,28 @@ export default {
   data() {
     return {
       showSideMenu: true,
+      isFillMain: false,
     };
   },
   methods: {
     refreshSideMenu(isShow) {
       this.showSideMenu = isShow;
     },
+    refreshMain(isFill) {
+      this.isFillMain = isFill;
+    },
   },
   mounted() {
     let self = this;
+
     this.$bus.on("sideMenuChange", ({ isShow }) => {
       console.log("sideMenuChange:" + isShow);
       self.refreshSideMenu(isShow);
+    });
+
+    this.$bus.on("mainChange", ({ isFill }) => {
+      console.log("mainChange:" + isFill);
+      self.refreshMain(isFill);
     });
 
     new Tooltip(document.body, {
@@ -39,11 +49,25 @@ export default {
   <PageHeader></PageHeader>
 
   <!-- 中间内容 -->
-  <router-view v-slot="{ Component }">
-    <transition name="fade">
+  <div class="container my-5" v-if="!isFillMain">
+    <div class="row">
+      <div class="col-3" v-if="showSideMenu">
+        <PageSideMenu></PageSideMenu>
+      </div>
+      <div :class="showSideMenu ? 'col-9' : 'col-12'">
+        <router-view v-slot="{ Component }">
+          <component :is="Component" />
+        </router-view>
+      </div>
+    </div>
+  </div>
+
+  <!-- 中间内容  -->
+  <div v-else>
+    <router-view v-slot="{ Component }" name="mainBody">
       <component :is="Component" />
-    </transition>
-  </router-view>
+    </router-view>
+  </div>
 
   <!-- 底部 -->
   <PageFooter></PageFooter>
