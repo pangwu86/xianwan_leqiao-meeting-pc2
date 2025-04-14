@@ -136,7 +136,7 @@
     <div class="container">
       <div class="fb-list">
         <div class="fb-item">
-          <div class="fb-bg">
+          <div class="fb-bg bg1">
             <div class="fb-title">PROGRAMME</div>
           </div>
         </div>
@@ -641,6 +641,15 @@ export default {
         z-index: -1;
       }
 
+      &.bg1 {
+        &::before {
+          border-radius: 50px 0 0 0;
+        }
+        &::after {
+          border-radius: 50px 0 0 0;
+        }
+      }
+
       &.bg2 {
         &::before {
           background-image: url("../imgs/fourbtn_bg2.png");
@@ -656,6 +665,10 @@ export default {
       &.bg4 {
         &::before {
           background-image: url("../imgs/fourbtn_bg4.png");
+          border-radius: 0 0 50px 0;
+        }
+        &::after {
+          border-radius: 0 0 50px 0;
         }
       }
 
@@ -694,7 +707,7 @@ export default {
       padding-bottom: 20px;
       font-size: 36px;
       color: #fff;
-      text-align: left;
+      text-align: center;
     }
   }
 }
