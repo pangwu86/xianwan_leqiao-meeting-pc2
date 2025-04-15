@@ -13,7 +13,7 @@
             <div class="fi-title">VENUE</div>
             <p class="fi-desc">
               Welcome to Suzhou <br/>
-              The Congress Venue Accommodate
+              The Congress Venue Accommodation
             </p>
           </div>
           <div class="col"></div>
