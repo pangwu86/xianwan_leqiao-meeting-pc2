@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import eventBus from "vue3-eventbus";
 
+// 首页 + 可操作内容页面
 import NotFoundView from "./components/404View.vue";
 import HomeView from "./components/HomeView.vue";
 import LogInView from "./components/LoginView.vue";
@@ -12,17 +13,17 @@ import PasswordChangeView from "./components/PasswordChangeView.vue";
 import ProposalView from "./components/ProposalView.vue";
 import ProposalListView from "./components/ProposalListView.vue";
 
-const routes = [
+const routesView = [
   {
     path: "/",
     components: {
       mainBody: HomeView,
     },
-    meta: { showSideMenu: false, fillMain: true },
+    meta: { fillMain: true },
   },
   { path: "/main.psp", redirect: "/" },
-  { path: "/login", component: LogInView, meta: { showSideMenu: false } },
-  { path: "/signup", component: SignUpView, meta: { showSideMenu: false } },
+  { path: "/login", component: LogInView, meta: {} },
+  { path: "/signup", component: SignUpView, meta: {} },
   {
     path: "/user/home",
     component: UserHomeView,
@@ -36,7 +37,7 @@ const routes = [
   {
     path: "/password/reset",
     component: PasswordResetView,
-    meta: { showSideMenu: false },
+    meta: {},
   },
   {
     path: "/password/change",
@@ -56,10 +57,24 @@ const routes = [
   {
     path: "/:pathMatch(.*)*",
     component: NotFoundView,
-    meta: { showSideMenu: false },
+    meta: {},
   },
 ];
 
+// 纯展示内容页面
+import WebsitePage from "./pages/website.vue";
+const routesPage = [
+  {
+    path: "/page/website.html",
+    components: {
+      mainBody: WebsitePage,
+    },
+    meta: { fillMain: true },
+  },
+];
+
+//
+const routes = routesView.concat(routesPage);
 const router = createRouter({
   history: createWebHistory(import.meta.env.VITE_BASE_URL),
   routes,
