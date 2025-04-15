@@ -1,9 +1,6 @@
 <template>
   <div class="container page-content">
-    <h1>Website</h1>
-    <p>
-      <b>Welcome STRATI 2026 to China: A New Chapter in Global Stratigraphy</b>
-    </p>
+    <h1>Welcome STRATI 2026 to China: A New Chapter in Global Stratigraphy</h1>
     <p>
       We cordially invite you to attend
       <b

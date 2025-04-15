@@ -62,12 +62,12 @@ const routesView = [
 ];
 
 // 纯展示内容页面
-import WebsitePage from "./pages/website.vue";
+import welcome_strati_2026 from "./pages/welcome_strati_2026.vue";
 const routesPage = [
   {
-    path: "/page/website.html",
+    path: "/page/welcome_strati_2026.html",
     components: {
-      mainBody: WebsitePage,
+      mainBody: welcome_strati_2026,
     },
     meta: { fillMain: true },
   },
