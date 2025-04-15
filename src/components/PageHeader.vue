@@ -92,7 +92,7 @@ export default {
         },
         {
           title: "ORGNIZATION",
-          to: "/proposal",
+          to: "/",
         },
         {
           title: "PROGRAMME",
