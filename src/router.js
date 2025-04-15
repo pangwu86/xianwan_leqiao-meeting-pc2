@@ -66,6 +66,7 @@ import welcome_strati_2026 from "./pages/welcome_strati_2026.vue";
 import important_dates from "./pages/important_dates.vue";
 import call_for_sessions from "./pages/call_for_sessions.vue";
 import congress_schedule from "./pages/congress_schedule.vue";
+import news_events from "./pages/news_events.vue";
 const routesPage = [
   {
     path: "/page/welcome_strati_2026.html",
@@ -92,6 +93,13 @@ const routesPage = [
     path: "/page/congress_schedule.html",
     components: {
       mainBody: congress_schedule,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/news_events.html",
+    components: {
+      mainBody: news_events,
     },
     meta: { fillMain: true },
   },
