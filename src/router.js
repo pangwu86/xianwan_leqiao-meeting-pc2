@@ -63,11 +63,19 @@ const routesView = [
 
 // 纯展示内容页面
 import welcome_strati_2026 from "./pages/welcome_strati_2026.vue";
+import important_dates from "./pages/important_dates.vue";
 const routesPage = [
   {
     path: "/page/welcome_strati_2026.html",
     components: {
       mainBody: welcome_strati_2026,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/important_dates.html",
+    components: {
+      mainBody: important_dates,
     },
     meta: { fillMain: true },
   },
