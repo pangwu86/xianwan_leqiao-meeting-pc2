@@ -12,7 +12,8 @@
           <div class="col">
             <div class="fi-title">VENUE</div>
             <p class="fi-desc">
-              Welcome to Nanjing The Congress Venue Accommodatio
+              Welcome to Suzhou <br/>
+              The Congress Venue Accommodation
             </p>
           </div>
           <div class="col"></div>
@@ -22,7 +23,7 @@
         </div>
       </div>
       <div class="footer-copyright">
-        Copyright@ 2025.All rights reserved service
+        Copyright@ 2025 STRATI2026 All rights reserved service
       </div>
     </div>
   </footer>
