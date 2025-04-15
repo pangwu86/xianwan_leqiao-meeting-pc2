@@ -19,7 +19,7 @@
             <div class="read-desc">
               The STRATI 2026 Congress has long served as a premier platform for stratigraphic research, with its legacy rooted in Europe. As the event’s global influence continues to expand, particularly within China’s thriving stratigraphic community, hosting the next congress in Suzhou, China, represents a historic milestone …
             </div>
-            <div class="home-btn mt-3">Read more</div>
+            <div class="home-btn mt-3" onclick="window.location.href='/page/welcome_strati_2026.html'">Read more</div>
           </div>
           <div class="col-8">
             <div class="news-img"></div>
@@ -114,7 +114,7 @@
           >
             <div class="news-item row" style="font-size: 18px">
               <div class="title col-9">{{ ni.title }}</div>
-              <div class="date col-3">{{ ni.date }}</div>
+              <div class="date col-3" style="font-size: 15px">{{ ni.date }}</div>
             </div>
           </div>
         </div>

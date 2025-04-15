@@ -11,7 +11,7 @@
           </div>
           <div class="col">
             <div class="fi-title">VENUE</div>
-            <p class="fi-desc">
+            <p class="fi-desc" style="width: 90%">
               Welcome to Suzhou <br/>
               The Congress Venue Accommodation
             </p>
