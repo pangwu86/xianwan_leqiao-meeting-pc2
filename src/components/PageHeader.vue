@@ -87,11 +87,7 @@ export default {
           to: "/",
         },
         {
-          title: "STRATI2026",
-          to: "/",
-        },
-        {
-          title: "ORGNIZATION",
+          title: "STRATI2026 ORGANIZATION",
           to: "/",
         },
         {
@@ -103,11 +99,15 @@ export default {
           to: "/",
         },
         {
-          title: "RETISTRATION",
+          title: "REGISTRATION",
           to: "/",
         },
         {
           title: "VENUE",
+          to: "/",
+        },
+        {
+          title: "SPONSORS",
           to: "/",
         },
         {

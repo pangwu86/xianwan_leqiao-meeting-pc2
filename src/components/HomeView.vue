@@ -112,7 +112,7 @@
             v-for="(ni, nidx) in newsList"
             :key="'news-item-' + nidx"
           >
-            <div class="news-item row">
+            <div class="news-item row" style="font-size: 18px">
               <div class="title col-9">{{ ni.title }}</div>
               <div class="date col-3">{{ ni.date }}</div>
             </div>
