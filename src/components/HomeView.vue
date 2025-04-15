@@ -31,7 +31,7 @@
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu1.png" alt="" />
-            <div class="title">Themes</div>
+            <div class="title">Sessions</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu2.png" alt="" />
@@ -214,22 +214,6 @@ export default {
         },
         {
           title: "Registration and fees",
-          date: "2025-01-02",
-        },
-        {
-          title: "IMA 2026 website online",
-          date: "2025-01-02",
-        },
-        {
-          title: "IMA 2026 website online",
-          date: "2025-01-02",
-        },
-        {
-          title: "IMA 2026 website online",
-          date: "2025-01-02",
-        },
-        {
-          title: "IMA 2026 website online",
           date: "2025-01-02",
         },
       ],
