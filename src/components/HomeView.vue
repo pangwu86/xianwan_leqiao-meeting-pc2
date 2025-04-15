@@ -4,8 +4,8 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 home-title">Welcome STRATI2026 to China: A New Chapter in Global Stratigraphy</div>
-          <div class="col-8 desc">
+          <div class="col-4 home-title" style="font-size: 30px">Welcome STRATI2026 to China: A New Chapter in Global Stratigraphy</div>
+          <div class="col-8 desc" style="font-size: 19px">
             We cordially invite you to attend <i><b>STRATI2026 - Exploring the Depths: Bridging Tradition and Innovation in Stratigraphy,</b></i> to be held from June 28th to July 3rd, 2026 at Suzhou DDE center, Jiangsu province, China..
           </div>
         </div>
@@ -144,7 +144,7 @@
         </div>
         <div class="fb-item">
           <div class="fb-bg bg4">
-            <div class="fb-title">THE VENUE</div>
+            <div class="fb-title">VENUE</div>
           </div>
         </div>
       </div>
