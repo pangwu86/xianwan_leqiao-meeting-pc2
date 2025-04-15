@@ -4,13 +4,9 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 home-title">Welcome</div>
+          <div class="col-4 home-title">Welcome STRATI2026 to China: A New Chapter in Global Stratigraphy</div>
           <div class="col-8 desc">
-            Following the 1st congress in Lisbon (Portugal) in 2013, and
-            additional congresses organized in Graz (Austria) in 2015 and Milan
-            (Italy) in 2019, the 4th International Congress on Stratigraphy has
-            been delegated by the International Commission on Stratigraphy (ICS)
-            to Lille (France).
+            We cordially invite you to attend <i><b>STRATI2026 - Exploring the Depths: Bridging Tradition and Innovation in Stratigraphy,</b></i> to be held from June 28th to July 3rd, 2026 at Suzhou DDE center, Jiangsu province, China..
           </div>
         </div>
       </div>
@@ -21,11 +17,7 @@
         <div class="row">
           <div class="col-4">
             <div class="read-desc">
-              With famous pioneers, such as Cuvier and Lamarck, France is
-              considered the birthplace of palaeontology (the word
-              ‘paléontologie’ was created by de Blainville in 1822), and French
-              scientists were also the first to develop stratigraphical
-              concepts. For instance, d’Orbigny introduced stages as …
+              The STRATI 2026 Congress has long served as a premier platform for stratigraphic research, with its legacy rooted in Europe. As the event’s global influence continues to expand, particularly within China’s thriving stratigraphic community, hosting the next congress in Suzhou, China, represents a historic milestone …
             </div>
             <div class="home-btn mt-3">Read more</div>
           </div>
@@ -168,40 +160,60 @@ export default {
       timeLine: [
         {
           title: "May 1st, 2025",
-          content: "Distribution of the final circular with programme",
+          content: "Start of session proposal submission",
         },
         {
-          title: "February 28th, 2025",
-          content: "Abstract submission and early registration deadline",
+          title: "December 1st, 2025",
+          content: "End of call for sessions",
         },
         {
-          title: "December 2025",
-          content: "2nd circular issued - Download",
+          title: "December 31th, 2025",
+          content: "Dispatch of second circular",
+        },
+        {
+          title: "December 31th, 2025",
+          content: "Opening abstract submission",
+        },
+        {
+          title: "December 31th, 2025",
+          content: "Opening registration",
+        },
+        {
+          title: "March 15th, 2026",
+          content: "Deadline for abstract submission",
+        },
+        {
+          title: "March 15th, 2026",
+          content: "Deadline for early bird registration",
+        },
+        {
+          title: "May 30th, 2026",
+          content: "Dispatch of third circular",
         },
       ],
       newsList: [
         {
-          title: "IMA 2026 website online",
+          title: "First Circular of Strati2026",
           date: "2025-01-02",
         },
         {
-          title: "IMA 2026 website online",
+          title: "Travel to Suzhou",
           date: "2025-01-02",
         },
         {
-          title: "IMA 2026 website online",
+          title: "Call for Sessions",
           date: "2025-01-02",
         },
         {
-          title: "IMA 2026 website online",
+          title: "Visa policies",
           date: "2025-01-02",
         },
         {
-          title: "IMA 2026 website online",
+          title: "Congress Schedule",
           date: "2025-01-02",
         },
         {
-          title: "IMA 2026 website online",
+          title: "Registration and fees",
           date: "2025-01-02",
         },
         {

@@ -87,11 +87,11 @@ export default {
           to: "/",
         },
         {
-          title: "ABOUT STRATI 2026",
+          title: "STRATI2026",
           to: "/",
         },
         {
-          title: "PROPOSAL",
+          title: "ORGNIZATION",
           to: "/proposal",
         },
         {
@@ -103,7 +103,7 @@ export default {
           to: "/",
         },
         {
-          title: "SPONSORS",
+          title: "RETISTRATION",
           to: "/",
         },
         {
