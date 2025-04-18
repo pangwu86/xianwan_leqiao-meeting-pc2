@@ -89,7 +89,7 @@ const urlConf = {
   },
   uploadFile: {
     // url: "/api/cos/upload",
-    url: "/api/minio/upload",
+    url: "/api/common/minio/upload",
     method: "postFormFile",
     after: handleReturn,
   },

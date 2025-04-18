@@ -467,7 +467,7 @@ export default {
         proposalTitle: "",
         theme: "",
         proposalText: "",
-        conferenceId: "1899130655669882881",
+        conferenceId: "1899130655669882882",
         remark: "",
         proposalFileUrl: "",
         submitter: {

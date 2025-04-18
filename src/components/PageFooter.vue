@@ -4,14 +4,14 @@
       <div class="footer-info">
         <div class="row">
           <div class="col">
-            <div class="fi-title">CONTACT</div>
-            <p class="fi-desc">
+            <div class="fi-title" style="font-size: 20px">CONTACT</div>
+            <p class="fi-desc" style="font-size: 20px">
               Abstract submission and early registration deadline
             </p>
           </div>
           <div class="col">
-            <div class="fi-title">VENUE</div>
-            <p class="fi-desc" style="width: 90%">
+            <div class="fi-title" style="font-size: 20px">VENUE</div>
+            <p class="fi-desc" style="width: 110%; font-size: 20px">
               Welcome to Suzhou <br/>
               The Congress Venue Accommodation
             </p>

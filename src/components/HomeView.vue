@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-4 home-title">Welcome</div>
-          <div class="col-8 desc" style="font-size: 19px">
+          <div class="col-8 desc" style="font-size: 20px">
             We cordially invite you to attend <i><b>STRATI2026 - Exploring the Depths: Bridging Tradition and Innovation in Stratigraphy,</b></i> to be held from June 28th to July 3rd, 2026 at Suzhou DDE center, Jiangsu province, China..
           </div>
         </div>
@@ -16,10 +16,10 @@
       <div class="container mb-5">
         <div class="row">
           <div class="col-4">
-            <div class="read-desc">
+            <div class="read-desc" style="font-size: 20px">
               The STRATI 2026 Congress has long served as a premier platform for stratigraphic research, with its legacy rooted in Europe. As the event’s global influence continues to expand, particularly within China’s thriving stratigraphic community, hosting the next congress in Suzhou, China, represents a historic milestone …
             </div>
-            <div class="home-btn mt-3" onclick="window.location.href='/page/welcome_strati_2026.html'">Read more</div>
+            <div class="home-btn mt-3" onclick="window.location.href='/page/welcome_strati_2026.html'" style="font-size: 20px">Read more</div>
           </div>
           <div class="col-8">
             <div class="news-img"></div>
@@ -31,19 +31,19 @@
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu1.png" alt="" />
-            <div class="title">Sessions</div>
+            <div class="title" style="font-size: 20px">Sessions</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu2.png" alt="" />
-            <div class="title">Plenary/Invited Speakers</div>
+            <div class="title" style="font-size: 20px">Plenary/Invited Speakers</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu3.png" alt="" />
-            <div class="title">Program</div>
+            <div class="title" style="font-size: 20px">Program</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu4.png" alt="" />
-            <div class="title">Registration</div>
+            <div class="title" style="font-size: 20px">Registration</div>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
             <div class="item-bg">
               <div class="title">{{ ti.title }}</div>
               <div class="icon"></div>
-              <div class="content">{{ ti.content }}</div>
+              <div class="content" style="font-size: 20px">{{ ti.content }}</div>
             </div>
           </div>
           <div class="item-sp" v-if="tidx != timeLine.length - 1"></div>
@@ -112,9 +112,9 @@
             v-for="(ni, nidx) in newsList"
             :key="'news-item-' + nidx"
           >
-            <div class="news-item row" style="font-size: 18px">
+            <div class="news-item row" style="font-size: 20px">
               <div class="title col-9">{{ ni.title }}</div>
-              <div class="date col-3" style="font-size: 15px">{{ ni.date }}</div>
+              <div class="date col-3" style="font-size: 20px">{{ ni.date }}</div>
             </div>
           </div>
         </div>

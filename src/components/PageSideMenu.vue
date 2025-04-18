@@ -48,7 +48,7 @@ export default {
         {
           icon: "bi-info-lg",
           name: "Technical Support",
-          mailto: "ima2026@outlook.com",
+          mailto: "strati2026@outlook.com",
         },
         {
           icon: "bi-box-arrow-right",
