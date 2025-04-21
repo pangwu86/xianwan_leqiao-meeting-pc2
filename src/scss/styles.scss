@@ -63,16 +63,18 @@ body {
           border-radius: 50%;
           color: #fff;
           font-size: 18px;
-
-          &:hover {
-            background-color: rgba(226, 226, 226, 0.8);
-            color: #1b3c90;
-          }
         }
 
         span {
           margin-left: 8px;
-          &:hover {
+        }
+
+        &:hover {
+          i {
+            background-color: rgba(226, 226, 226, 0.8);
+            color: #1b3c90;
+          }
+          span {
             color: #1b3c90;
           }
         }
