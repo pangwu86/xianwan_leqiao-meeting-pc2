@@ -34,7 +34,12 @@
                 </label>
                 <div class="row">
                   <div :class="tabNo == 0 ? 'col' : 'col-7'">
-                    <input type="email" class="form-control" v-model="email" placeholder="Please enter your email account." />
+                    <input
+                      type="email"
+                      class="form-control"
+                      v-model="email"
+                      placeholder="Please enter your email account."
+                    />
                   </div>
                   <div class="col-5" v-if="tabNo == 1">
                     <div class="d-grid">
@@ -80,7 +85,10 @@
                 </div>
                 <div class="sign-tip-right mt-3">
                   Forgot your password?
-                  <RouterLink to="/password/reset" class="reset-txt" title="If you forget your password, please click this link to reset your new login password."
+                  <RouterLink
+                    to="/password/reset"
+                    class="reset-txt"
+                    title="If you forget your password, please click this link to reset your new login password."
                     >Reset it.</RouterLink
                   >
                 </div>
@@ -92,7 +100,12 @@
                   >One-Time Password <span class="text-danger">*</span></label
                 >
                 <div class="password-field position-relative">
-                  <input type="text" class="form-control" v-model="code" placeholder="Please enter the one-time verification code sent to your email." />
+                  <input
+                    type="text"
+                    class="form-control"
+                    v-model="code"
+                    placeholder="Please enter the one-time verification code sent to your email."
+                  />
                 </div>
               </div>
             </div>
@@ -116,7 +129,11 @@
 
           <div class="sign-tip">
             Don't have an account?
-            <RouterLink to="/signup" title="No account? Click this link to register an account.">Sign up!</RouterLink>
+            <RouterLink
+              to="/signup"
+              title="No account? Click this link to register an account."
+              >Sign up!</RouterLink
+            >
           </div>
         </div>
       </div>
@@ -213,8 +230,8 @@ export default {
           .then((resp) => {
             console.log(resp);
             this.submitIng = false;
-            if (resp.code == 200 && resp.token) {
-              setToken(resp.token);
+            if (resp.code == 200 && resp.data && resp.data.token) {
+              setToken(resp.data.token);
               this.tokenNotice();
               this.$router.push("/user/home");
             } else {

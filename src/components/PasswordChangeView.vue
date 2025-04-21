@@ -105,7 +105,7 @@ export default {
       if (!this.checkEmpty("Confirm Password", npwd2)) {
         return;
       }
-      if (opwd == npwd) {
+      if (cpwd == npwd) {
         alert("The new password cannot be the same as the current password.");
         return;
       }
