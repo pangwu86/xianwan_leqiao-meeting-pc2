@@ -213,8 +213,8 @@ export default {
           .then((resp) => {
             console.log(resp);
             this.submitIng = false;
-            if (resp.code == 200 && resp.token) {
-              setToken(resp.token);
+            if (resp.code == 200 && resp.data.token) {
+              setToken(resp.data.token);
               this.tokenNotice();
               this.$router.push("/user/home");
             } else {
@@ -237,8 +237,8 @@ export default {
           .then((resp) => {
             console.log(resp);
             this.submitIng = false;
-            if (resp.code == 200 && resp.token) {
-              setToken(resp.token);
+            if (resp.code == 200 && resp.data.token) {
+              setToken(resp.data.token);
               this.tokenNotice();
               this.$router.push("/user/home");
             } else {
