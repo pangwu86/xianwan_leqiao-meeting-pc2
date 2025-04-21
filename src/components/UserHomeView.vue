@@ -7,10 +7,10 @@
           <section class="pageContent">
             <h1 style="font-size: 2.0rem;">Session Proposal</h1>
             <p>
-              <strong>The application deadline is 31 March.</strong>
+              <strong>The application deadline is 1st Dec. 2025.</strong>
             </p>
             <p style="text-align: center">
-              <button class="btn btn-primary btn-lg" type="submit" onclick="window.location.href='/admin/proposal'">
+              <button class="btn btn-primary btn-lg" type="submit" onclick="window.location.href='/proposal'">
                 Application
               </button>
             </p>

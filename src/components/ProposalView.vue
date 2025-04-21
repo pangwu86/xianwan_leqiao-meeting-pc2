@@ -28,7 +28,6 @@
                     <option>Subcommission Session</option>
                     <option>Workshop</option>
                     <option>Short Course</option>
-                    <option>Other</option>
                   </select>
                 </div>
               </div>
