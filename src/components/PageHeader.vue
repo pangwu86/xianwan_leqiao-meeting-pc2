@@ -10,7 +10,10 @@
           <!-- 搜索 -->
           <div class="search-bar">
             <div class="search-btn">
-              <i class="bi bi-person-fill" @click="toUserLogin"></i>
+              <i class="bi bi-person-fill" @click="toUserHome"></i>
+              <span @click="toUserLogin">{{
+                hasToken ? "Log out" : "Log in"
+              }}</span>
             </div>
           </div>
           <!-- 按钮 -->
@@ -71,7 +74,7 @@
 </template>
 
 <script>
-import { getToken } from "../api/token";
+import { getToken, clearToken } from "../api/token";
 import Logo from "./Logo.vue";
 export default {
   components: {
@@ -119,7 +122,6 @@ export default {
   },
   methods: {
     refreshNavitems() {
-      console.log("refreshNavitems");
       if (getToken()) {
         this.hasToken = true;
       } else {
@@ -127,7 +129,19 @@ export default {
       }
     },
     toUserLogin() {
+      if (!this.hasToken) {
+      } else {
+        this.doLogout();
+      }
+    },
+    toUserHome() {
       this.$router.push("/user/home");
+    },
+    doLogout() {
+      clearToken();
+      this.removeStorage("user_profile");
+      this.tokenNotice();
+      this.$router.push("/login");
     },
   },
   mounted() {

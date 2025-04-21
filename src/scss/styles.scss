@@ -47,20 +47,33 @@ body {
     .search-bar {
       text-align: right;
       margin-right: 16px;
+
       .search-btn {
         display: inline-flex;
-        width: 26px;
-        height: 26px;
-        border-radius: 50%;
-        background-color: rgba(27, 60, 144, 0.8);
         align-items: center;
         justify-content: center;
+        cursor: pointer;
         i {
+          display: inline-flex;
+          background-color: rgba(27, 60, 144, 0.8);
+          align-items: center;
+          justify-content: center;
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
           color: #fff;
           font-size: 18px;
-          cursor: pointer;
 
           &:hover {
+            background-color: rgba(226, 226, 226, 0.8);
+            color: #1b3c90;
+          }
+        }
+
+        span {
+          margin-left: 8px;
+          &:hover {
+            color: #1b3c90;
           }
         }
       }
