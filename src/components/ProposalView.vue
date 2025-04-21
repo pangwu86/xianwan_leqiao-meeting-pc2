@@ -558,8 +558,9 @@ export default {
       });
 
       let sParams = Object.assign({}, sd);
-      sParams.submitter = this.data2json(sd.submitter);
-      sParams.conveners = this.data2json(convenersUp);
+
+      sParams.submitter = sd.submitter;
+      sParams.conveners = convenersUp;
 
       if (this.mode == "edit" && this.dataId) {
         sParams.conferenceProposalId = this.dataId;
@@ -748,8 +749,8 @@ export default {
               this.dataInfo.sessionType = pd.sessionType;
               this.dataInfo.theme = pd.theme;
               this.dataInfo.proposalFileUrl = pd.proposalFileUrl;
-              this.dataInfo.submitter = this.json2data(pd.submitter);
-              let conveners = this.json2data(pd.conveners);
+              this.dataInfo.submitter = pd.submitter;
+              let conveners = pd.conveners;
               let submitter = this.dataInfo.submitter;
 
               if (conveners.length > 0) {
