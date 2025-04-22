@@ -706,22 +706,22 @@ export default {
           let currData = resp.data;
           // 检查名字 邮箱
           if (
-            currData.firstName.trim() == "" ||
-            currData.lastName.trim() == "" ||
-            currData.email.trim() == ""
+            currData.firstName.trim() != "" &&
+            currData.lastName.trim() != "" &&
+            currData.email.trim() != "" &&
+            currData.affiliation.trim() != ""
           ) {
-            alert("Please complete the basic information first.");
-            this.$router.push("/user/profile");
+            this.dataInfo.submitter.firstName = currData.firstName || "";
+            this.dataInfo.submitter.middleName = currData.middleName || "";
+            this.dataInfo.submitter.lastName = currData.lastName || "";
+            this.dataInfo.submitter.affiliation = currData.affiliation || "";
+            this.dataInfo.submitter.email = currData.email || "";
             return;
           }
-          this.dataInfo.submitter.firstName = currData.firstName || "";
-          this.dataInfo.submitter.middleName = currData.middleName || "";
-          this.dataInfo.submitter.lastName = currData.lastName || "";
-          this.dataInfo.submitter.affiliation = currData.affiliation || "";
-          this.dataInfo.submitter.email = currData.email || "";
-        } else {
-          alert(resp.msg);
         }
+        alert("Please complete the basic information first.");
+        this.$router.push("/user/profile");
+        return;
       });
     },
     removeSubmitter() {
