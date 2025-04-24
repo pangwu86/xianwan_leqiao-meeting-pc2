@@ -98,7 +98,7 @@ export default {
         },
         {
           title: "STRATI2026 ORGANIZATION",
-          to: "/",
+          to: "/page/strati_2026_organization.html",
         },
         {
           title: "PROGRAMME",
@@ -106,7 +106,7 @@ export default {
         },
         {
           title: "FIELD TRIPS",
-          to: "/",
+          to: "/page/strati_2026_field_excursions.html",
         },
         {
           title: "REGISTRATION",

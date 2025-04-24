@@ -35,10 +35,10 @@
     <p>
       <div class="row">
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04231323.png" alt="">
+          <img src="../imgs/field_excursions/04231323.png" alt="">
         </div>
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04231325.png" alt="">
+          <img src="../imgs/field_excursions/04231325.png" alt="">
         </div>
       </div>
     </p>
@@ -47,14 +47,14 @@
       fossil site of the Chengjiang fauna at Maotianshan (right).
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04231453.png" alt="">
+      <img src="../imgs/field_excursions/04231453.png" alt="">
     </p>
     <p class="text-center">
       Silurian&ndash;Devonian&nbsp;section at Qujing&nbsp;City. Xiaoxiang
       Fauna&nbsp;fossil site.
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04231527.png" alt="">
+      <img src="../imgs/field_excursions/04231527.png" alt="">
     </p>
     <p class="text-center">
       Silurian&ndash;Devonian&nbsp;section at Qujing&nbsp;City, Xitun
@@ -63,10 +63,10 @@
     <p>
       <div class="row">
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04231597.png" alt="">
+          <img src="../imgs/field_excursions/04231597.png" alt="">
         </div>
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04231599.png" alt="">
+          <img src="../imgs/field_excursions/04231599.png" alt="">
         </div>
       </div>
     </p>
@@ -443,10 +443,10 @@
     <p>
        <div class="row">
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04239488.png" alt="">
+          <img src="../imgs/field_excursions/04239488.png" alt="">
         </div>
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04239489.png" alt="">
+          <img src="../imgs/field_excursions/04239489.png" alt="">
         </div>
       </div>
     </p>
@@ -456,10 +456,10 @@
       Jianhe (right).
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04239640.png" alt="">
+      <img src="../imgs/field_excursions/04239640.png" alt="">
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-04239642.png" alt="">
+      <img src="../imgs/field_excursions/04239642.png" alt="">
     </p>
     <p class="text-center">
       The GSSPs of the Cambrian
@@ -647,7 +647,7 @@
       during one of Earth's most extreme climatic periods.
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042313986.png" alt="">
+      <img src="../imgs/field_excursions/042313986.png" alt="">
     </p>
     <p class="text-center">
       Distal view of the Naqing section with a sequence from Devonian until
@@ -917,7 +917,7 @@
         <tr>
           <td width="50%">
             <p>
-              <img style="width: 100%;height: 100%;" src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042322922.png" alt="">
+              <img style="width: 100%;height: 100%;" src="../imgs/field_excursions/042322922.png" alt="">
             </p>
           </td>
           <td width="50%">
@@ -997,7 +997,7 @@
       of the plateau.
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042324744.png" alt="">
+      <img src="../imgs/field_excursions/042324744.png" alt="">
     </p>
     <p class="text-center">
       An example of the Linxia Basin exposures is near the basin center looking
@@ -1126,10 +1126,10 @@
     <p>
         <div class="row">
           <div class="col">
-            <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042329632.png" alt="">
+            <img src="../imgs/field_excursions/042329632.png" alt="">
           </div>
           <div class="col">
-            <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042329633.png" alt="">
+            <img src="../imgs/field_excursions/042329633.png" alt="">
           </div>
         </div>
     </p>
@@ -1141,7 +1141,7 @@
       reddish beds at the central of Photo at the Yiyang section (right).
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042329980.png" alt="">
+      <img src="../imgs/field_excursions/042329980.png" alt="">
     </p>
     <p class="text-center">
       Many small towers at the Shaolin Temple in which buddhists practice
@@ -1198,7 +1198,7 @@
       >
     </h3>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042330938.png" alt="">
+      <img src="../imgs/field_excursions/042330938.png" alt="">
     </p>
     <p class="text-center">
       Field photos showing spectacular kart landscapes of Upper Devonian
@@ -1287,7 +1287,7 @@
       >
     </h3>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042333892.png" alt="">
+      <img src="../imgs/field_excursions/042333892.png" alt="">
     </p>
     <p class="text-center">
       Field photos showing carbonate successions of Mesoproterozoic in Jixian,
@@ -1316,7 +1316,7 @@
       important attractions in this route.
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042335167.png" alt="">
+      <img src="../imgs/field_excursions/042335167.png" alt="">
     </p>
     <p class="text-center">Field photos showing the stromatolites of the Tieling Formation.</p>
     <p>
@@ -1437,7 +1437,7 @@
       maximum mass extinction horizon).
     </p>
     <p>
-      <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042338926.png" alt="">
+      <img src="../imgs/field_excursions/042338926.png" alt="">
     </p>
     <p class="text-center">The Permian-Triassic boundary interval at Xishan, Suzhou</p>
     <p>
@@ -1521,10 +1521,10 @@
     <p>
       <div class="row">
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042342132.png" alt="">
+          <img src="../imgs/field_excursions/042342132.png" alt="">
         </div>
         <div class="col">
-          <img src="../imgs/field_excursions/副本0. Strati2026野外考察安排v2-网页内容-042342134.png" alt="">
+          <img src="../imgs/field_excursions/042342134.png" alt="">
         </div>
       </div>
     </p>

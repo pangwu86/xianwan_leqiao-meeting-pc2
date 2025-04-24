@@ -31,7 +31,7 @@
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu1.png" alt="" />
-            <div class="title" style="font-size: 20px">Sessions</div>
+            <div class="title" style="font-size: 20px" onclick="window.location.href='/proposal'">Sessions</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu2.png" alt="" />
@@ -134,7 +134,7 @@
         </div>
         <div class="fb-item">
           <div class="fb-bg bg2">
-            <div class="fb-title">FIELD TRIPS</div>
+            <div class="fb-title" onclick="window.location.href='/page/strati_2026_field_excursions.html'">FIELD TRIPS</div>
           </div>
         </div>
         <div class="fb-item">
