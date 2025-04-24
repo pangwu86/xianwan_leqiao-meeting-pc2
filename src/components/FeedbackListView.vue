@@ -17,8 +17,8 @@
                     <thead>
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Session Title</th>
-                        <th scope="col">Submission Time</th>
+                        <th scope="col">Opinion Type</th>
+                        <th scope="col">Feedback Content</th>
                         <th scope="col">Actions</th>
                       </tr>
                     </thead>
@@ -83,9 +83,9 @@
               <button
                 class="btn btn-primary"
                 type="submit"
-                @click="toSubmitProposal"
+                @click="toCreateFeedback"
               >
-                Create New Proposal
+                Create New Feedback
               </button>
             </div>
           </div>
@@ -106,39 +106,38 @@ export default {
   components: {},
   data() {
     return {
-      userProfile: null,
       dataList: [],
       loading: false,
     };
   },
   computed: {},
   methods: {
-    toSubmitProposal() {
-      this.$router.push("/proposal");
+    toCreateFeedback() {
+      this.$router.push("/feedback");
     },
     loadDataList() {
       this.loading = true;
-      this.$api.loadProposalList().then((resp) => {
+      this.$api.loadFeedbackList().then((resp) => {
         this.dataList = resp.data || [];
         this.loading = false;
       });
     },
     viewData(di) {
-      this.$router.push(`/proposal?id=${di.conferenceProposalId}`);
+      this.$router.push(`/feedback?id=${di.feedbackId}`);
     },
     editData(di) {
-      this.$router.push(`/proposal?id=${di.conferenceProposalId}&mode=edit`);
+      this.$router.push(`/feedback?id=${di.feedbackId}&mode=edit`);
     },
     deleteData(di) {
       if (
         window.confirm(
-          "Are you sure to delete this session, it will not be restored after deletion?"
+          "Are you sure to delete this feedback, it will not be restored after deletion?"
         )
       ) {
         this.loading = true;
         this.$api
-          .deleteProposal({
-            conferenceProposalId: di.conferenceProposalId,
+          .deleteFeedback({
+            feedbackId: di.feedbackId,
           })
           .then((resp) => {
             console.log(resp);
@@ -153,7 +152,6 @@ export default {
     },
   },
   mounted() {
-    this.userProfile = this.getStorage("user_profile");
     this.loadDataList();
   },
 };
