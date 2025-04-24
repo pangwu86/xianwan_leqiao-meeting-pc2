@@ -7,7 +7,7 @@
           <div class="needs-validation mb-5">
             <!-- 标题 -->
             <div class="row g-2">
-              <h2 class="text-center">List of Feedbacks</h2>
+              <h2 class="text-center">List of Feedback</h2>
             </div>
             <!-- 表单内容 -->
             <div class="row pt-4 proposal-table">

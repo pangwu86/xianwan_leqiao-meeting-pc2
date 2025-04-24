@@ -47,7 +47,7 @@ export default {
         },
         {
           icon: "bi-info-lg",
-          name: "Feedbacks",
+          name: "Feedback",
           // mailto: "strati2026@outlook.com",
           path: "/feedback/list",
         },
