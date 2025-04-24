@@ -435,7 +435,6 @@
 import { clearToken, getToken } from "../api/token.js";
 import { Modal } from "bootstrap";
 import axios from "axios";
-import ProposalListView from "./ProposalListView.vue";
 
 export default {
   components: {},
