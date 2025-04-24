@@ -123,6 +123,26 @@ const urlConf = {
     method: "get",
     after: handleReturn,
   },
+  loadFeedbackList: {
+    url: "/api/feedback/bizUserFeedbackList",
+    method: "get",
+    after: handleReturn,
+  },
+  getFeedback: {
+    url: "/api/feedback/getFeedbackInfo",
+    method: "get",
+    after: handleReturn,
+  },
+  submitFeedback: {
+    url: "/api/feedback/submitFeedback",
+    method: "post",
+    after: handleReturn,
+  },
+  deleteFeedback: {
+    url: "/api/feedback/deleteFeedback",
+    method: "post",
+    after: handleReturn,
+  },
 };
 
 // 创造API实例

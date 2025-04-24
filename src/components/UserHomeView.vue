@@ -5,34 +5,24 @@
         <div class="card-body">
           <!-- 内容 1 -->
           <section class="pageContent">
-            <h1 style="font-size: 2.0rem;">Session Proposal</h1>
+            <h1 style="font-size: 2rem">Session Proposal</h1>
             <p>
               <strong>The application deadline is 1st Dec. 2025.</strong>
             </p>
             <p style="text-align: center">
-              <button class="btn btn-primary btn-lg" type="submit" onclick="window.location.href='/proposal'">
+              <button
+                class="btn btn-primary btn-lg"
+                type="submit"
+                onclick="window.location.href='/proposal'"
+              >
                 Application
               </button>
             </p>
-            <p>
-              &nbsp;
-            </p>
-            <h1 style="font-size: 2.0rem;">Student Helper Application</h1>
-            <p>
-              &nbsp;
-            </p>
-            <p style="text-align: center">
-              <button class="btn btn-secondary btn-lg" type="submit">
-                Student Helper Information
-              </button>
-            </p>
-            <p>
-              &nbsp;
-            </p>
-            <h1 style="font-size: 2.0rem;">Register for the conference and all other events</h1>
-            <p>
-              &nbsp;
-            </p>
+            <p>&nbsp;</p>
+            <h1 style="font-size: 2rem">
+              Register for the conference and all other events
+            </h1>
+            <p>&nbsp;</p>
             <p style="text-align: center">
               <button class="btn btn-secondary btn-lg" type="submit">
                 Registration

@@ -4,14 +4,21 @@ import eventBus from "vue3-eventbus";
 // 首页 + 可操作内容页面
 import NotFoundView from "./components/404View.vue";
 import HomeView from "./components/HomeView.vue";
+
 import LogInView from "./components/LoginView.vue";
 import SignUpView from "./components/SignUpView.vue";
+
 import UserHomeView from "./components/UserHomeView.vue";
 import UserProfileView from "./components/UserProfileView.vue";
+
 import PasswordResetView from "./components/PasswordResetView.vue";
 import PasswordChangeView from "./components/PasswordChangeView.vue";
-import ProposalView from "./components/ProposalView.vue";
+
 import ProposalListView from "./components/ProposalListView.vue";
+import ProposalView from "./components/ProposalView.vue";
+
+import FeedbackListView from "./components/FeedbackListView.vue";
+import FeedbackView from "./components/FeedbackView.vue";
 
 const routesView = [
   {
@@ -52,6 +59,16 @@ const routesView = [
   {
     path: "/proposal/list",
     component: ProposalListView,
+    meta: { showSideMenu: true },
+  },
+  {
+    path: "/feedback/list",
+    component: FeedbackListView,
+    meta: { showSideMenu: true },
+  },
+  {
+    path: "/feedback",
+    component: FeedbackView,
     meta: { showSideMenu: true },
   },
   {
