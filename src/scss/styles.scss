@@ -53,16 +53,18 @@ body {
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        margin-left: 20px;
+
         i {
           display: inline-flex;
           background-color: rgba(27, 60, 144, 0.8);
           align-items: center;
           justify-content: center;
-          width: 26px;
-          height: 26px;
+          width: 28px;
+          height: 28px;
           border-radius: 50%;
           color: #fff;
-          font-size: 18px;
+          font-size: 16px;
         }
 
         span {

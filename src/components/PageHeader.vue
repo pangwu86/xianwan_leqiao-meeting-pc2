@@ -9,9 +9,18 @@
         <div class="menu-list">
           <!-- 搜索 -->
           <div class="search-bar">
-            <div class="search-btn" @click="toUserLogin">
+            <div class="search-btn" v-if="hasToken" @click="doLogin">
               <i class="bi bi-person-fill"></i>
-              <span>{{ hasToken ? "Log out" : "Log in" }}</span>
+              <span>User Center</span>
+            </div>
+            <div class="search-btn" v-if="hasToken" @click="doLogout">
+              <i class="bi bi-box-arrow-right"></i>
+              <span>Log out</span>
+            </div>
+
+            <div class="search-btn" v-if="!hasToken" @click="doLogin">
+              <i class="bi bi-person-fill"></i>
+              <span>Log in</span>
             </div>
           </div>
           <!-- 按钮 -->
@@ -126,12 +135,8 @@ export default {
         this.hasToken = false;
       }
     },
-    toUserLogin() {
-      if (!this.hasToken) {
-        this.$router.push("/user/home");
-      } else {
-        this.doLogout();
-      }
+    doLogin() {
+      this.$router.push("/user/home");
     },
     doLogout() {
       clearToken();
