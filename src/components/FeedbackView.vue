@@ -93,24 +93,48 @@
                   >Tips: Only PNG/JPG/JPEG format is supported, and up to three
                   images can beuploaded, each image size up to 10 MB</label
                 >
+
+                <!-- 图片预览 -->
+                <div class="position-relative mt-3 mb-3 screenshots-list">
+                  <div
+                    class="screenshot-image"
+                    v-for="(uf, uidx) in dataInfo.screenshots"
+                    :key="uf.url"
+                  >
+                    <img :src="uf.url" alt="" />
+                    <i
+                      class="bi bi-x-circle"
+                      @click="removeScreenshot(uidx)"
+                    ></i>
+                  </div>
+                </div>
+
                 <div class="position-relative mt-3 mb-3" v-if="canUploadFile">
-                  <label class="btn btn-primary btn-sm"
+                  <label class="btn btn-primary btn-sm" v-if="!uploading"
                     >Select Image:
                     <input
                       type="file"
                       class="form-control required d-none"
                       accept="image/png, image/jpeg, image/jpg"
                       multiple
-                      @change="previewFiles"
+                      @change="selectFiles"
                       :disabled="mode == 'view'"
                     />
                   </label>
+                  <button
+                    class="btn btn-primary btn-sm"
+                    type="button"
+                    disabled
+                    v-else
+                  >
+                    <span class="spinner-border spinner-border-sm"></span>
+                  </button>
                 </div>
               </div>
             </div>
 
             <!-- 更新 -->
-            <!-- <div class="d-grid mt-5" v-if="mode != 'view'">
+            <div class="d-grid mt-5" v-if="mode != 'view'">
               <button
                 class="btn btn-primary"
                 type="submit"
@@ -122,7 +146,7 @@
               <button class="btn btn-primary" type="button" disabled v-else>
                 <span class="spinner-border spinner-border-sm"></span>
               </button>
-            </div> -->
+            </div>
 
             <!-- 返回列表 -->
             <div class="d-grid mt-4">
@@ -163,30 +187,10 @@ export default {
         email: "",
         cellphone: "",
         remark: "",
-        tmp: "",
         screenshots: [],
       },
       submitIng: false,
-      conModal: null,
-      conObj: "",
-      conMode: "add",
-      conInfo: {
-        firstName: "",
-        middleName: "",
-        lastName: "",
-        affiliation: "",
-        email: "",
-      },
-      conInfoEmpty: {
-        firstName: "",
-        middleName: "",
-        lastName: "",
-        affiliation: "",
-        email: "",
-      },
-      conIdx: -1,
       uploading: false,
-      uploadFileObj: null,
     };
   },
   computed: {
@@ -224,10 +228,6 @@ export default {
     toListPage() {
       this.$router.push("/feedback/list");
     },
-    reUploadFile() {
-      this.dataInfo.tmpImage = "";
-      this.uploadFileObj = null;
-    },
     submitProposal() {
       let sd = this.dataInfo;
       if (!this.checkEmpty("Opinion Type", sd.opinionType)) {
@@ -256,38 +256,58 @@ export default {
         }
       });
     },
-    previewFiles(event) {
+    selectFiles(event) {
       let maxSize = 1024 * 1024 * 10;
       let files = event.target.files;
       console.log(files);
       if (files.length > 0) {
-        let upFile = files[0];
-        let cfileSize = upFile.size;
-        console.log("fileSize:" + this.formatFileSize(cfileSize));
-        if (cfileSize > maxSize) {
-          alert(
-            `Upload file size is ${this.formatFileSize(
-              cfileSize
-            )}, limit size is 10MB, please reselect.`
-          );
-          return;
+        if (this.dataInfo.screenshots.length + files.length <= 3) {
+          for (let i = 0; i < files.length; i++) {
+            let upFile = files[i];
+            let cfileSize = upFile.size;
+            if (cfileSize > maxSize) {
+              alert(
+                `Upload image [${upFile.name}] size is ${this.formatFileSize(
+                  cfileSize
+                )}, limit size is 10MB, please reselect.`
+              );
+              return;
+            }
+          }
+          // 检查通过
+          this.startUpload(files);
         } else {
-          this.uploadFileObj = upFile;
+          alert(`Three images can beuploaded, please reselect.`);
         }
       }
     },
-    uploadFile() {
-      let formParams = new FormData();
-      formParams.append("file", this.uploadFileObj);
+    async startUpload(files) {
       this.uploading = true;
-      this.$api.uploadFile(formParams).then((resp) => {
-        this.uploading = false;
-        console.log(resp);
-        if (resp.code == 200) {
-          this.dataInfo.tmpImageFileUrl = resp.data.accessLink;
-        } else {
-          alert(resp.msg);
+      for (let i = 0; i < files.length; i++) {
+        const upFile = files[i];
+        let upResult = await this.uploadFile(upFile);
+        if (upResult) {
+          this.dataInfo.screenshots.push({
+            text: upResult.sourceFileName,
+            url: upResult.accessLink,
+          });
         }
+      }
+      this.uploading = false;
+      console.log("screenshots:\n" + JSON.stringify(this.dataInfo.screenshots));
+    },
+    uploadFile(upFile) {
+      let self = this;
+      return new Promise(function (resolve) {
+        let formParams = new FormData();
+        formParams.append("file", upFile);
+        self.$api.uploadFile(formParams).then((resp) => {
+          if (resp.code == 200) {
+            resolve(resp.data);
+            return;
+          }
+          resolve(null);
+        });
       });
     },
     removeScreenshot(idx) {
@@ -406,5 +426,44 @@ export default {
   width: 30px;
   height: 10px;
   display: inline-block;
+}
+
+.screenshots-list {
+  display: flex;
+
+  .screenshot-image {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin-right: 30px;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    i {
+      position: absolute;
+      right: -14px;
+      top: -14px;
+      display: inline-flex;
+      background-color: rgba(255, 0, 0, 0.8);
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 16px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgba(255, 0, 0, 1);
+      }
+    }
+  }
 }
 </style>

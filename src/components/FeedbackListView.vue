@@ -23,13 +23,10 @@
                       </tr>
                     </thead>
                     <tbody v-if="!loading">
-                      <tr
-                        v-for="(di, didx) in dataList"
-                        :key="di.conferenceProposalId"
-                      >
+                      <tr v-for="(di, didx) in dataList" :key="di.feedbackId">
                         <td>{{ didx + 1 }}</td>
-                        <td>{{ di.proposalTitle }}</td>
-                        <td>{{ di.submitTime }}</td>
+                        <td>{{ di.opinionType }}</td>
+                        <td>{{ di.feedbackContent }}</td>
                         <td>
                           <div class="d-grid gap-2 d-md-block btn-container">
                             <button
@@ -42,7 +39,7 @@
                             >
                               <i class="bi bi-file-earmark-text-fill"></i>
                             </button>
-                            <button
+                            <!-- <button
                               type="button"
                               class="btn btn-outline-primary btn-sm"
                               data-bs-toggle="tooltip"
@@ -51,7 +48,7 @@
                               @click="editData(di)"
                             >
                               <i class="bi bi-pencil-square"></i>
-                            </button>
+                            </button> -->
                             <button
                               type="button"
                               class="btn btn-outline-danger btn-sm"
