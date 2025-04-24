@@ -130,7 +130,7 @@ const urlConf = {
   },
   getFeedback: {
     url: "/api/feedback/getFeedbackInfo",
-    method: "get",
+    method: "post",
     after: handleReturn,
   },
   submitFeedback: {

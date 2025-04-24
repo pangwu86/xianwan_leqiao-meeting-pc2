@@ -105,6 +105,7 @@
                     <i
                       class="bi bi-x-circle"
                       @click="removeScreenshot(uidx)"
+                      v-if="mode != 'view'"
                     ></i>
                   </div>
                 </div>
