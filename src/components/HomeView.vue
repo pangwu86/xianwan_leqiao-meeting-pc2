@@ -39,7 +39,7 @@
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu3.png" alt="" />
-            <div class="title" style="font-size: 20px">Program</div>
+            <div class="title" style="font-size: 20px">Programme</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu4.png" alt="" />

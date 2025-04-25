@@ -23,7 +23,7 @@
                     :disabled="mode == 'view'"
                   >
                     <option disabled="" value="">
-                      Please select a session type.
+                      Please select an issue type.
                     </option>
                     <option>Incorrect information</option>
                     <option>Abnormal payment</option>
