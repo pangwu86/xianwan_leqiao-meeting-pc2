@@ -1,6 +1,6 @@
 <template>
   <p class="high-light" id="Pre3">
-    <strong><strong>Pre-conference excursion</strong></strong>
+    <strong><strong>Pre-conference Excursion</strong></strong>
   </p>
   <h3>
     3.&nbsp;<strong
@@ -86,8 +86,8 @@
     guidebook, etc.; flight costs are not included)
   </p>
   <p>&nbsp;</p>
-  <p>Assembling Place：南京会议中心</p>
-  <p>Dissmisal Place：北京</p>
+  <p>Assembling Place：Nanjing</p>
+  <p>Dissmisal Place：Beijing</p>
   <p>
     <strong><strong>&nbsp;</strong></strong>
   </p>

@@ -1,5 +1,5 @@
 <template>
-  <p class="high-light" id="Pre1"><strong>Pre-conference excursion</strong></p>
+  <p class="high-light" id="Pre1"><strong>Pre-conference Ecursion</strong></p>
     <h3>
       1.&nbsp;<strong
         ><strong
@@ -73,11 +73,11 @@
       Guanbachong section (left) and Taoshujing section (right).
     </p>
     <p>
-      Participants: <strong><strong>20&ndash;30</strong></strong
+      Participants: <strong>20&ndash;30</strong
       >&nbsp;persons
     </p>
     <p>
-      Trip duration: <strong><strong>7</strong></strong
+      Trip duration: <strong>7</strong
       >&nbsp;days
     </p>
     <p>

@@ -1,7 +1,6 @@
 <template>
   <p class="high-light" id="Post1">
-      <strong>P</strong><strong>ost</strong
-      ><strong>-conference excursion</strong>
+      <strong>Post-conference Excursion</strong>
     </p>
     <h3>
       1.&nbsp;<strong
@@ -12,9 +11,7 @@
       >
     </h3>
     <p>
-      This <strong><strong>7</strong></strong
-      ><strong><strong>-day excursion</strong></strong
-      >&nbsp;will be organized to check the Cryogenian-Cambrian sections and
+      This <strong>-day excursion</strong>&nbsp;will be organized to check the Cryogenian-Cambrian sections and
       exceptionally preserved fossil deposits in various facies ranging from the
       shallow to deeper water, including famous Burgess Shale-type fossil sites
       and the Cambrian GSSPs of the Cambrian Wuliuan, Guzhangian and Paibian
@@ -66,8 +63,7 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>
-      Participants: <strong><strong>20-30</strong></strong
-      >&nbsp;persons
+      Participants: <strong>20-30</strong>&nbsp;persons
     </p>
     <p>
       Trip duration: <strong><strong>7</strong></strong

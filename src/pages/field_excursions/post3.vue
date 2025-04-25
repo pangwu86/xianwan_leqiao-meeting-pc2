@@ -1,8 +1,6 @@
 <template>
   <p class="high-light" id="Post3">
-    <strong><strong>P</strong></strong
-    ><strong><strong>ost</strong></strong
-    ><strong><strong>-conference</strong></strong>
+    <strong>Post-conference Excursion</strong>
   </p>
   <h3>
     3.&nbsp;<strong

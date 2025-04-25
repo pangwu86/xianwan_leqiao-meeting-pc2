@@ -3,7 +3,7 @@
     <!-- return to top -->
     <!-- <a href="#Top" class="btn-back-to-top"><i class="bi bi-caret-up"></i></a> -->
 
-    <h1>Strati 2026 Field excursions</h1>
+    <h1>Strati 2026 Field Excursions</h1>
     <!-- 导航 -->
     <div id="#Top">
       <feNav></feNav>

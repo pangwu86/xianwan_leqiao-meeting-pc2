@@ -1,14 +1,13 @@
 <template>
   <p class="high-light" id="Pre2">
-    <strong><strong>Pre-conference excursion</strong></strong>
+    <strong>Pre-conference Excursion</strong>
   </p>
   <h3>
     2.&nbsp;<strong
-      ><strong
-        >Late Paleozoic to earliest Mesozoic stratigraphy and faunas in Guizhou,
+      >
+        Late Paleozoic to earliest Mesozoic stratigraphy and faunas in Guizhou,
         South China
-      </strong></strong
-    >
+      </strong>
   </h3>
   <p>
     This excursion investigates the well-preserved successions of Carboniferous,

@@ -1,6 +1,6 @@
 <template>
   <p class="high-light" id="Mid1">
-    <strong>Mid-conference excursion</strong><strong>:</strong>
+    <strong>Mid-conference Excursion</strong><strong>:</strong>
   </p>
   <h3>
     1.&nbsp;<strong

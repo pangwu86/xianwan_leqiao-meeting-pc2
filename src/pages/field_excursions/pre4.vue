@@ -1,6 +1,6 @@
 <template>
   <p class="high-light" id="Pre4">
-    <strong><strong>Pre-conference excursion</strong></strong>
+    <strong><strong>Pre-conference Excursion</strong></strong>
   </p>
   <h3>
     4.&nbsp;<strong
