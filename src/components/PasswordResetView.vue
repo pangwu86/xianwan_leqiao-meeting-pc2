@@ -15,7 +15,7 @@
               >
               <div class="row">
                 <div class="col-7">
-                  <input type="email" class="form-control" v-model="email" placeholder="Please enter the email address you registered with the system." />
+                  <input type="email" class="form-control" v-model="email" placeholder="Please enter the email address you registered with the system." oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')" />
                 </div>
                 <div class="col-5">
                   <div class="d-grid">

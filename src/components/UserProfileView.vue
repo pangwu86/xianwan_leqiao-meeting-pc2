@@ -134,6 +134,7 @@
                     type="text"
                     placeholder="Please enter your affiliation."
                     class="form-control"
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                     v-model="userInfo.affiliation"
                   />
                 </div>
@@ -369,6 +370,7 @@
                     type="text"
                     placeholder="Please enter your work email."
                     class="form-control"
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                     v-model="userInfo.workEmail"
                   />
                 </div>
@@ -380,6 +382,7 @@
                   <input
                     type="text"
                     class="form-control"
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                     placeholder="Please enter your personal website."
                     v-model="userInfo.personalWebsite"
                   />
@@ -393,6 +396,7 @@
                     type="text"
                     class="form-control"
                     placeholder="Please enter your academic title."
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                     v-model="userInfo.academicTitle"
                   />
                 </div>
@@ -404,6 +408,7 @@
                     type="text"
                     placeholder="Please enter your position."
                     class="form-control"
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                     v-model="userInfo.position"
                   />
                 </div>
@@ -415,6 +420,7 @@
                     type="text"
                     placeholder="Please enter your primary research focus."
                     class="form-control"
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                     v-model="userInfo.primaryResearchFocus"
                   />
                 </div>

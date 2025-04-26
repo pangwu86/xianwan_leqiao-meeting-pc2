@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="footer-copyright">
-        Copyright@ 2025 STRATI2026 All rights reserved service
+        Copyright@2025 Strati2026 All rights reserved service
       </div>
     </div>
   </footer>

@@ -19,7 +19,7 @@
                   <select
                     class="form-select"
                     v-model="dataInfo.opinionType"
-                    placeholder="Please select a session type."
+                    placeholder="Please select an issue type."
                     :disabled="mode == 'view'"
                   >
                     <option disabled="" value="">
@@ -71,6 +71,7 @@
                     placeholder="Please enter the email."
                     v-model="dataInfo.email"
                     :disabled="mode == 'view'"
+                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                   />
                 </div>
               </div>
