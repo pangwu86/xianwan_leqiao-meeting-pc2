@@ -2,7 +2,7 @@
   <div class="container page-content">
     <h1>Congress Schedule</h1>
     <p>
-      <table class="table table-bordered">
+      <table class="table table-bordered table-striped table-colored">
           <thead>
             <tr>
               <th>Date</th>
@@ -11,7 +11,7 @@
           </thead>
           <tbody>
             <tr v-for="(td, tidx) in tableData" :key="'ti-' + tidx">
-              <td>{{ td.date }}</td>
+              <td class="td-colored" style="width: 25%;">{{ td.date }}</td>
               <td>{{ td.name }}</td>
             </tr>
           </tbody>
