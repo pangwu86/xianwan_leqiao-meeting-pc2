@@ -1,8 +1,6 @@
 <template>
    <p class="high-light" id="Post4">
-      <strong><strong>P</strong></strong
-      ><strong><strong>ost</strong></strong
-      ><strong><strong>-conference excursion</strong></strong>
+      <strong>Post-conference Excursion</strong>
     </p>
     <h3>
       4.&nbsp;<strong
@@ -94,7 +92,7 @@
     </p>
     <p>&nbsp;</p>
     <p>Assembling Place：Jiaozuo，Henan&nbsp;Province</p>
-    <p>Dissmisal Place：Zhengzhou，Henan&nbsp;Province</p>
+    <p>Dismissal Place：Zhengzhou，Henan&nbsp;Province</p>
     <p>
       <strong><strong>&nbsp;</strong></strong>
     </p>

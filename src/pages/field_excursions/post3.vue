@@ -70,33 +70,28 @@
     atmospheric circulation, the evolution of ancient climate and environment,
     and the processes of dust transport and accumulation can be revealed.
     Therefore, loess, along with ice cores and deep-sea sediments, are known as
-    the &ldquo;three pillars&rdquo; of paleoclimatological research.
+    the &ldquo;three pillars&rdquo; of paleo climatological research.
   </p>
   <p>
-    Participants: <strong><strong>20-30</strong></strong
+    Participants: <strong>20-30</strong
     >&nbsp;persons
   </p>
   <p>
-    Trip duration: <strong><strong>4</strong></strong
+    Trip duration: <strong>4</strong
     >&nbsp;days
   </p>
   <p>
-    Estimated cost: <strong><strong>3000 RMB</strong></strong
-    ><strong><strong>/400</strong></strong
-    ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
+    Estimated cost: <strong>3000 RMB/400$</strong>&nbsp;(including accommodation, meals, transport,
     guidebook, etc. ; flight costs are not included)
   </p>
   <p>&nbsp;</p>
   <p>Assembling Place：Kunshan</p>
-  <p>Dissmisal Place：Lanzhou</p>
+  <p>Dismissal Place：Lanzhou</p>
   <p>
-    <strong><strong>&nbsp;</strong></strong>
+    <strong>&nbsp;</strong>
   </p>
   <p>
-    <strong><strong>Excursion </strong></strong
-    ><strong><strong>Leader</strong></strong
-    ><strong><strong>s</strong></strong
-    ><strong><strong>：</strong></strong>
+    <strong>Excursion Leaders：</strong>
   </p>
   <p>
     Tao Deng, Institute of Vertebrate Paleontology and Paleoanthropology, CAS

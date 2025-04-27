@@ -1,14 +1,13 @@
 <template>
     <p id="Mid3">
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>&nbsp;</strong>
     </p>
     <h3>
       3.&nbsp;<strong
-        ><strong
-          >Ordovician to Silurian strata and Anji Biota in the Anji,
+        >
+          Ordovician to Silurian strata and Anji Biota in the Anji,
           Zhejiang</strong
-        ></strong
-      >
+        >
     </h3>
     <p>
       The Hanggai section in Anji, Northwestern Zhejiang Province, was ratified
@@ -48,20 +47,15 @@
       graptolites yielded from the Anji Biota
     </p>
     <p>
-      Participants: <strong><strong>10-40</strong></strong
+      Participants: <strong>10-40</strong
       >&nbsp;persons
     </p>
     <p>
-      Estimated cost: <strong><strong>800 RMB</strong></strong
-      ><strong><strong>/100</strong></strong
-      ><strong>$</strong>&nbsp;(including meals, transport, guidebook, etc.)
+      Estimated cost: <strong>800 RMB/100$</strong>&nbsp;(including meals, transport, guidebook, etc.)
     </p>
     <p>&nbsp;</p>
     <p>
-      <strong><strong>Excursion </strong></strong
-      ><strong><strong>Leader</strong></strong
-      ><strong><strong>s</strong></strong
-      ><strong><strong>：</strong></strong>
+      <strong>Excursion Leaders：</strong>
     </p>
     <p>
       Xiang Fang, Junye Ma, Qing Chen, Wenjie Li, Xuejin Wu, Nanjing Institute

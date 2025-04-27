@@ -16,7 +16,7 @@
       <div class="container mb-5">
         <div class="row">
           <div class="col-4">
-            <div class="read-desc" style="font-size: 20px">
+            <div class="read-desc" style="font-size: 20px; font-family: Arial, sans-serif">
               The STRATI 2026 Congress has long served as a premier platform for stratigraphic research, with its legacy rooted in Europe. As the event’s global influence continues to expand, particularly within China’s thriving stratigraphic community, hosting the next congress in Suzhou, China, represents a historic milestone …
             </div>
             <div class="home-btn mt-3" onclick="window.location.href='/page/welcome_strati_2026.html'" style="font-size: 20px">Read more</div>

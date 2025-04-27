@@ -1,6 +1,6 @@
 <template>
   <p class="high-light" id="Post5">
-    <strong>P</strong><strong>ost</strong><strong>-conference excursion</strong>
+    <strong>Post-conference Excursion</strong>
   </p>
   <h3>
     5.&nbsp;<strong
@@ -57,21 +57,20 @@
     Guilin area.
   </p>
   <p>
-    Participants: <strong><strong>20-30</strong></strong
+    Participants: <strong>20-30</strong
     >&nbsp;persons
   </p>
   <p>
-    Trip duration: <strong><strong>3</strong></strong
+    Trip duration: <strong>3</strong
     >&nbsp;days
   </p>
   <p>
-    Estimated cost: <strong><strong>2200 RMB/300</strong></strong
-    ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
+    Estimated cost: <strong>2200 RMB/300$</strong>&nbsp;(including accommodation, meals, transport,
     guidebook, etc.; flight costs are not included)
   </p>
   <p>&nbsp;</p>
   <p>Assembling Place：Guilin Liangjiang International Airport</p>
-  <p>Dissmisal Place：Guilin Liangjiang International Airport</p>
+  <p>Dismissal Place：Guilin Liangjiang International Airport</p>
   <p>
     <strong><strong>&nbsp;</strong></strong>
   </p>
@@ -82,7 +81,7 @@
     ><strong><strong>：</strong></strong>
   </p>
   <p>Junjun Song, Nanjing Institute of Geology and Palaeontology, CAS</p>
-  <p>Daiyu,&nbsp;Guangxi Institute of Regional Geological Survey</p>
+  <p>Yu Dai,&nbsp;Guangxi Institute of Regional Geological Survey</p>
   <p>Yuanlin Sun,&nbsp;Peking University</p>
   <p>
     <strong><strong>&nbsp;</strong></strong>

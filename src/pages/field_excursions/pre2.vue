@@ -85,7 +85,7 @@
   <p>&nbsp;</p>
   <p>Pre/post-congress field excursions:</p>
   <p>Assembling Place：</p>
-  <p>Dissmisal Place：</p>
+  <p>Dismissal Place：</p>
   <p>&nbsp;</p>
   <p>
     <strong><strong>Excursion </strong></strong

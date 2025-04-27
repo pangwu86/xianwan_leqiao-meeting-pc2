@@ -11,7 +11,7 @@
       >
     </h3>
     <p>
-      This <strong>-day excursion</strong>&nbsp;will be organized to check the Cryogenian-Cambrian sections and
+      This <strong>7-day excursion</strong>&nbsp;will be organized to check the Cryogenian-Cambrian sections and
       exceptionally preserved fossil deposits in various facies ranging from the
       shallow to deeper water, including famous Burgess Shale-type fossil sites
       and the Cambrian GSSPs of the Cambrian Wuliuan, Guzhangian and Paibian
@@ -70,12 +70,7 @@
       >&nbsp;days
     </p>
     <p>
-      Estimated cost:<strong><strong>&nbsp;</strong></strong
-      ><strong><strong>49</strong></strong
-      ><strong><strong>00 RMB/</strong></strong
-      ><strong><strong>7</strong></strong
-      ><strong><strong>00</strong></strong
-      ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
+      Estimated cost:<strong>&nbsp;4900 RMB/700$</strong>&nbsp;(including accommodation, meals, transport,
       guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
@@ -85,7 +80,7 @@
       Province, China
     </p>
     <p>
-      Dissmisal Place: Hehua International Airport, Zhangjiajie City, Hunan
+      Dismissal Place: Hehua International Airport, Zhangjiajie City, Hunan
       Province, China
     </p>
     <p><strong>&nbsp;</strong></p>

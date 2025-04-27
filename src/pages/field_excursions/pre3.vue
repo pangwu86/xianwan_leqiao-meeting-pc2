@@ -87,7 +87,7 @@
   </p>
   <p>&nbsp;</p>
   <p>Assembling Place：Nanjing</p>
-  <p>Dissmisal Place：Beijing</p>
+  <p>Dismissal Place：Beijing</p>
   <p>
     <strong><strong>&nbsp;</strong></strong>
   </p>

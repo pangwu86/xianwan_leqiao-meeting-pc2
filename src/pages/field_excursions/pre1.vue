@@ -1,5 +1,5 @@
 <template>
-  <p class="high-light" id="Pre1"><strong>Pre-conference Ecursion</strong></p>
+  <p class="high-light" id="Pre1"><strong>Pre-conference Excursion</strong></p>
     <h3>
       1.&nbsp;<strong
         ><strong
@@ -298,27 +298,16 @@
     </p>
     <p>Stay at&nbsp;Xiake Hotel in the Pearl River Source Scenic Area.</p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>&nbsp;</strong>
     </p>
     <p>
-      <strong><strong>Day </strong></strong><strong><strong>5</strong></strong
-      ><strong
-        ><strong>: Middle Devonian sections in Qujing City</strong></strong
-      >
+      <strong>Day 5: Middle Devonian sections in Qujing City</strong>
     </p>
     <p>
       <strong><strong>&nbsp;</strong></strong>
     </p>
     <p>
-      <em><em>Stop </em></em><em><em>8</em></em
-      ><em><em>: </em></em><em><em>V</em></em
-      ><em><em>isiting a museum and fossil workstation in the </em></em
-      ><em><em>Pearl River Source Scenic Area</em></em
-      ><em><em>: </em></em><em><em>9:00</em></em
-      ><em><em>&ndash;</em></em
-      ><em><em>1</em></em
-      ><em><em>2</em></em
-      ><em><em>:30</em></em>
+      <em>Stop 8: Visiting a museum and fossil workstation in the Pearl River Source Scenic Area: 9:00&ndash;12:30</em>
     </p>
     <p>
       Some local fish fossils found within&nbsp;the scenic area&nbsp;(middle

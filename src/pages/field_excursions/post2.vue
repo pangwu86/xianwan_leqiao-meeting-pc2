@@ -1,14 +1,13 @@
 <template>
   <p class="high-light" id="Post2">
-    <strong><strong>Post-conference excursion</strong></strong>
+    <strong>Post-conference Excursion</strong>
   </p>
   <h3>
     2.&nbsp;<strong
-      ><strong
-        >From Snowball Earth to Great Mass Extinction: Ediacaran to Triassic
+      >
+        From Snowball Earth to Great Mass Extinction: Ediacaran to Triassic
         Stratigraphic Records in the Three Gorge area, central China</strong
-      ></strong
-    >
+      >
   </h3>
   <p>
     The Three George area, western Hubei Province, central China is not only
@@ -71,53 +70,44 @@
     ancient Chu Kingdom in the central part of China.
   </p>
   <p>
-    Participants: <strong><strong>2</strong></strong
-    ><strong><strong>0</strong></strong
-    ><strong><strong>&nbsp;</strong></strong
+    Participants: <strong>20</strong
     >persons
   </p>
   <p>
-    Trip duration: <strong><strong>7</strong></strong
+    Trip duration: <strong>7</strong
     >&nbsp;days
   </p>
   <p>
-    Estimated cost: <strong><strong>5000 RMB</strong></strong
-    ><strong><strong>/700</strong></strong
-    ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
+    Estimated cost: <strong>5000 RMB/700$</strong>&nbsp;(including accommodation, meals, transport,
     guidebook, etc.; flight costs are not included)
   </p>
   <p>
-    Pre/post-congress field excursions:&nbsp;<strong>Post</strong
-    ><strong>-congress</strong>&nbsp;field excursion
+    Pre/post-congress field excursions:&nbsp;<strong>Post-congress</strong>&nbsp;field excursion
   </p>
   <p>
-    Assembling Place：<strong>The hotel or the r</strong><strong>ailway </strong
-    ><strong>s</strong><strong>tation</strong>&nbsp;of the city of Meeting
+    Assembling Place：<strong>The hotel or the railway station</strong>&nbsp;of the city of Meeting
   </p>
   <p>
-    Dissmisal Place：<strong>Yichang City</strong>&nbsp;(Yichang East Railway
+    Dismissal Place：<strong>Yichang City</strong>&nbsp;(Yichang East Railway
     Station)
   </p>
   <p>&nbsp;</p>
   <p>
-    <strong><strong>Excursion </strong></strong
-    ><strong><strong>Leader</strong></strong
-    ><strong><strong>s</strong></strong
-    ><strong><strong>：</strong></strong>
+    <strong>Excursion Leaders：</strong>
   </p>
   <p>
-    Xueqian Feng,&nbsp;China University of Geosciences,&nbsp;WuhanDongjing
-    Fu(傅东静), Northwest University
+    Xueqian Feng,&nbsp;China University of Geosciences,&nbsp;Wuhan Dongjing
+    Fu, Northwest University
   </p>
   <p>
     Zhongyang Chen,&nbsp;Nanjing Institute of Geology and Palaeontology, CAS
   </p>
   <p>&nbsp;</p>
   <p>
-    <strong><strong>&nbsp;</strong></strong>
+    <strong>&nbsp;</strong>
   </p>
   <p>
-    <strong><strong>Itinerary:</strong></strong>
+    <strong>Itinerary:</strong>
   </p>
   <p>
     Day 1: Arrive at Yichang City, then take a bus to the Zigui Town. The trip

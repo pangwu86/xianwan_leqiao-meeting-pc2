@@ -1,11 +1,10 @@
 <template>
   <p class="high-light" id="Mid1">
-    <strong>Mid-conference Excursion</strong><strong>:</strong>
+    <strong>Mid-conference Excursion:</strong>
   </p>
   <h3>
     1.&nbsp;<strong
-      ><strong>Meishan section and Meishan Geopark </strong></strong
-    >
+      >Meishan section and Meishan Geopark </strong>
   </h3>
   <p>
     The Meishan sections, recognized as the most intensively studied geological
@@ -30,21 +29,15 @@
     international scientific research and collaboration.
   </p>
   <p>
-    Participants: <strong><strong>10-40</strong></strong
+    Participants: <strong>10-40</strong
     >&nbsp;persons
   </p>
   <p>
-    Estimated cost: <strong><strong>800 RMB</strong></strong
-    ><strong><strong>/100</strong></strong
-    ><strong>$</strong><strong><strong>&nbsp;</strong></strong
-    >(including meals, transport, guidebook, etc.)
+    Estimated cost: <strong>800 RMB/100$&nbsp;</strong>(including meals, transport, guidebook, etc.)
   </p>
   <p>&nbsp;</p>
   <p>
-    <strong><strong>Excursion </strong></strong
-    ><strong><strong>Leader</strong></strong
-    ><strong><strong>s</strong></strong
-    ><strong><strong>：</strong></strong>
+    <strong>Excursion Leaders：</strong>
   </p>
   <p>Hua&nbsp;Zhang, Nanjing Institute of Geology and Palaeontology, CAS</p>
   <p>Yadong&nbsp;Sun, China University of Geosciences,&nbsp;Wuhan</p>

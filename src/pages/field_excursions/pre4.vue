@@ -4,11 +4,9 @@
   </p>
   <h3>
     4.&nbsp;<strong
-      ><strong
-        >Mesoproterozoic successions in Jixian area, Tianjin City, North
+      >Mesoproterozoic successions in Jixian area, Tianjin City, North
         China</strong
-      ></strong
-    >
+      >
   </h3>
   <p>
     <img src="../../imgs/field_excursions/042333892.png" alt="" />
@@ -65,7 +63,7 @@
   </p>
   <p>&nbsp;</p>
   <p>Assembling Place：</p>
-  <p>Dissmisal Place：</p>
+  <p>Dismissal Place：</p>
   <p>
     <strong><strong>&nbsp;</strong></strong>
   </p>

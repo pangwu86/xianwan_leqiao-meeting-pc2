@@ -1,7 +1,7 @@
 <template>
   <p id="Mid2">&nbsp;</p>
   <h3>
-    2.&nbsp;<strong><strong>Tai Lake Xishan Section</strong></strong>
+    2.&nbsp;<strong>Tai Lake Xishan Section</strong>
   </h3>
   <p>
     &nbsp;The Xishan section is located on the Xishan Island in Tai Lake in
@@ -61,19 +61,14 @@
     Triassic.
   </p>
   <p>
-    Participants: <strong><strong>10-40 </strong></strong>persons
+    Participants: <strong>10-40 </strong>persons
   </p>
   <p>
-    Estimated cost: <strong><strong>800 RMB</strong></strong
-    ><strong><strong>/100</strong></strong
-    ><strong>$</strong>&nbsp;(including meals, transport, guidebook, etc.)
+    Estimated cost: <strong>800 RMB/100$</strong>&nbsp;(including meals, transport, guidebook, etc.)
   </p>
   <p>&nbsp;</p>
   <p>
-    <strong><strong>Excursion </strong></strong
-    ><strong><strong>Leader</strong></strong
-    ><strong><strong>s</strong></strong
-    ><strong><strong>：</strong></strong>
+    <strong>Excursion Leaders：</strong>
   </p>
   <p>Quanfeng Zheng, Nanjing Institute of Geology and Palaeontology, CAS</p>
   <p>Zhongbao Wang, Suzhou University</p>
