@@ -92,6 +92,8 @@ import venue from "./pages/venue.vue";
 import contact from "./pages/contact.vue";
 import sponsor from "./pages/sponsor.vue";
 import wait from "./pages/wait.vue";
+import visa_policies from "./pages/visa_policies.vue";
+import travel_to_suzhou from "./pages/travel_to_suzhou.vue";
 
 import pre1 from "./pages/field_excursions/pre1.vue";
 import pre2 from "./pages/field_excursions/pre2.vue";
@@ -117,9 +119,23 @@ const routesPage = [
     meta: { fillMain: true },
   },
   {
+    path: "/page/travel_to_suzhou.html",
+    components: {
+      mainBody: travel_to_suzhou,
+    },
+    meta: { fillMain: true },
+  },
+  {
     path: "/page/contact.html",
     components: {
       mainBody: contact,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/visa_policies.html",
+    components: {
+      mainBody: visa_policies,
     },
     meta: { fillMain: true },
   },
