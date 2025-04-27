@@ -4,8 +4,9 @@
     <p>&nbsp;</p>
     <p>Shanghai is the largest city in China and Suzhou is next to Shanghai and has direct trains and buses access to the Shanghai airports. It takes half hour to the Shanghai city center from Suzhou. There are lots of direct flights from European, North American, Oceanian and African countries to Shanghai, main nonstop flights are listed:
     </p>
+    <p>&nbsp;</p>
     <p>
-      <table class="table table-bordered">
+      <table class="table table-bordered table-colored">
           <thead>
             <tr>
               <th>Country</th>
