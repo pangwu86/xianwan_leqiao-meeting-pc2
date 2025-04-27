@@ -166,7 +166,11 @@
             v-for="(ni, nidx) in newsList"
             :key="'news-item-' + nidx"
           >
-            <div class="news-item row" style="font-size: 20px">
+            <div
+              class="news-item row"
+              style="font-size: 20px"
+              @click="toNewsPage(ni)"
+            >
               <div class="title col-9">{{ ni.title }}</div>
               <div class="date col-3" style="font-size: 20px">
                 {{ ni.date }}
@@ -271,26 +275,32 @@ export default {
         {
           title: "First Circular of Strati2026",
           date: "2025-01-02",
+          to: "welcome_strati_2026",
         },
         {
           title: "Travel to Suzhou",
           date: "2025-01-02",
+          to: "/page/travel_to_suzhou.html",
         },
         {
           title: "Call for Sessions",
           date: "2025-01-02",
+          to: "/page/call_for_sessions.html",
         },
         {
           title: "Visa policies",
           date: "2025-01-02",
+          to: "/page/visa_policies.html",
         },
         {
           title: "Congress Schedule",
           date: "2025-01-02",
+          to: "/page/call_for_sessions.html",
         },
         {
           title: "Registration and fees",
           date: "2025-01-02",
+          to: "/page/registration.html",
         },
       ],
     };
@@ -298,6 +308,11 @@ export default {
   methods: {
     changeTimeLineIdx(idx) {
       this.timeLineIdx = idx;
+    },
+    toNewsPage(ni) {
+      if (ni.to) {
+        this.$router.push(ni.to);
+      }
     },
   },
 };
