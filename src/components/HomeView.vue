@@ -275,7 +275,7 @@ export default {
         {
           title: "First Circular of Strati2026",
           date: "2025-01-02",
-          to: "welcome_strati_2026",
+          to: "/page/welcome_strati_2026.html",
         },
         {
           title: "Travel to Suzhou",
