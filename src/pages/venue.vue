@@ -6,10 +6,10 @@
     <p>
       <div class="row">
         <div class="col">
-          <img src="../imgs/venue1.jpg" alt="">
+          <img class="page-img" src="../imgs/venue1.jpg" alt="">
         </div>
         <div class="col">
-          <img src="../imgs/venue2.jpg" alt="">
+          <img class="page-img" src="../imgs/venue2.jpg" alt="">
         </div>
       </div>
     </p>

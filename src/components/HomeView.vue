@@ -6,7 +6,15 @@
         <div class="row">
           <div class="col-4 home-title">Welcome</div>
           <div class="col-8 desc" style="font-size: 20px">
-            We cordially invite you to attend <i><b>STRATI2026 - Exploring the Depths: Bridging Tradition and Innovation in Stratigraphy,</b></i> to be held from June 28th to July 3rd, 2026 at Suzhou DDE center, Jiangsu province, China..
+            We cordially invite you to attend
+            <i
+              ><b
+                >STRATI2026 - Exploring the Depths: Bridging Tradition and
+                Innovation in Stratigraphy,</b
+              ></i
+            >
+            to be held from June 28th to July 3rd, 2026 at Suzhou DDE center,
+            Jiangsu province, China..
           </div>
         </div>
       </div>
@@ -16,10 +24,20 @@
       <div class="container mb-5">
         <div class="row">
           <div class="col-4">
-            <div class="read-desc" style="font-size: 20px; font-family: Arial, sans-serif">
-              The STRATI 2026 Congress has long served as a premier platform for stratigraphic research, with its legacy rooted in Europe. As the event’s global influence continues to expand, particularly within China’s thriving stratigraphic community, hosting the next congress in Suzhou, China, represents a historic milestone …
+            <div class="read-desc">
+              The STRATI 2026 Congress has long served as a premier platform for
+              stratigraphic research, with its legacy rooted in Europe. As the
+              event’s global influence continues to expand, particularly within
+              China’s thriving stratigraphic community, hosting the next
+              congress in Suzhou, China, represents a historic milestone …
             </div>
-            <div class="home-btn mt-3" onclick="window.location.href='/page/welcome_strati_2026.html'" style="font-size: 20px">Read more</div>
+            <div
+              class="home-btn mt-3"
+              onclick="window.location.href='/page/welcome_strati_2026.html'"
+              style="font-size: 20px"
+            >
+              Read more
+            </div>
           </div>
           <div class="col-8">
             <div class="news-img"></div>
@@ -31,19 +49,43 @@
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu1.png" alt="" />
-            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/scientific_session_types.html'">Sessions</div>
+            <div
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/scientific_session_types.html'"
+            >
+              Sessions
+            </div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu2.png" alt="" />
-            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/wait.html'">Plenary/Invited Speakers</div>
+            <div
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/wait.html'"
+            >
+              Plenary/Invited Speakers
+            </div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu3.png" alt="" />
-            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/scientific_session_types.html'">Programme</div>
+            <div
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/scientific_session_types.html'"
+            >
+              Programme
+            </div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu4.png" alt="" />
-            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/registration.html'">Registration</div>
+            <div
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/registration.html'"
+            >
+              Registration
+            </div>
           </div>
         </div>
       </div>
@@ -55,7 +97,12 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 home-title" onclick="window.location.href='/page/important_dates.html'">Important Dates</div>
+          <div
+            class="col-4 home-title"
+            onclick="window.location.href='/page/important_dates.html'"
+          >
+            Important Dates
+          </div>
           <div class="col-8 controls">
             <div class="home-btns">
               <div class="home-btn">
@@ -82,7 +129,9 @@
             <div class="item-bg">
               <div class="title">{{ ti.title }}</div>
               <div class="icon"></div>
-              <div class="content" style="font-size: 20px">{{ ti.content }}</div>
+              <div class="content" style="font-size: 20px">
+                {{ ti.content }}
+              </div>
             </div>
           </div>
           <div class="item-sp" v-if="tidx != timeLine.length - 1"></div>
@@ -96,7 +145,12 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 home-title" onclick="window.location.href='/page/news_events.html'">News & Events</div>
+          <div
+            class="col-4 home-title"
+            onclick="window.location.href='/page/news_events.html'"
+          >
+            News & Events
+          </div>
           <div class="col-8 controls">
             <i>More+</i>
           </div>
@@ -114,7 +168,9 @@
           >
             <div class="news-item row" style="font-size: 20px">
               <div class="title col-9">{{ ni.title }}</div>
-              <div class="date col-3" style="font-size: 20px">{{ ni.date }}</div>
+              <div class="date col-3" style="font-size: 20px">
+                {{ ni.date }}
+              </div>
             </div>
           </div>
         </div>
@@ -129,22 +185,42 @@
       <div class="fb-list">
         <div class="fb-item">
           <div class="fb-bg bg1">
-            <div class="fb-title" onclick="window.location.href='/page/scientific_session_types.html'">PROGRAMME</div>
+            <div
+              class="fb-title"
+              onclick="window.location.href='/page/scientific_session_types.html'"
+            >
+              PROGRAMME
+            </div>
           </div>
         </div>
         <div class="fb-item">
           <div class="fb-bg bg2">
-            <div class="fb-title" onclick="window.location.href='/page/strati_2026_field_excursions.html'">FIELD TRIPS</div>
+            <div
+              class="fb-title"
+              onclick="window.location.href='/page/strati_2026_field_excursions.html'"
+            >
+              FIELD TRIPS
+            </div>
           </div>
         </div>
         <div class="fb-item">
           <div class="fb-bg bg3">
-            <div class="fb-title" onclick="window.location.href='/page/venue.html'">LOCATION</div>
+            <div
+              class="fb-title"
+              onclick="window.location.href='/page/venue.html'"
+            >
+              LOCATION
+            </div>
           </div>
         </div>
         <div class="fb-item">
           <div class="fb-bg bg4">
-            <div class="fb-title" onclick="window.location.href='/page/venue.html'">VENUE</div>
+            <div
+              class="fb-title"
+              onclick="window.location.href='/page/venue.html'"
+            >
+              VENUE
+            </div>
           </div>
         </div>
       </div>
@@ -346,6 +422,8 @@ export default {
 
     .read-desc {
       width: 80%;
+      font-family: "Arial", "sans-serif";
+      font-size: 20px;
     }
 
     .news-img {
