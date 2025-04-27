@@ -33,37 +33,37 @@ export default {
           title: "First Circular of Strati2026",
           date: "2025-01-02",
           summary:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "",
         },
         {
           title: "Travel to Suzhou",
           date: "2025-01-02",
           summary:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "",
         },
         {
           title: "Call for Sessions",
           date: "2025-01-02",
           summary:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "",
         },
         {
           title: "Visa policies",
           date: "2025-01-02",
           summary:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "",
         },
         {
           title: "Congress Schedule",
           date: "2025-01-02",
           summary:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "",
         },
         {
           title: "Registration and fees",
           date: "2025-01-02",
           summary:
-            "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "",
         },
       ],
     };
