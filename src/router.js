@@ -86,12 +86,46 @@ import congress_schedule from "./pages/congress_schedule.vue";
 import news_events from "./pages/news_events.vue";
 import strati_2026_organization from "./pages/strati_2026_organization.vue";
 import strati_2026_field_excursions from "./pages/strati_2026_field_excursions.vue";
+import scientific_session_types from "./pages/scientific_session_types.vue";
+import registration from "./pages/registration.vue";
+import venue from "./pages/venue.vue";
+import contact from "./pages/contact.vue";
+import sponsor from "./pages/sponsor.vue";
+import wait from "./pages/wait.vue";
 
 const routesPage = [
   {
     path: "/page/welcome_strati_2026.html",
     components: {
       mainBody: welcome_strati_2026,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/contact.html",
+    components: {
+      mainBody: contact,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/sponsor.html",
+    components: {
+      mainBody: sponsor,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/wait.html",
+    components: {
+      mainBody: wait,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/venue.html",
+    components: {
+      mainBody: venue,
     },
     meta: { fillMain: true },
   },
@@ -115,11 +149,24 @@ const routesPage = [
       mainBody: important_dates,
     },
     meta: { fillMain: true },
+  },{
+    path: "/page/scientific_session_types.html",
+    components: {
+      mainBody: scientific_session_types,
+    },
+    meta: { fillMain: true },
   },
   {
     path: "/page/call_for_sessions.html",
     components: {
       mainBody: call_for_sessions,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/registration.html",
+    components: {
+      mainBody: registration,
     },
     meta: { fillMain: true },
   },

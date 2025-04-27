@@ -31,19 +31,19 @@
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu1.png" alt="" />
-            <div class="title" style="font-size: 20px" onclick="window.location.href='/proposal'">Sessions</div>
+            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/scientific_session_types.html'">Sessions</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu2.png" alt="" />
-            <div class="title" style="font-size: 20px">Plenary/Invited Speakers</div>
+            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/wait.html'">Plenary/Invited Speakers</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu3.png" alt="" />
-            <div class="title" style="font-size: 20px">Programme</div>
+            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/scientific_session_types.html'">Programme</div>
           </div>
           <div class="col welcom-menu-btn">
             <img src="../imgs/welcome_menu4.png" alt="" />
-            <div class="title" style="font-size: 20px">Registration</div>
+            <div class="title" style="font-size: 20px" onclick="window.location.href='/page/registration.html'">Registration</div>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 home-title">Important Dates</div>
+          <div class="col-4 home-title" onclick="window.location.href='/page/important_dates.html'">Important Dates</div>
           <div class="col-8 controls">
             <div class="home-btns">
               <div class="home-btn">
@@ -96,7 +96,7 @@
     <div class="header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-4 home-title">News & Events</div>
+          <div class="col-4 home-title" onclick="window.location.href='/page/news_events.html'">News & Events</div>
           <div class="col-8 controls">
             <i>More+</i>
           </div>
@@ -129,7 +129,7 @@
       <div class="fb-list">
         <div class="fb-item">
           <div class="fb-bg bg1">
-            <div class="fb-title">PROGRAMME</div>
+            <div class="fb-title" onclick="window.location.href='/page/scientific_session_types.html'">PROGRAMME</div>
           </div>
         </div>
         <div class="fb-item">
@@ -139,12 +139,12 @@
         </div>
         <div class="fb-item">
           <div class="fb-bg bg3">
-            <div class="fb-title">LOCATION</div>
+            <div class="fb-title" onclick="window.location.href='/page/venue.html'">LOCATION</div>
           </div>
         </div>
         <div class="fb-item">
           <div class="fb-bg bg4">
-            <div class="fb-title">VENUE</div>
+            <div class="fb-title" onclick="window.location.href='/page/venue.html'">VENUE</div>
           </div>
         </div>
       </div>

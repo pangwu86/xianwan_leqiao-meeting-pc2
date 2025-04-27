@@ -6,12 +6,12 @@
     <p>
       Co-chair: Elisabetta Erba (Chair of International Stratigraphy
       Commission)<br />
-      Co Chair: Shuzhong Shen (Vice-Chair of International Stratigraphy
+      Co-chair: Shuzhong Shen (Vice-Chair of International Stratigraphy
       Commission)
     </p>
     <p></p>
 
-    <h2>Members:</h2>
+    <h2 style="font-size: 20px">Members:</h2>
     <p>
       Charles Henderson (Secretary-General of International Stratigraphy
       Commission)<br />
@@ -35,7 +35,7 @@
       Bradley D. Cramer (Chair of Timescale Calibration Subcommission)<br />
     </p>
 
-    <h2>Conference Organizing Committee</h2>
+    <h2>Strati 2026 Organizing Committee</h2>
     <p>
       Co-chair: Shuzhong Shen, Nanjing University<br />
       Co-chair: Maoyan Zhu, Nanjing Institute of Geology and Paleontology,
@@ -43,7 +43,7 @@
       Co-chair: Zhong-Qiang Chen, China University of Geosciences, Wuhan<br />
     </p>
 
-    <h2>Members:</h2>
+    <h2 style="font-size: 20px">Members:</h2>
     <p>
       Xiangdong Wang, Nanjing University<br />
       Junxuan Fan, Nanjing University<br />
@@ -107,7 +107,7 @@
       Xiaomei Wang, Research Institute of Petroleum Exploration & Development
     </p>
 
-    <h2>Chinese advisory committee:</h2>
+    <h2>Strati 2026 Chinese advisory committee</h2>
     <p>
       Zejiu Wang, National Commission on Stratigraphy of China<br />
       Zengqian Hou, National Commission on Stratigraphy of China<br />
@@ -136,27 +136,23 @@
       Development<br />
       Caineng Zou, Research Institute of Petroleum Exploration & Development
     </p>
+
+
+    <h2>Strati 2026 Secretary group</h2>
+    <p>
+      General Secretary: Yukun Shi, Nanjing University<br />
+      Excutive Secretary: Jianbo Sun, Suzhou DDE Center<br />
+      Wenkun Qie, Nanjing Institute of Geology and Paleontology, CAS<br />
+      Yuangen Huang, China University of Geosciences, Wuhan<br />
+      Xudong Hou, Nanjing University<br />
+      Jian Zhang, Suzhou DDE Center<br />
+      Yuzhe Zhang, Suzhou DDE Center
+    </p>
+
     <p>
       Congress e-mail address: <a href="mailto:strati2026@ddeworld.org"
-        >strati2026@ddeworld.org</a
-      >
-    </p>
-
-    <h2>Strati2026 Secretary group</h2>
-    <p>
-      General Secretary: Yukun Shi, NJU<br />
-      Excutive Secretary: Jianbo Sun, Suzhou Center<br />
-    </p>
-
-    <h2>Secretary:</h2>
-    <p>
-      Wenkun Qie, NIGPAS (Field excursions)<br />
-      Yuangen Huang, CGU(Wuhan) (Scientific programs and sessions)<br />
-      Xudong Hou, NJU (Conference website and circular)<br />
-      Jian Zhang, Suzhou Center (Conference venue & accommodation, social
-      activity)<br />
-      Yuzhe Zhang, Suzhou Center (Conference registration & account for
-      foreigners and Chinese)
+    >strati2026@ddeworld.org</a
+    >
     </p>
   </div>
 </template>

@@ -102,7 +102,7 @@ export default {
         },
         {
           title: "PROGRAMME",
-          to: "/",
+          to: "/page/scientific_session_types.html",
         },
         {
           title: "FIELD TRIPS",
@@ -110,19 +110,19 @@ export default {
         },
         {
           title: "REGISTRATION",
-          to: "/",
+          to: "/page/registration.html",
         },
         {
           title: "VENUE",
-          to: "/",
+          to: "/page/venue.html",
         },
         {
           title: "SPONSORS",
-          to: "/",
+          to: "/page/sponsor.html",
         },
         {
           title: "CONTACT",
-          to: "/",
+          to: "/page/contact.html",
         },
       ],
     };

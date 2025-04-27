@@ -9,7 +9,7 @@
               Abstract submission and early registration deadline
             </p>
           </div>
-          <div class="col">
+          <div class="col" style="display: none">
             <div class="fi-title" style="font-size: 20px">VENUE</div>
             <p class="fi-desc" style="width: 110%; font-size: 20px">
               Welcome to Suzhou <br/>
