@@ -1,5 +1,6 @@
 <template>
-  <p class="high-light" id="Pre1"><strong>Pre-conference Excursion</strong></p>
+  <div class="container page-content field_excursions">
+    <p class="high-light" id="Pre1"><strong>Pre-conference Excursion</strong></p>
     <h3>
       1.&nbsp;<strong
         ><strong
@@ -384,6 +385,7 @@
     </p>
     <p>Bus 8:30&ndash;12:30</p>
     <p>&nbsp;</p><p>&nbsp;</p>
+  </div>
 </template>
 
 <script>

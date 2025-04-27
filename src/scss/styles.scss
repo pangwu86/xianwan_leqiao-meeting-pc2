@@ -5,6 +5,17 @@ $main-color: #1b3c90 !default;
 // bs 原版
 @import "~bootstrap/scss/bootstrap";
 
+@media (min-width: 1600px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1400px;
+  }
+}
+
 .bg-main-color {
   background-color: #1b3c90;
 }
@@ -107,28 +118,28 @@ body {
       }
     }
 
-    .dropdown-menu {
-      min-width: 200px !important;
-      background: $main-color;
-      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
-      color: #fff;
-      font-weight: normal;
-      border: none;
-      padding: 0;
-      border-radius: 0;
-    }
+    // .dropdown-menu {
+    //   min-width: 200px !important;
+    //   background: $main-color;
+    //   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    //   color: #fff;
+    //   font-weight: normal;
+    //   border: none;
+    //   padding: 0;
+    //   border-radius: 0;
+    // }
 
-    .dropdown-item {
-      padding-left: 0;
-      font-size: 15px;
-      font-weight: bold;
-      padding: 10px 20px;
-      color: #fff;
+    // .dropdown-item {
+    //   padding-left: 0;
+    //   font-size: 15px;
+    //   font-weight: bold;
+    //   padding: 10px 20px;
+    //   color: #fff;
 
-      &:hover {
-        background-color: #27282d;
-      }
-    }
+    //   &:hover {
+    //     background-color: #27282d;
+    //   }
+    // }
   }
 }
 

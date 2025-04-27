@@ -12,12 +12,12 @@
           <div class="col" style="display: none">
             <div class="fi-title" style="font-size: 20px">VENUE</div>
             <p class="fi-desc" style="width: 110%; font-size: 20px">
-              Welcome to Suzhou <br/>
+              Welcome to Suzhou <br />
               The Congress Venue Accommodation
             </p>
           </div>
           <div class="col"></div>
-          <div class="col">
+          <div class="col log-parent">
             <Logo></Logo>
           </div>
         </div>
@@ -40,6 +40,11 @@ export default {
 
 <style lang="scss">
 .footer-info {
+  .log-parent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
   .menu-logo {
     .logo-name {
       color: #fff;

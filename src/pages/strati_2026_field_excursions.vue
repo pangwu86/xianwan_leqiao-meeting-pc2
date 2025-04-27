@@ -10,7 +10,7 @@
     </div>
 
     <!-- 内容 -->
-    <div>
+    <!-- <div>
       <pre1></pre1>
       <pre2></pre2>
       <pre3></pre3>
@@ -25,43 +25,41 @@
       <post3></post3>
       <post4></post4>
       <post5></post5>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-import pre1 from "./field_excursions/pre1.vue";
-import pre2 from "./field_excursions/pre2.vue";
-import pre3 from "./field_excursions/pre3.vue";
-import pre4 from "./field_excursions/pre4.vue";
+// import pre1 from "./field_excursions/pre1.vue";
+// import pre2 from "./field_excursions/pre2.vue";
+// import pre3 from "./field_excursions/pre3.vue";
+// import pre4 from "./field_excursions/pre4.vue";
 
-import mid1 from "./field_excursions/mid1.vue";
-import mid2 from "./field_excursions/mid2.vue";
-import mid3 from "./field_excursions/mid3.vue";
+// import mid1 from "./field_excursions/mid1.vue";
+// import mid2 from "./field_excursions/mid2.vue";
+// import mid3 from "./field_excursions/mid3.vue";
 
-import post1 from "./field_excursions/post1.vue";
-import post2 from "./field_excursions/post2.vue";
-import post3 from "./field_excursions/post3.vue";
-import post4 from "./field_excursions/post4.vue";
-import post5 from "./field_excursions/post5.vue";
-
-import feNav from "./field_excursions/fe_nav.vue";
-
+// import post1 from "./field_excursions/post1.vue";
+// import post2 from "./field_excursions/post2.vue";
+// import post3 from "./field_excursions/post3.vue";
+// import post4 from "./field_excursions/post4.vue";
+// import post5 from "./field_excursions/post5.vue";
+import feNav from "./field_excursions/fe_link.vue";
 export default {
   components: {
     feNav,
-    pre1,
-    pre2,
-    pre3,
-    pre4,
-    mid1,
-    mid2,
-    mid3,
-    post1,
-    post2,
-    post3,
-    post4,
-    post5,
+    // pre1,
+    // pre2,
+    // pre3,
+    // pre4,
+    // mid1,
+    // mid2,
+    // mid3,
+    // post1,
+    // post2,
+    // post3,
+    // post4,
+    // post5,
   },
 };
 </script>

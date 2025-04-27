@@ -53,9 +53,13 @@
                     v-for="(ci, cidx) in ni.children"
                     :key="'menuitem-child-' + cidx"
                   >
-                    <RouterLink class="dropdown-item" :to="ci.to">{{
-                      ci.title
-                    }}</RouterLink>
+                    <RouterLink
+                      class="dropdown-item"
+                      :to="ci.to"
+                      v-if="ci.to"
+                      >{{ ci.title }}</RouterLink
+                    >
+                    <div class="dropdown-divider" v-else></div>
                   </li>
                 </ul>
               </li>

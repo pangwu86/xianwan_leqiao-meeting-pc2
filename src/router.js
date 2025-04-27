@@ -93,6 +93,21 @@ import contact from "./pages/contact.vue";
 import sponsor from "./pages/sponsor.vue";
 import wait from "./pages/wait.vue";
 
+import pre1 from "./pages/field_excursions/pre1.vue";
+import pre2 from "./pages/field_excursions/pre2.vue";
+import pre3 from "./pages/field_excursions/pre3.vue";
+import pre4 from "./pages/field_excursions/pre4.vue";
+
+import mid1 from "./pages/field_excursions/mid1.vue";
+import mid2 from "./pages/field_excursions/mid2.vue";
+import mid3 from "./pages/field_excursions/mid3.vue";
+
+import post1 from "./pages/field_excursions/post1.vue";
+import post2 from "./pages/field_excursions/post2.vue";
+import post3 from "./pages/field_excursions/post3.vue";
+import post4 from "./pages/field_excursions/post4.vue";
+import post5 from "./pages/field_excursions/post5.vue";
+
 const routesPage = [
   {
     path: "/page/welcome_strati_2026.html",
@@ -144,12 +159,41 @@ const routesPage = [
     meta: { fillMain: true },
   },
   {
+    path: "/page/strati_2026_field_excursions/pre1.html",
+    components: {
+      mainBody: pre1,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/pre2.html",
+    components: {
+      mainBody: pre2,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/pre3.html",
+    components: {
+      mainBody: pre3,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/pre4.html",
+    components: {
+      mainBody: pre4,
+    },
+    meta: { fillMain: true },
+  },
+  {
     path: "/page/important_dates.html",
     components: {
       mainBody: important_dates,
     },
     meta: { fillMain: true },
-  },{
+  },
+  {
     path: "/page/scientific_session_types.html",
     components: {
       mainBody: scientific_session_types,
