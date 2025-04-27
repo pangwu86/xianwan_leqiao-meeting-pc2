@@ -6,7 +6,7 @@
     </p>
     <p>&nbsp;</p>
     <p>
-      <table class="table table-bordered table-colored">
+      <table class="table table-bordered table-colored table-striped">
           <thead>
             <tr>
               <th>Country</th>
@@ -17,10 +17,10 @@
           </thead>
           <tbody>
             <tr v-for="(td, tidx) in tableData" :key="'ti-' + tidx">
-              <td>{{ td.d1 }}</td>
-              <td>{{ td.d2 }}</td>
-              <td>{{ td.d3 }}</td>
-              <td>{{ td.d4 }}</td>
+              <td class="td-colored" v-if="td.d1" :rowspan="td.d1rowspan || 1">{{ td.d1 }}</td>
+              <td v-if="td.d2" :rowspan="td.d2rowspan || 1">{{ td.d2 }}</td>
+              <td v-if="td.d3">{{ td.d3 }}</td>
+              <td v-if="td.d4">{{ td.d4 }}</td>
             </tr>
           </tbody>
       </table>
@@ -33,17 +33,16 @@ export default {
   data() { 
     return {
       tableData: [{
-        d1: ' ',
+        d1: 'US',
+        d1rowspan: 3,
         d2: "New York",
         d3: "Kennedy International Airport",
         d4: "China Eastern Airlines"
-      },{
-        d1: 'US',
+      }, {
         d2: "Los Angeles",
         d3: "Los Angeles International Airport",
         d4: "United Airlines / China Eastern Airlines"
-      },{
-        d1: ' ',
+      }, {
         d2: "San Francisco",
         d3: "San Francisco International Airport",
         d4: "United Airlines"
@@ -52,14 +51,15 @@ export default {
         d2: "Toronto",
         d3: "Toronto Pearson International Airport",
         d4: "China Eastern Airlines"
-      },{
-        d1: ' ',
-        d2: ' ',
+      }, {
+        d1: 'UK',
+        d1rowspan: 2,
+        d2: "London",
+        d2rowspan: 2,
         d3: "Gatwick Airport",
         d4: "China Eastern Airlines / Air China"
       },{
-        d1: 'UK',
-        d2: "London",
+        
         d3: "London Heathrow Airport",
         d4: "British Airways / China Eastern Airlines / China Southern Airlines"
       },{
@@ -72,13 +72,14 @@ export default {
         d2: "Frankfurt Airport",
         d3: "Frankfurt Airport",
         d4: "Lufthansa"
-      },{
-        d1: ' ',
+      }, {
+        d1: 'France',
         d2: "Paris",
+        d1rowspan: 2,
         d3: "Paris Charles de Gaulle Airport",
         d4: "China Eastern Airlines / Air France"
       },{
-        d1: 'France',
+        
         d2: "Marseille",
         d3: "Marseille Provence Airport",
         d4: "China Eastern Airlines / Shanghai Airlines"
@@ -93,27 +94,27 @@ export default {
         d3: "Schiphol Airport",
         d4: "China Eastern Airlines"
       },{
-        d1: ' ',
+        d1: 'Spain',
+        d1rowspan: 2,
         d2: "Madrid",
         d3: "Madrid Barajas Airport",
         d4: "China Eastern Airlines"
       },{
-        d1: 'Spain',
         d2: "Barcelona",
         d3: "Barcelona Airport",
         d4: "Air China"
       },{
-        d1: ' ',
+        d1: 'Australia',
+        d1rowspan: 3,
         d2: "Sydney",
         d3: "Kingsford Smith Airport",
         d4: "China Eastern Airlines"
       },{
-        d1: 'Australia',
+        
         d2: "Melbourne",
         d3: "Melbourne Airport",
         d4: "China Eastern Airlines / China Eastern Airlines"
       },{
-        d1: ' ',
         d2: "Brisbane",
         d3: "Brisbane Airport",
         d4: "China Eastern Airlines"
