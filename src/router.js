@@ -203,6 +203,62 @@ const routesPage = [
     meta: { fillMain: true },
   },
   {
+    path: "/page/strati_2026_field_excursions/mid1.html",
+    components: {
+      mainBody: mid1,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/mid2.html",
+    components: {
+      mainBody: mid2,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/mid3.html",
+    components: {
+      mainBody: mid3,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/post1.html",
+    components: {
+      mainBody: post1,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/post2.html",
+    components: {
+      mainBody: post2,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/post3.html",
+    components: {
+      mainBody: post3,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/post4.html",
+    components: {
+      mainBody: post4,
+    },
+    meta: { fillMain: true },
+  },
+  {
+    path: "/page/strati_2026_field_excursions/post5.html",
+    components: {
+      mainBody: post5,
+    },
+    meta: { fillMain: true },
+  },
+  {
     path: "/page/important_dates.html",
     components: {
       mainBody: important_dates,

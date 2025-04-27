@@ -1,6 +1,7 @@
 <template>
-    <p id="Mid3">
-      <strong>&nbsp;</strong>
+  <div class="container page-content field_excursions">
+    <p class="high-light" id="Mid3">
+      <strong>Mid-conference Excursion:</strong>
     </p>
     <h3>
       3.&nbsp;<strong
@@ -62,6 +63,8 @@
       of Geology and Palaeontology, CAS
     </p>
     <p>&nbsp;</p><p>&nbsp;</p>
+  </div>
+    
 </template>
 
 <script>

@@ -1,5 +1,6 @@
 <template>
-   <p class="high-light" id="Post4">
+  <div class="container page-content field_excursions">
+    <p class="high-light" id="Post4">
       <strong>Post-conference Excursion</strong>
     </p>
     <h3>
@@ -106,6 +107,8 @@
     <p>Daoliang Chu, China University of Geosciences,&nbsp;Wuhan</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
+  </div>
+   
 </template>
 
 <script>
