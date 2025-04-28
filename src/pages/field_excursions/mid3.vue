@@ -36,17 +36,18 @@
     <p>
       <div class="row">
         <div class="col">
-          <img src="../../imgs/field_excursions/042342132.png" alt="">
+          <img src="../../imgs/field_excursions/042342132.png" style="margin-right: 10px" alt="">
         </div>
         <div class="col">
-          <img src="../../imgs/field_excursions/042342134.png" alt="">
+          <img src="../../imgs/field_excursions/042342134.png" style="margin-left: -10px" alt="">
         </div>
       </div>
     </p>
-    <p class="text-center">
+    <p class="text-center" style="margin-top:-85px">
       Hanggai section in Anji, Zhejiang (left), and diverse sponges and
       graptolites yielded from the Anji Biota
     </p>
+    <P>&nbsp;</P>
     <p>
       Participants: <strong>10-40</strong
       >&nbsp;persons

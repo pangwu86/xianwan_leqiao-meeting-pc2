@@ -5,11 +5,9 @@
     </p>
     <h3>
       5.&nbsp;<strong
-        ><strong
           >Upper Devonian to lowest Carboniferous successions in Guilin Karst
           area, Guangxi, South China</strong
-        ></strong
-      >
+        >
     </h3>
     <p>
       <img src="../../imgs/field_excursions/042330938.png" alt="" />
@@ -68,19 +66,16 @@
     <p>Assembling Place：Guilin Liangjiang International Airport</p>
     <p>Dismissal Place：Guilin Liangjiang International Airport</p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>&nbsp;</strong>
     </p>
     <p>
-      <strong><strong>Excursion </strong></strong
-      ><strong><strong>Leader</strong></strong
-      ><strong><strong>s</strong></strong
-      ><strong><strong>：</strong></strong>
+      <strong>Excursion Leaders：</strong>
     </p>
     <p>Junjun Song, Nanjing Institute of Geology and Palaeontology, CAS</p>
     <p>Yu Dai,&nbsp;Guangxi Institute of Regional Geological Survey</p>
     <p>Yuanlin Sun,&nbsp;Peking University</p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>&nbsp;</strong>
     </p>
     <p><strong>&nbsp;</strong></p>
   </div>

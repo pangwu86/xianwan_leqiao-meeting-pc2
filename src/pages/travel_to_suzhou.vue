@@ -7,7 +7,7 @@
     <p>&nbsp;</p>
     <p>
       <table class="table table-bordered table-colored table-striped">
-          <thead>
+          <thead style="text-align: center">
             <tr>
               <th>Country</th>
               <th>City</th>
@@ -15,7 +15,7 @@
               <th>Nonstop Flights</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody style="text-align: center">
             <tr v-for="(td, tidx) in tableData" :key="'ti-' + tidx">
               <td class="td-colored" v-if="td.d1" :rowspan="td.d1rowspan || 1">{{ td.d1 }}</td>
               <td v-if="td.d2" :rowspan="td.d2rowspan || 1">{{ td.d2 }}</td>

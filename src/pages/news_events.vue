@@ -3,7 +3,7 @@
     <div class="card mb-5" v-for="(ci, cidx) in newsList" :key="'news-' + cidx">
       <div class="card-body">
         <h5 class="card-date">{{ ci.date }}</h5>
-        <h5 class="card-title mb-3 mt-2">{{ ci.title }}</h5>
+        <h5 @click="toNewsPage(ci)" class="card-title mb-3 mt-2">{{ ci.title }}</h5>
         <p class="card-text">{{ ci.summary }}</p>
       </div>
     </div>
@@ -30,43 +30,56 @@ export default {
     return {
       newsList: [
         {
-          title: "First Circular of Strati2026",
+          title: "First Circular of Strati 2026",
           date: "2025-01-02",
           summary:
             "",
+          to: "/page/welcome_strati_2026.html",
         },
         {
           title: "Travel to Suzhou",
           date: "2025-01-02",
           summary:
             "",
+          to: "/page/travel_to_suzhou.html",
         },
         {
           title: "Call for Sessions",
           date: "2025-01-02",
           summary:
             "",
+          to: "/page/call_for_sessions.html",
         },
         {
           title: "Visa policies",
           date: "2025-01-02",
           summary:
               "",
+          to:  "/page/visa_policies.html",
         },
         {
           title: "Congress Schedule",
           date: "2025-01-02",
           summary:
             "",
+          to: "/page/congress_schedule.html",
         },
         {
           title: "Registration and fees",
           date: "2025-01-02",
           summary:
             "",
+          to: "/page/registration.html",
         },
       ],
     };
+  },
+  methods: {
+    toNewsPage(ci) {
+      if (ci.to) {
+        this.$router.push(ci.to);
+      }
+    },
   },
 };
 </script>

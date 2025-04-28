@@ -3,13 +3,13 @@
     <h1>Congress Schedule</h1>
     <p>
       <table class="table table-bordered table-striped table-colored">
-          <thead>
+          <thead style="text-align: center">
             <tr>
               <th>Date</th>
               <th>Congress</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody style="text-align: center">
             <tr v-for="(td, tidx) in tableData" :key="'ti-' + tidx">
               <td class="td-colored" style="width: 25%;">{{ td.date }}</td>
               <td>{{ td.name }}</td>

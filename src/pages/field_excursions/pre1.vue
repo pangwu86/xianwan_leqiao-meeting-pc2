@@ -2,12 +2,8 @@
   <div class="container page-content field_excursions">
     <p class="high-light" id="Pre1"><strong>Pre-conference Excursion</strong></p>
     <h3>
-      1.&nbsp;<strong
-        ><strong
-          >Critical stratigraphic boundary intervals in Yunnan</strong
-        ></strong
-      ><strong><strong>&nbsp;Province</strong></strong
-      ><strong><strong>, SW China</strong></strong>
+      1.&nbsp;<strong>Critical stratigraphic boundary intervals in Yunnan&nbsp;Province
+      , SW China</strong>
     </h3>
     <p>
       This 7-days&rsquo; excursion will examine several well-studied geological
@@ -31,20 +27,22 @@
       environments and the collapse of the tropical forest ecosystems across the
       Permian&ndash;Triassic&nbsp;boundary.
     </p>
+    <p>&nbsp;</p>
     <p>
       <div class="row">
         <div class="col">
-          <img src="../../imgs/field_excursions/04231323.png" alt="">
+          <img src="../../imgs/field_excursions/04231323.png" style="margin-right: 10px" alt="">
         </div>
         <div class="col">
-          <img src="../../imgs/field_excursions/04231325.png" alt="">
+          <img src="../../imgs/field_excursions/04231325.png" style="margin-left: -10px" alt="">
         </div>
       </div>
     </p>
-    <p class="text-center">
+    <p class="text-center" style="margin-top:-65px">
       Ediacaran&ndash;Cambrian boundary section at Meishucun (left) and the
       fossil site of the Chengjiang fauna at Maotianshan (right).
     </p>
+    <p>&nbsp;</p>
     <p>
       <img src="../../imgs/field_excursions/04231453.png" alt="">
     </p>
@@ -52,6 +50,7 @@
       Silurian&ndash;Devonian&nbsp;section at Qujing&nbsp;City. Xiaoxiang
       Fauna&nbsp;fossil site.
     </p>
+    <p>&nbsp;</p>
     <p>
       <img src="../../imgs/field_excursions/04231527.png" alt="">
     </p>
@@ -59,20 +58,22 @@
       Silurian&ndash;Devonian&nbsp;section at Qujing&nbsp;City, Xitun
       Fauna&nbsp;fossil site.
     </p>
+    <p>&nbsp;</p>
     <p>
       <div class="row">
         <div class="col">
-          <img src="../../imgs/field_excursions/04231597.png" alt="">
+          <img src="../../imgs/field_excursions/04231597.png" style="margin-right: 10px" alt="">
         </div>
         <div class="col">
-          <img src="../../imgs/field_excursions/04231599.png" alt="">
+          <img src="../../imgs/field_excursions/04231599.png" style="margin-left: -10px" alt="">
         </div>
       </div>
     </p>
-    <p class="text-center">
+    <p class="text-center" style="margin-top:-55px">
       Terrestrial Permian&ndash;Triassic boundary sections at Zhaotong City.
       Guanbachong section (left) and Taoshujing section (right).
     </p>
+    <p>&nbsp;</p>
     <p>
       Participants: <strong>20&ndash;30</strong
       >&nbsp;persons
@@ -82,8 +83,7 @@
       >&nbsp;days
     </p>
     <p>
-      Estimated cost: <strong><strong>5000 RMB</strong></strong
-      ><strong><strong>/700 USD</strong></strong
+      Estimated cost: <strong>5000 RMB/700 USD</strong
       >&nbsp;(including accommodation, meals, transport, guidebook, etc.; flight
       costs are not included)
     </p>
@@ -98,43 +98,28 @@
     </p>
     <p>&nbsp;</p>
     <p>
-      <strong><strong>Excursion </strong></strong
-      ><strong><strong>Leader</strong></strong
-      ><strong><strong>s</strong></strong
-      ><strong><strong>：</strong></strong>
+      <strong>Excursion Leaders：</strong>
     </p>
     <p>Zhuo Feng, Yunnan University</p>
     <p>Han Zeng, Nanjing Institute of Geology and Palaeontology, CAS</p>
     <p>Qiang Li, Qujing Normal University</p>
     <p><strong>&nbsp;</strong></p>
     <p>
-      <strong><strong>Itinerary:</strong></strong>
+      <strong>Itinerary:</strong>
     </p>
     <p>
       <strong
         >Day 1: Arrival in Changshui International Airport of Kunming City, 3.5
-        h by air from Hongqiao airport </strong
-      ><strong>of </strong><strong>Shanghai</strong><strong>&nbsp;City</strong
-      ><strong>. Stay at Chengjiang C</strong><strong>ity</strong
-      ><strong>&nbsp;(1.5 h from </strong><strong>Changshui </strong
-      ><strong>airport to Chengjiang by bus).</strong>
+        h by air from Hongqiao airport of Shanghai&nbsp;City. Stay at Chengjiang City&nbsp;(1.5 h from Changshui airport to Chengjiang by bus).</strong>
     </p>
-    <p><strong>&nbsp;</strong></p>
-    <p>
-      <strong>Day 2: Ediacaran</strong><strong>&ndash;</strong
-      ><strong>Cambrian sections and the Chengjiang biota in Chengjiang</strong>
-    </p>
-    <p>Bus from hotel to Xiaolantian: 8:30-9:00</p>
     <p>&nbsp;</p>
     <p>
-      <em><em>Stop 1: The Ediacaran</em></em
-      ><em><em>&ndash;</em></em
-      ><em
-        ><em
-          >Cambrian boundary section at Xiaolantian, Chengjiang City: 9:00</em
-        ></em
-      ><em><em>&ndash;</em></em
-      ><em><em>11:30</em></em>
+      <strong>Day 2: Ediacaran&ndash;Cambrian sections and the Chengjiang biota in Chengjiang</strong>
+    </p>
+    <p>Bus from hotel to Xiaolantian: 8:30-9:00</p>
+
+    <p>
+      <em>Stop 1: The Ediacaran&ndash;Cambrian boundary section at Xiaolantian, Chengjiang City: 9:00&ndash;11:30</em>
     </p>
     <p>
       The Xiaolantian section records the Ediacaran&ndash;Cambrian boundary
@@ -144,15 +129,10 @@
     </p>
     <p>Lunch break in the field: 11:30&ndash;12:00</p>
     <p>Bus from Xiaolantian to Maotianshan: 12:00&ndash;12:30</p>
-    <p>&nbsp;</p>
     <p>
       <em
-        ><em
           >Stop 2: The Chengjiang Fossil Site at Maotianshan, Chengjiang City:
-          12:30</em
-        ></em
-      ><em><em>&ndash;</em></em
-      ><em><em>14:30</em></em>
+          12:30&ndash;14:30</em>
     </p>
     <p>
       Maotianshan houses the original section where the Chengjiang Biota was
@@ -163,13 +143,8 @@
       of various animals of the Chengjiang biota.
     </p>
     <p>Bus from Maotianshan to Chengjiang Museum: 14:30&ndash;15:00</p>
-    <p>&nbsp;</p>
     <p>
-      <em><em>Stop 3: Natural History Museum of the </em></em
-      ><em><em>Chengjiang Fossil Site World Heritage</em></em
-      ><em><em>, Chengjiang City: 15:00</em></em
-      ><em><em>&ndash;</em></em
-      ><em><em>17:00</em></em>
+      <em>Stop 3: Natural History Museum of the Chengjiang Fossil Site World Heritage, Chengjiang City: 15:00&ndash;17:00</em>
     </p>
     <p>
       This new and large museum, also the Natural History Museum of Yunnan
@@ -178,23 +153,18 @@
     </p>
     <p>Bus from museum to hotel: 17:00&ndash;17:30</p>
     <p>Stay at Chengjiang City</p>
-    <p><strong>&nbsp;</strong></p>
     <p>
-      <strong>Day 3: Ediacaran</strong><strong>&ndash;</strong
-      ><strong>Cambrian </strong><strong>Meishucun </strong
-      ><strong>section in Kunming.</strong>
+      <strong>&nbsp;</strong>
+    </p>
+    <p>
+      <strong>Day 3: Ediacaran&ndash;Cambrian Meishucun section in Kunming.</strong>
     </p>
     <p>Bus from Chengjiang to Kunming: 8:30-10:00</p>
-    <p>&nbsp;</p>
     <p>
-      <em><em>Stop 4: The Ediacaran</em></em
-      ><em><em>&ndash;</em></em
-      ><em
-        ><em
-          >Cambrian boundary section at Meishucun, Jinning District, Kunming
+      <em>Stop 4: The Ediacaran&ndash;
+          Cambrian boundary section at Meishucun, Jinning District, Kunming
           City: 10:00-14:00</em
-        ></em
-      >
+        >
     </p>
     <p>
       The Meishucun section, located within a protected region of the Kunyang
@@ -207,37 +177,18 @@
     <p>Bus from Kunming to Qujing: 14:00&ndash;17:00</p>
     <p>Stay at Qujing City.</p>
     <p>
-      <strong><strong>Day </strong></strong><strong><strong>4</strong></strong
-      ><strong><strong>:</strong></strong
-      ><strong><strong>&nbsp;</strong></strong
-      ><strong><strong>Silurian</strong></strong
-      ><strong><strong>&ndash;</strong></strong
-      ><strong
-        ><strong>Devonian boundary sections in Qujing City</strong></strong
-      >
+      <strong>&nbsp;</strong>
     </p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>Day 4:&nbsp;Silurian&ndash;Devonian boundary sections in Qujing City</strong>
     </p>
     <p>
-      <em><em>Stop </em></em><em><em>5</em></em
-      ><em><em>: The Xiaoxiang </em></em><em><em>f</em></em
-      ><em><em>ossil </em></em><em><em>s</em></em
-      ><em><em>ite (Ludlow, Silurian) at Dongpo Village, Qujing City</em></em
-      ><em><em>: </em></em><em><em>9:00</em></em
-      ><em><em>&ndash;</em></em
-      ><em><em>11:00</em></em>
+      <em>Stop 5: The Xiaoxiang fossil site (Ludlow, Silurian) at Dongpo Village, Qujing City: 9:00&ndash;11:00</em>
     </p>
     <p>
       Lots of early vertebrates&nbsp;from Xiaoxiang&nbsp;Fauna hold an important
       and critical position in the evolutionary history from fishes to human
-      beings, such as the eugaleaspid <em><em>Dunyu longiforus</em></em
-      >, the placoderms <em><em>Entelognathus primordialis</em></em
-      >, <em><em>Qilinyu rostrate</em></em
-      >, and &ldquo;<em><em>Wangolepis sinensis</em></em
-      >&rdquo;, osteichthyans <em><em>Guiyu oneiros</em></em
-      >, <em><em>Megamastax amblyodus</em></em
-      >&nbsp;and <em><em>Sparalepis tingi </em></em>, as well as new material
+      beings, such as the eugaleaspid <em>Dunyu longiforus, the placoderms Entelognathus primordialis, Qilinyu rostrate, and &ldquo;Wangolepis sinensis&rdquo;, osteichthyans Guiyu oneiros, Megamastax amblyodus&nbsp;and Sparalepis tingi </em>, as well as new material
       awaiting study.
     </p>
     <p>
@@ -245,36 +196,15 @@
       11:00&ndash;12:30
     </p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
-    </p>
-    <p>
-      <em><em>Stop </em></em><em><em>6</em></em
-      ><em><em>: The Silurian</em></em
-      ><em><em>&ndash;</em></em
-      ><em
-        ><em
-          >Devonian boundary section at Xishancun Reservoir in Qujing City</em
-        ></em
-      ><em><em>: </em></em><em><em>12:30</em></em
-      ><em><em>&ndash;</em></em
-      ><em><em>14:00</em></em>
+      <em>Stop 6: The Silurian&ndash;Devonian boundary section at Xishancun Reservoir in Qujing City: 12:30&ndash;14:00</em>
     </p>
     <p>
       This Silurian&ndash;Devonian boundary section clearly shows the strata
       changes and lots of agnatha yielded from the beds.
     </p>
     <p>Bus from S/D boundary to Xitun fossil site: 14:00&ndash;14:30</p>
-    <p>&nbsp;</p>
     <p>
-      <em><em>Stop </em></em><em><em>7</em></em
-      ><em><em>: The Xitun </em></em><em><em>f</em></em
-      ><em><em>ossil site (Ludlow, Silurian) at Dongpo </em></em
-      ><em><em>V</em></em
-      ><em><em>illage, Qujing City</em></em
-      ><em><em>:</em></em
-      ><em><em>&nbsp;14:30</em></em
-      ><em><em>&ndash;</em></em
-      ><em><em>16:30</em></em>
+      <em>Stop 7: The Xitun fossil site (Ludlow, Silurian) at Dongpo Village, Qujing City:&nbsp;14:30&ndash;16:30</em>
     </p>
     <p>
       The Xitun Fauna was world famous because of&nbsp;the diverse early
@@ -283,16 +213,9 @@
       classical views on the origin and early evolutionary history of
       osteichthyans, and corroborated the hypothesis of South China being the
       center of origin and early diversification of sarcopterygians, such
-      as&nbsp;the osteichthyans <em><em>Youngolepis</em></em
-      >, <em><em>Diabolepis</em></em
-      >, <em><em>Psarolepis</em></em
-      >, <em><em>Achoania</em></em
-      >, <em><em>Meemannia</em></em
-      >, and <em><em>Styloichthys</em></em
-      ><em><em>.</em></em
-      >&nbsp;
+      as&nbsp;the osteichthyans <em>Youngolepis, Diabolepis, Psarolepis, Achoania, Meemannia
+      , and Styloichthys</em>
     </p>
-    <p>&nbsp;</p>
     <p>
       Bus from Xitun Fauna to the Pearl River Source Scenic Area:
       16:30&ndash;17:30
@@ -305,9 +228,6 @@
       <strong>Day 5: Middle Devonian sections in Qujing City</strong>
     </p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
-    </p>
-    <p>
       <em>Stop 8: Visiting a museum and fossil workstation in the Pearl River Source Scenic Area: 9:00&ndash;12:30</em>
     </p>
     <p>
@@ -315,7 +235,6 @@
       Devonian) and three-dimensional reconstruction fish models, such as
       Onychodon and antiarchs, were exhibited in the museum and workstation.
     </p>
-    <p>&nbsp;</p>
     <p>Lunch Break: 12:30&ndash;13:30</p>
     <p>
       Bus from the Pearl River Source Scenic Area&nbsp;to Zhaotong City:
@@ -325,18 +244,15 @@
     <p>&nbsp;</p>
     <p>
       <strong
-        ><strong
           >Day 6: Terrestrial Permian&ndash;Triassic boundary sections in
           Zhaotong City</strong
-        ></strong
-      >
+        >
     </p>
     <p>
       Bus from Hotel in Zhaotong City to the Guanbachong section:
       8:30&ndash;9:30
     </p>
     <p><em>Stop 9: Guanbachong section. 9:30&ndash;12:00.</em></p>
-    <p>&nbsp;</p>
     <p>
       This section, along a country road to a water reservoir, includes the
       middle&ndash;upper Permian Emeishan Basalts, upper Permian&ndash;Lower
@@ -348,13 +264,10 @@
       Xuanwei and Kayitou formations. Ash-beds are developed in the Xuanwei and
       Kayitou formations. Dongchuan Formation is a red-bed sequence.
     </p>
-    <p>&nbsp;</p>
     <p>
       Bus from Guanbachong section to Taoshujing section: 12:00&ndash;12:30.
     </p>
-    <p>&nbsp;</p>
     <p><em>Stop 10: Taoshujing section. 13:30&ndash;15:30.</em></p>
-    <p>&nbsp;</p>
     <p>
       This section encompasses the same litho-units as those of the Guanbachong
       section, but with a much thicker Kayitou Formation. Fossil plants are
@@ -364,7 +277,6 @@
       changes across the critical Permian&ndash;Triassic transition. Relevant
       geochemical and geophysical studies are ongoing.
     </p>
-    <p>&nbsp;</p>
     <p>
       Lunch Break&nbsp;at a valley on the way to Taoshujing section:
       12:30&ndash;13:30.
@@ -377,11 +289,9 @@
     </p>
     <p>
       <strong
-        ><strong
           >Day 7: Transportation from Zhaotong City to Changshui International
           Airport of Kunming City</strong
-        ></strong
-      >
+        >
     </p>
     <p>Bus 8:30&ndash;12:30</p>
     <p>&nbsp;</p><p>&nbsp;</p>
@@ -392,4 +302,5 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+</style>

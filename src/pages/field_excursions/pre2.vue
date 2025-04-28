@@ -50,7 +50,7 @@
       Triassic
     </p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>&nbsp;</strong>
     </p>
     <p>
       The exceptionally preserved lagerst&auml;tten have also been reported from
@@ -71,16 +71,14 @@
       microconchids, and problematic fossils.
     </p>
     <p>
-      Participants: <strong><strong>20-30</strong></strong
-      >&nbsp;persons
+      Participants: <strong>20-30</strong>&nbsp;persons
     </p>
     <p>
-      Trip duration: <strong><strong>4</strong></strong
-      >&nbsp;days
+      Trip duration: <strong>4</strong>&nbsp;days
     </p>
     <p>
       Estimated cost:
-      <strong><strong>3000 </strong></strong>RMB/700$&nbsp;(including
+      <strong>3000 </strong>RMB/700$&nbsp;(including
       accommodation, meals, transport, guidebook, etc.; flight costs are not
       included)
     </p>
@@ -90,10 +88,7 @@
     <p>Dismissal Place：</p>
     <p>&nbsp;</p>
     <p>
-      <strong><strong>Excursion </strong></strong
-      ><strong><strong>Leader</strong></strong
-      ><strong><strong>s</strong></strong
-      ><strong><strong>：</strong></strong>
+      <strong>Excursion Leaders：</strong>
     </p>
     <p>Jitao Chen, Nanjing Institute of Geology and Palaeontology, CAS</p>
     <p>Keyi Hu, Nanjing University</p>

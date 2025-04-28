@@ -5,13 +5,13 @@
       <div class="container">
         <div class="row">
           <div class="col-4 home-title">Welcome</div>
-          <div class="col-8 desc" style="font-size: 20px">
+          <div class="col-8 desc" style="font-size: 20px; font-family: Arial, sans-serif">
             We cordially invite you to attend
             <i
-              ><b
-                >STRATI2026 - Exploring the Depths: Bridging Tradition and
-                Innovation in Stratigraphy,</b
-              ></i
+            ><b
+            >STRATI 2026 - Exploring the Depths: Bridging Tradition and
+              Innovation in Stratigraphy,</b
+            ></i
             >
             to be held from June 28th to July 3rd, 2026 at Suzhou DDE center,
             Jiangsu province, China..
@@ -32,9 +32,9 @@
               congress in Suzhou, China, represents a historic milestone …
             </div>
             <div
-              class="home-btn mt-3"
-              onclick="window.location.href='/page/welcome_strati_2026.html'"
-              style="font-size: 20px"
+                class="home-btn mt-3"
+                onclick="window.location.href='/page/welcome_strati_2026.html'"
+                style="font-size: 20px"
             >
               Read more
             </div>
@@ -48,41 +48,41 @@
       <div class="container">
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu1.png" alt="" />
+            <img src="../imgs/welcome_menu1.png" alt=""/>
             <div
-              class="title"
-              style="font-size: 20px"
-              onclick="window.location.href='/page/scientific_session_types.html'"
+                class="title"
+                style="font-size: 20px"
+                onclick="window.location.href='/page/scientific_session_types.html'"
             >
               Sessions
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu2.png" alt="" />
+            <img src="../imgs/welcome_menu2.png" alt=""/>
             <div
-              class="title"
-              style="font-size: 20px"
-              onclick="window.location.href='/page/wait.html'"
+                class="title"
+                style="font-size: 20px"
+                onclick="window.location.href='/page/wait.html'"
             >
               Plenary/Invited Speakers
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu3.png" alt="" />
+            <img src="../imgs/welcome_menu3.png" alt=""/>
             <div
-              class="title"
-              style="font-size: 20px"
-              onclick="window.location.href='/page/scientific_session_types.html'"
+                class="title"
+                style="font-size: 20px"
+                onclick="window.location.href='/page/scientific_session_types.html'"
             >
               Programme
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu4.png" alt="" />
+            <img src="../imgs/welcome_menu4.png" alt=""/>
             <div
-              class="title"
-              style="font-size: 20px"
-              onclick="window.location.href='/page/registration.html'"
+                class="title"
+                style="font-size: 20px"
+                onclick="window.location.href='/page/registration.html'"
             >
               Registration
             </div>
@@ -98,8 +98,8 @@
       <div class="container">
         <div class="row">
           <div
-            class="col-4 home-title"
-            onclick="window.location.href='/page/important_dates.html'"
+              class="col-4 home-title"
+              onclick="window.location.href='/page/important_dates.html'"
           >
             Important Dates
           </div>
@@ -120,10 +120,10 @@
     <div class="body">
       <div class="timeline-container container">
         <div
-          :class="'timeline-item ' + (tidx == timeLineIdx ? 'active' : '')"
-          v-for="(ti, tidx) in timeLine"
-          :key="ti.title"
-          @click="changeTimeLineIdx(tidx)"
+            :class="'timeline-item ' + (tidx == timeLineIdx ? 'active' : '')"
+            v-for="(ti, tidx) in timeLine"
+            :key="ti.title"
+            @click="changeTimeLineIdx(tidx)"
         >
           <div class="item-container">
             <div class="item-bg">
@@ -146,13 +146,13 @@
       <div class="container">
         <div class="row">
           <div
-            class="col-4 home-title"
-            onclick="window.location.href='/page/news_events.html'"
+              class="col-4 home-title"
+              onclick="window.location.href='/page/news_events.html'"
           >
             News & Events
           </div>
           <div class="col-8 controls">
-            <i>More+</i>
+            <i onclick="window.location.href='/page/news_events.html'">More+</i>
           </div>
         </div>
       </div>
@@ -162,14 +162,14 @@
       <div class="container">
         <div class="row">
           <div
-            class="col-6"
-            v-for="(ni, nidx) in newsList"
-            :key="'news-item-' + nidx"
+              class="col-6"
+              v-for="(ni, nidx) in newsList"
+              :key="'news-item-' + nidx"
           >
             <div
-              class="news-item row"
-              style="font-size: 20px"
-              @click="toNewsPage(ni)"
+                class="news-item row"
+                style="font-size: 20px"
+                @click="toNewsPage(ni)"
             >
               <div class="title col-9">{{ ni.title }}</div>
               <div class="date col-3" style="font-size: 20px">
@@ -190,8 +190,8 @@
         <div class="fb-item">
           <div class="fb-bg bg1">
             <div
-              class="fb-title"
-              onclick="window.location.href='/page/scientific_session_types.html'"
+                class="fb-title"
+                onclick="window.location.href='/page/scientific_session_types.html'"
             >
               PROGRAMME
             </div>
@@ -200,8 +200,8 @@
         <div class="fb-item">
           <div class="fb-bg bg2">
             <div
-              class="fb-title"
-              onclick="window.location.href='/page/strati_2026_field_excursions.html'"
+                class="fb-title"
+                onclick="window.location.href='/page/strati_2026_field_excursions.html'"
             >
               FIELD TRIPS
             </div>
@@ -210,8 +210,8 @@
         <div class="fb-item">
           <div class="fb-bg bg3">
             <div
-              class="fb-title"
-              onclick="window.location.href='/page/venue.html'"
+                class="fb-title"
+                onclick="window.location.href='/page/venue.html'"
             >
               LOCATION
             </div>
@@ -220,8 +220,8 @@
         <div class="fb-item">
           <div class="fb-bg bg4">
             <div
-              class="fb-title"
-              onclick="window.location.href='/page/venue.html'"
+                class="fb-title"
+                onclick="window.location.href='/page/venue.html'"
             >
               VENUE
             </div>
@@ -273,7 +273,7 @@ export default {
       ],
       newsList: [
         {
-          title: "First Circular of Strati2026",
+          title: "First Circular of Strati 2026",
           date: "2025-01-02",
           to: "/page/welcome_strati_2026.html",
         },
@@ -295,7 +295,7 @@ export default {
         {
           title: "Congress Schedule",
           date: "2025-01-02",
-          to: "/page/call_for_sessions.html",
+          to: "/page/congress_schedule.html",
         },
         {
           title: "Registration and fees",
@@ -396,11 +396,13 @@ export default {
     .title {
       font-size: 90px;
     }
+
     .sub-title {
       font-size: 45px;
       width: 45%;
       line-height: 1;
     }
+
     .other {
       margin-top: 16px;
       color: #ffce00;
@@ -475,9 +477,11 @@ export default {
         justify-content: center;
         height: 100%;
         cursor: pointer;
+
         img {
           width: 30px;
         }
+
         .title {
           font-size: 14px;
           color: #1b3c90;
@@ -512,6 +516,7 @@ export default {
 
   .body {
     padding: 32px 0;
+
     .timeline-container {
       width: 100%;
       display: flex;
@@ -546,10 +551,12 @@ export default {
         .item-container {
           background-image: url("../imgs/welcome_body_news1.jpg");
           background-size: cover;
+
           .item-bg {
             background-color: rgba(27, 60, 144, 0.68);
             color: #fff;
           }
+
           .icon {
             display: none;
           }
@@ -577,6 +584,7 @@ export default {
         font-size: 20px;
         margin-bottom: 20px;
       }
+
       .icon {
         width: 30px;
         height: 25px;
@@ -585,6 +593,7 @@ export default {
         background-repeat: no-repeat;
         background-size: contain;
       }
+
       .content {
         margin-top: 20px;
         width: 80%;
@@ -734,6 +743,7 @@ export default {
         &::before {
           border-radius: 50px 0 0 0;
         }
+
         &::after {
           border-radius: 50px 0 0 0;
         }
@@ -756,6 +766,7 @@ export default {
           background-image: url("../imgs/fourbtn_bg4.png");
           border-radius: 0 0 50px 0;
         }
+
         &::after {
           border-radius: 0 0 50px 0;
         }

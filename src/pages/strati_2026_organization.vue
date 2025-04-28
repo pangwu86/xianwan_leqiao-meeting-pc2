@@ -56,7 +56,7 @@
       Xiang Fang, Nanjing Institute of Geology and Palaeontology, CAS<br />
       Junjun Song, Nanjing Institute of Geology and Palaeontology, CAS<br />
       Hua Zhang, Nanjing Institute of Geology and Palaeontology, CAS<br />
-      Huang Bing, Nanjing Institute of Geology and Palaeontology, CAS<br />
+      Bing Huang, Nanjing Institute of Geology and Palaeontology, CAS<br />
       Quanfeng Zheng, Nanjing Institute of Geology and Palaeontology, CAS<br />
       Renbin Zhan, Nanjing Institute of Geology and Palaeontology, CAS<br />
       Yichun Zhang, Nanjing Institute of Geology and Palaeontology, CAS<br />
@@ -145,6 +145,7 @@
       Wenkun Qie, Nanjing Institute of Geology and Paleontology, CAS<br />
       Yuangen Huang, China University of Geosciences, Wuhan<br />
       Xudong Hou, Nanjing University<br />
+      Wenqian Wang, Nanjing University<br />
       Jian Zhang, Suzhou DDE Center<br />
       Yuzhe Zhang, Suzhou DDE Center
     </p>

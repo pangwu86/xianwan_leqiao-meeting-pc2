@@ -5,12 +5,10 @@
     </p>
     <h3>
       4.&nbsp;<strong
-        ><strong
           >Mesoproterozoic, Cambrian and terrestrial Permian-Triassic
           successions in the Yuntai Mountain-Shaolin Temple areas, Henan
           Province, central China</strong
-        ></strong
-      >
+        >
     </h3>
     <p>
       Marine Mesoproterozoic and Cambrian, and terrestrial Permian and Triassic
@@ -48,20 +46,21 @@
     <p>
         <div class="row">
           <div class="col">
-            <img src="../../imgs/field_excursions/042329632.png" alt="">
+            <img src="../../imgs/field_excursions/042329632.png" style="margin-right: 10px" alt="">
           </div>
           <div class="col">
-            <img src="../../imgs/field_excursions/042329633.png" alt="">
+            <img src="../../imgs/field_excursions/042329633.png" style="margin-left: -10px" alt="">
           </div>
         </div>
     </p>
-    <p class="text-center">
+    <p class="text-center" style="margin-top:-140px">
       Field photos showing reddish sandstones and conglomerates of the
       Mesoproterozoic Ruyang Group, which form the gorges of the Yuntai Mountain
       Geopark, Henan Province, central China(left) and the continuous
       Permian-Triassic boundary indicated by the base of these three layers of
       reddish beds at the central of Photo at the Yiyang section (right).
     </p>
+    <P>&nbsp;</P>
     <p>
       <img src="../../imgs/field_excursions/042329980.png" alt="">
     </p>
@@ -78,30 +77,23 @@
       Gung Fu cultures at the famous Shaolin Temple.
     </p>
     <p>
-      Participants: <strong><strong>30</strong></strong
-      >&nbsp;persons
+      Participants: <strong>30</strong>&nbsp;persons
     </p>
     <p>
-      Trip duration: <strong><strong>4</strong></strong
-      >&nbsp;days
+      Trip duration: <strong>4</strong>&nbsp;days
     </p>
     <p>
-      Estimated cost: <strong><strong>3000 RMB</strong></strong
-      ><strong><strong>/400</strong></strong
-      ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
+      Estimated cost: <strong>3000 RMB/400$</strong>&nbsp;(including accommodation, meals, transport,
       guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
     <p>Assembling Place：Jiaozuo，Henan&nbsp;Province</p>
     <p>Dismissal Place：Zhengzhou，Henan&nbsp;Province</p>
     <p>
-      <strong><strong>&nbsp;</strong></strong>
+      <strong>&nbsp;</strong>
     </p>
     <p>
-      <strong><strong>Excursion </strong></strong
-      ><strong><strong>Leader</strong></strong
-      ><strong><strong>s</strong></strong
-      ><strong><strong>：</strong></strong>
+      <strong>Excursion Leaders：</strong>
     </p>
     <p>Deshun Zheng, Henan ST University</p>
     <p>Daoliang Chu, China University of Geosciences,&nbsp;Wuhan</p>

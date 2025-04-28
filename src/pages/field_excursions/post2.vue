@@ -69,7 +69,7 @@
       the spectacular landscapes of the Three Gorges and great dam as well as
       local cultures of ancient Chu Kingdom in the central part of China.
     </p>
-    <p>Participants: <strong>20</strong>persons</p>
+    <p>Participants: <strong>20</strong>&nbsp;persons</p>
     <p>Trip duration: <strong>7</strong>&nbsp;days</p>
     <p>
       Estimated cost: <strong>5000 RMB/700$</strong>&nbsp;(including
@@ -100,9 +100,6 @@
       Zhongyang Chen,&nbsp;Nanjing Institute of Geology and Palaeontology, CAS
     </p>
     <p>&nbsp;</p>
-    <p>
-      <strong>&nbsp;</strong>
-    </p>
     <p>
       <strong>Itinerary:</strong>
     </p>

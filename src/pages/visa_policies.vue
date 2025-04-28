@@ -9,16 +9,16 @@
       <table class="table table-bordered table-colored table-striped">
           <thead>
             <tr>
-              <th>Countries</th>
-              <th>Visa-free transit period</th>
-              <th>Policy validity period</th>
+              <th style="text-align: center">Countries</th>
+              <th style="text-align: center">Visa-free transit period</th>
+              <th style="text-align: center">Policy validity period</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="(td, tidx) in tableData" :key="'ti-' + tidx">
               <td class="td-colored" style="width: 60%;">{{ td.d1 }}</td>
-              <td>{{ td.d2 }}</td>
-              <td>{{ td.d3 }}</td>
+              <td style="text-align: center">{{ td.d2 }}</td>
+              <td style="text-align: center">{{ td.d3 }}</td>
             </tr>
           </tbody>
       </table>

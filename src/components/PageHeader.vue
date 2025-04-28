@@ -101,7 +101,7 @@ export default {
           to: "/",
         },
         {
-          title: "STRATI2026 ORGANIZATION",
+          title: "STRATI 2026 ORGANIZATION",
           to: "/page/strati_2026_organization.html",
         },
         {
