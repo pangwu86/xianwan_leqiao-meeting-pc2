@@ -30,7 +30,7 @@
       maximum mass extinction horizon).
     </p>
     <p>
-      <img src="../../imgs/field_excursions/042338926.png" alt="" />
+      <img src="../../imgs/field_excursions/042338926.jpg" alt="" />
     </p>
     <p class="text-center">
       The Permian-Triassic boundary interval at Xishan, Suzhou

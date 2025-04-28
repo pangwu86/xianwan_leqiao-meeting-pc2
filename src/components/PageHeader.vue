@@ -19,8 +19,8 @@
             </div>
 
             <div class="search-btn" v-if="!hasToken" @click="doLogin">
-              <i class="bi bi-person-fill"></i>
-              <span>Log in</span>
+              <i class="bi bi-person-fill"></i>&nbsp;
+              <button class="btn btn-primary btn-sm">Log in</button>
             </div>
           </div>
           <!-- 按钮 -->
@@ -125,7 +125,7 @@ export default {
           to: "/page/sponsor.html",
         },
         {
-          title: "CONTACT",
+          title: "CONTACT US",
           to: "/page/contact.html",
         },
       ],
