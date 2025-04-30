@@ -83,7 +83,7 @@
       >&nbsp;days
     </p>
     <p>
-      Estimated cost: <strong>5000 RMB/700 USD</strong
+      Estimated cost: <strong>5500 RMB/750 USD</strong
       >&nbsp;(including accommodation, meals, transport, guidebook, etc.; flight
       costs are not included)
     </p>
@@ -188,7 +188,7 @@
     <p>
       Lots of early vertebrates&nbsp;from Xiaoxiang&nbsp;Fauna hold an important
       and critical position in the evolutionary history from fishes to human
-      beings, such as the eugaleaspid <em>Dunyu longiforus, the placoderms Entelognathus primordialis, Qilinyu rostrate, and &ldquo;Wangolepis sinensis&rdquo;, osteichthyans Guiyu oneiros, Megamastax amblyodus&nbsp;and Sparalepis tingi </em>, as well as new material
+      beings, such as the eugaleaspid <em>Dunyu longiforus, the </em>placoderms<em> Entelognathus primordialis, Qilinyu rostrate, </em>and<em> &ldquo;Wangolepis sinensis&rdquo;, osteichthyans Guiyu oneiros, Megamastax amblyodus&nbsp;</em>and<em> Sparalepis tingi </em>, as well as new material
       awaiting study.
     </p>
     <p>
@@ -204,7 +204,7 @@
     </p>
     <p>Bus from S/D boundary to Xitun fossil site: 14:00&ndash;14:30</p>
     <p>
-      <em>Stop 7: The Xitun fossil site (Ludlow, Silurian) at Dongpo Village, Qujing City:&nbsp;14:30&ndash;16:30</em>
+      <em>Stop 7: The Xitun fossil site (Ludlow, Silurian) at Xitun Village, Qujing City:&nbsp;14:30&ndash;16:30</em>
     </p>
     <p>
       The Xitun Fauna was world famous because of&nbsp;the diverse early
@@ -214,7 +214,7 @@
       osteichthyans, and corroborated the hypothesis of South China being the
       center of origin and early diversification of sarcopterygians, such
       as&nbsp;the osteichthyans <em>Youngolepis, Diabolepis, Psarolepis, Achoania, Meemannia
-      , and Styloichthys</em>
+      , </em>and<em> Styloichthys</em>
     </p>
     <p>
       Bus from Xitun Fauna to the Pearl River Source Scenic Area:
@@ -233,7 +233,7 @@
     <p>
       Some local fish fossils found within&nbsp;the scenic area&nbsp;(middle
       Devonian) and three-dimensional reconstruction fish models, such as
-      Onychodon and antiarchs, were exhibited in the museum and workstation.
+      Onychodon and Antiarchs, were exhibited in the museum and workstation.
     </p>
     <p>Lunch Break: 12:30&ndash;13:30</p>
     <p>
