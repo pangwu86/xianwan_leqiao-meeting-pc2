@@ -70,22 +70,16 @@
       accompanied by bivalves, belemnoids, brachiopods, conodonts, fishes,
       microconchids, and problematic fossils.
     </p>
-    <p>
-      Participants: <strong>20-30</strong>&nbsp;persons
-    </p>
-    <p>
-      Trip duration: <strong>4</strong>&nbsp;days
-    </p>
+    <p>Participants: <strong>20-30</strong>&nbsp;persons</p>
+    <p>Trip duration: <strong>4</strong>&nbsp;days</p>
     <p>
       Estimated cost:
-      <strong>3000 </strong>RMB/700$&nbsp;(including
-      accommodation, meals, transport, guidebook, etc.; flight costs are not
-      included)
+      <strong>3000 </strong>RMB/400$&nbsp;(including accommodation, meals,
+      transport, guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
-    <p>Pre/post-congress field excursions:</p>
-    <p>Assembling Place：</p>
-    <p>Dismissal Place：</p>
+    <p>Assembling Place：Guiyang</p>
+    <p>Dismissal Place：Kunshan, Suzhou</p>
     <p>&nbsp;</p>
     <p>
       <strong>Excursion Leaders：</strong>
