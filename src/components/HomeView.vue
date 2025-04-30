@@ -9,15 +9,13 @@
             class="col-8 desc"
             style="font-size: 20px; font-family: Arial, sans-serif"
           >
-            We cordially invite you to attend
+            We are excited to invite the global stratigraphy community to
             <i
               ><b
-                >STRATI 2026 - Exploring the Depths: Bridging Tradition and
-                Innovation in Stratigraphy,</b
+                >STRATI 2026 – Exploring the Depths: Bridging Tradition and Innovation in Stratigraphy,</b
               ></i
             >
-            to be held from June 28th to July 3rd, 2026 at Suzhou DDE center,
-            Jiangsu province, China.
+            taking place from June 28 to July 3, 2026, at the Suzhou DDE Center in Jiangsu Province, China.
           </div>
         </div>
       </div>
@@ -28,11 +26,7 @@
         <div class="row">
           <div class="col-4">
             <div class="read-desc">
-              The STRATI 2026 Congress has long served as a premier platform for
-              stratigraphic research, with its legacy rooted in Europe. As the
-              event’s global influence continues to expand, particularly within
-              China’s thriving stratigraphic community, hosting the next
-              congress in Suzhou, China, represents a historic milestone …
+              The STRATI Congress has long served as a cornerstone of international stratigraphic research, fostering dialogue and innovation across continents with a legacy rooted in Europe. As Earth science challenges and opportunities become increasingly interconnected, STRATI 2026 represents a pivotal opportunity to enhance …
             </div>
             <div
               class="home-btn mt-3"
@@ -278,7 +272,7 @@ export default {
         {
           title: "First Circular of Strati 2026",
           date: "2025-04-30",
-          to: "/page/welcome_strati_2026.html",
+          to: "/pdf/First_Circular_of_Strati_2026.pdf",
         },
         {
           title: "Travel to Suzhou",

@@ -34,7 +34,7 @@ export default {
           date: "2025-01-02",
           summary:
             "",
-          to: "/page/welcome_strati_2026.html",
+          to: "/pdf/First_Circular_of_Strati_2026.pdf",
         },
         {
           title: "Travel to Suzhou",
