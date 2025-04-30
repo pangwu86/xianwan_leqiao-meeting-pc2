@@ -29,20 +29,20 @@
       and pterosaurs have been found.
     </p>
     <p>
-      The Early Cretaceous Jehol Biota is widely distributed in Beipiao and
-      Lingyuan in western Liaoning, Weichang and Pingquan in northern Hebei, and
-      Ningcheng in Inner Mongolia. It can be divided into three assemblages: the
-      Lower Assemblage, mainly preserved in the Dabeigou Formation in northern
-      Hebei, yielding numerous fossils of insects, branchiopods, fishes,
-      salamanders, and birds; the Middle Assemblage, marking the zenith of the
-      flourishing period of the Jehol Biota, centered in the Yanliao area and
-      preserved in the Yixian Formation, characterized by abundant fossils of
-      insects, fishes, pterosaurs, dinosaurs, birds, mammals, and plants, among
-      which the <em><em>Confuciusornis</em></em
+      The Early Cretaceous Jehol Biota is widely distributed in Beipiao,
+      Lingyuan and Chaoyang in western Liaoning, Weichang and Pingquan in
+      northern Hebei, and Ningcheng in Inner Mongolia. It can be divided into
+      three assemblages: the Lower Assemblage, mainly preserved in the Dabeigou
+      Formation in northern Hebei, yielding numerous fossils of insects,
+      branchiopods, fishes, salamanders, and birds; the Middle Assemblage,
+      marking the zenith of the flourishing period of the Jehol Biota, centered
+      in the Yanliao area and preserved in the Yixian Formation, characterized
+      by abundant fossils of insects, fishes, pterosaurs, dinosaurs, birds,
+      mammals, and plants, among which the <em><em>Confuciusornis</em></em
       >-rich layer has an absolute age of <em><em>ca</em></em
       >. 125 Ma; and the Upper Assemblage, represented by fossils preserved in
-      the Jiufotang Formation in Lingyuan and Jianchang, western Liaoning,
-      mainly including fishes, reptiles, and birds.
+      the Jiufotang Formation in Chaoyang, Lingyuan, and Jianchang, western
+      Liaoning, mainly including fishes, reptiles, and birds.
     </p>
     <p>
       The exceptionally preserved Yanliao Biota of the Middle-Late Jurassic and
@@ -82,14 +82,14 @@
       >&nbsp;days
     </p>
     <p>
-      Estimated cost: <strong><strong>4000 RMB</strong></strong
-      ><strong><strong>/540</strong></strong
-      ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
-      guidebook, etc.; flight costs are not included)
+      Estimated cost: <strong>4000 RMB</strong><strong>&nbsp;</strong
+      ><strong>(shared room)/ </strong><strong>5000 RMB </strong
+      ><strong>(single room) </strong>(including accommodation, meals,
+      transport, guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
     <p>Assembling Place：Beijing</p>
-    <p>Dismissal Place：Kunshan, Suzhou</p>
+    <p>Dismissal Place：Suzhou</p>
     <p>
       <strong><strong>&nbsp;</strong></strong>
     </p>

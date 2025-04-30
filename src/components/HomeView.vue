@@ -5,16 +5,19 @@
       <div class="container">
         <div class="row">
           <div class="col-4 home-title">Welcome</div>
-          <div class="col-8 desc" style="font-size: 20px; font-family: Arial, sans-serif">
+          <div
+            class="col-8 desc"
+            style="font-size: 20px; font-family: Arial, sans-serif"
+          >
             We cordially invite you to attend
             <i
-            ><b
-            >STRATI 2026 - Exploring the Depths: Bridging Tradition and
-              Innovation in Stratigraphy,</b
-            ></i
+              ><b
+                >STRATI 2026 - Exploring the Depths: Bridging Tradition and
+                Innovation in Stratigraphy,</b
+              ></i
             >
             to be held from June 28th to July 3rd, 2026 at Suzhou DDE center,
-            Jiangsu province, China..
+            Jiangsu province, China.
           </div>
         </div>
       </div>
@@ -32,9 +35,9 @@
               congress in Suzhou, China, represents a historic milestone …
             </div>
             <div
-                class="home-btn mt-3"
-                onclick="window.location.href='/page/welcome_strati_2026.html'"
-                style="font-size: 20px"
+              class="home-btn mt-3"
+              onclick="window.location.href='/page/welcome_strati_2026.html'"
+              style="font-size: 20px"
             >
               Read more
             </div>
@@ -48,41 +51,41 @@
       <div class="container">
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu1.png" alt=""/>
+            <img src="../imgs/welcome_menu1.png" alt="" />
             <div
-                class="title"
-                style="font-size: 20px"
-                onclick="window.location.href='/page/scientific_session_types.html'"
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/scientific_session_types.html'"
             >
               Sessions
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu2.png" alt=""/>
+            <img src="../imgs/welcome_menu2.png" alt="" />
             <div
-                class="title"
-                style="font-size: 20px"
-                onclick="window.location.href='/page/wait.html'"
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/wait.html'"
             >
               Plenary/Invited Speakers
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu3.png" alt=""/>
+            <img src="../imgs/welcome_menu3.png" alt="" />
             <div
-                class="title"
-                style="font-size: 20px"
-                onclick="window.location.href='/page/scientific_session_types.html'"
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/scientific_session_types.html'"
             >
               Programme
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu4.png" alt=""/>
+            <img src="../imgs/welcome_menu4.png" alt="" />
             <div
-                class="title"
-                style="font-size: 20px"
-                onclick="window.location.href='/page/registration.html'"
+              class="title"
+              style="font-size: 20px"
+              onclick="window.location.href='/page/registration.html'"
             >
               Registration
             </div>
@@ -98,8 +101,8 @@
       <div class="container">
         <div class="row">
           <div
-              class="col-4 home-title"
-              onclick="window.location.href='/page/important_dates.html'"
+            class="col-4 home-title"
+            onclick="window.location.href='/page/important_dates.html'"
           >
             Important Dates
           </div>
@@ -120,10 +123,10 @@
     <div class="body">
       <div class="timeline-container container">
         <div
-            :class="'timeline-item ' + (tidx == timeLineIdx ? 'active' : '')"
-            v-for="(ti, tidx) in timeLine"
-            :key="ti.title"
-            @click="changeTimeLineIdx(tidx)"
+          :class="'timeline-item ' + (tidx == timeLineIdx ? 'active' : '')"
+          v-for="(ti, tidx) in timeLine"
+          :key="ti.title"
+          @click="changeTimeLineIdx(tidx)"
         >
           <div class="item-container">
             <div class="item-bg">
@@ -146,8 +149,8 @@
       <div class="container">
         <div class="row">
           <div
-              class="col-4 home-title"
-              onclick="window.location.href='/page/news_events.html'"
+            class="col-4 home-title"
+            onclick="window.location.href='/page/news_events.html'"
           >
             News & Events
           </div>
@@ -162,14 +165,14 @@
       <div class="container">
         <div class="row">
           <div
-              class="col-6"
-              v-for="(ni, nidx) in newsList"
-              :key="'news-item-' + nidx"
+            class="col-6"
+            v-for="(ni, nidx) in newsList"
+            :key="'news-item-' + nidx"
           >
             <div
-                class="news-item row"
-                style="font-size: 20px"
-                @click="toNewsPage(ni)"
+              class="news-item row"
+              style="font-size: 20px"
+              @click="toNewsPage(ni)"
             >
               <div class="title col-9">{{ ni.title }}</div>
               <div class="date col-3" style="font-size: 20px">
@@ -190,8 +193,8 @@
         <div class="fb-item">
           <div class="fb-bg bg1">
             <div
-                class="fb-title"
-                onclick="window.location.href='/page/scientific_session_types.html'"
+              class="fb-title"
+              onclick="window.location.href='/page/scientific_session_types.html'"
             >
               PROGRAMME
             </div>
@@ -200,8 +203,8 @@
         <div class="fb-item">
           <div class="fb-bg bg2">
             <div
-                class="fb-title"
-                onclick="window.location.href='/page/strati_2026_field_excursions.html'"
+              class="fb-title"
+              onclick="window.location.href='/page/strati_2026_field_excursions.html'"
             >
               FIELD TRIPS
             </div>
@@ -210,8 +213,8 @@
         <div class="fb-item">
           <div class="fb-bg bg3">
             <div
-                class="fb-title"
-                onclick="window.location.href='/page/venue.html'"
+              class="fb-title"
+              onclick="window.location.href='/page/venue.html'"
             >
               LOCATION
             </div>
@@ -220,8 +223,8 @@
         <div class="fb-item">
           <div class="fb-bg bg4">
             <div
-                class="fb-title"
-                onclick="window.location.href='/page/venue.html'"
+              class="fb-title"
+              onclick="window.location.href='/page/venue.html'"
             >
               VENUE
             </div>
@@ -274,32 +277,32 @@ export default {
       newsList: [
         {
           title: "First Circular of Strati 2026",
-          date: "2025-01-02",
+          date: "2025-04-30",
           to: "/page/welcome_strati_2026.html",
         },
         {
           title: "Travel to Suzhou",
-          date: "2025-01-02",
+          date: "2025-04-30",
           to: "/page/travel_to_suzhou.html",
         },
         {
           title: "Call for Sessions",
-          date: "2025-01-02",
+          date: "2025-04-30",
           to: "/page/call_for_sessions.html",
         },
         {
           title: "Visa policies",
-          date: "2025-01-02",
+          date: "2025-04-30",
           to: "/page/visa_policies.html",
         },
         {
           title: "Congress Schedule",
-          date: "2025-01-02",
+          date: "2025-04-30",
           to: "/page/congress_schedule.html",
         },
         {
           title: "Registration and fees",
-          date: "2025-01-02",
+          date: "2025-04-30",
           to: "/page/registration.html",
         },
       ],
