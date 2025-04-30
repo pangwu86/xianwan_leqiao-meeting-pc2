@@ -5,9 +5,9 @@
     </p>
     <h3>
       5.&nbsp;<strong
-          >Upper Devonian to lowest Carboniferous successions in Guilin Karst
-          area, Guangxi, South China</strong
-        >
+        >Upper Devonian to lowest Carboniferous successions in Guilin Karst
+        area, Guangxi, South China</strong
+      >
     </h3>
     <p>
       <img src="../../imgs/field_excursions/042330938.png" alt="" />
@@ -56,9 +56,9 @@
       scenery around Guilin area.
     </p>
     <p>Participants: <strong>20-30</strong>&nbsp;persons</p>
-    <p>Trip duration: <strong>3</strong>&nbsp;days</p>
+    <p>Trip duration: <strong>5</strong>&nbsp;days</p>
     <p>
-      Estimated cost: <strong>2200 RMB/300$</strong>&nbsp;(including
+      Estimated cost: <strong>3600 RMB/500$</strong>&nbsp;(including
       accommodation, meals, transport, guidebook, etc.; flight costs are not
       included)
     </p>

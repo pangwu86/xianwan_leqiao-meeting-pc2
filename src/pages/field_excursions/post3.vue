@@ -82,7 +82,7 @@
       included)
     </p>
     <p>&nbsp;</p>
-    <p>Assembling Place：Kunshan</p>
+    <p>Assembling Place：Kunshan, Suzhou</p>
     <p>Dismissal Place：Lanzhou</p>
     <p>
       <strong>&nbsp;</strong>

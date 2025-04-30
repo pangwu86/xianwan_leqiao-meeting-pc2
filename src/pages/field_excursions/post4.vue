@@ -87,15 +87,15 @@
       guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
-    <p>Assembling Place：Jiaozuo，Henan&nbsp;Province</p>
-    <p>Dismissal Place：Zhengzhou，Henan&nbsp;Province</p>
+    <p>Assembling Place：Zhengzhou, Henan Province</p>
+    <p>Dismissal Place：Zhengzhou, Henan Province</p>
     <p>
       <strong>&nbsp;</strong>
     </p>
     <p>
       <strong>Excursion Leaders：</strong>
     </p>
-    <p>Deshun Zheng, Henan ST University</p>
+    <p>Deshun Zheng, Henan Polytechnic University</p>
     <p>Daoliang Chu, China University of Geosciences,&nbsp;Wuhan</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>

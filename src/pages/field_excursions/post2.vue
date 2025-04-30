@@ -72,7 +72,7 @@
     <p>Participants: <strong>20</strong>&nbsp;persons</p>
     <p>Trip duration: <strong>7</strong>&nbsp;days</p>
     <p>
-      Estimated cost: <strong>5000 RMB/700$</strong>&nbsp;(including
+      Estimated cost: <strong>5000 RMB/680$</strong>&nbsp;(including
       accommodation, meals, transport, guidebook, etc.; flight costs are not
       included)
     </p>
