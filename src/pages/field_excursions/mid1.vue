@@ -28,7 +28,7 @@
     </p>
     <p>Participants: <strong>10-40</strong>&nbsp;persons</p>
     <p>
-      Estimated cost: <strong>800 RMB/100$&nbsp;</strong>(including meals,
+      Estimated cost: <strong>800 RMB/110$&nbsp;</strong>(including meals,
       transport, guidebook, etc.)
     </p>
     <p>&nbsp;</p>

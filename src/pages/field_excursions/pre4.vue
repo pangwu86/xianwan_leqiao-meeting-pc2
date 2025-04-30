@@ -54,18 +54,18 @@
       >&nbsp;persons
     </p>
     <p>
-      Trip duration: <strong><strong>2</strong></strong
+      Trip duration: <strong><strong>3</strong></strong
       >&nbsp;days
     </p>
     <p>
-      Estimated cost: <strong><strong>1500 RMB</strong></strong
-      ><strong><strong>/200</strong></strong
+      Estimated cost: <strong><strong>3300 RMB</strong></strong
+      ><strong><strong>/450</strong></strong
       ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
       guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
-    <p>Assembling Place：</p>
-    <p>Dismissal Place：</p>
+    <p>Assembling Place：Beijing</p>
+    <p>Dismissal Place：Tianjin</p>
     <p>
       <strong><strong>&nbsp;</strong></strong>
     </p>

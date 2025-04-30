@@ -83,13 +83,13 @@
     </p>
     <p>
       Estimated cost: <strong><strong>4000 RMB</strong></strong
-      ><strong><strong>/400</strong></strong
+      ><strong><strong>/540</strong></strong
       ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
       guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
-    <p>Assembling Place：Nanjing</p>
-    <p>Dismissal Place：Beijing</p>
+    <p>Assembling Place：Beijing</p>
+    <p>Dismissal Place：Kunshan, Suzhou</p>
     <p>
       <strong><strong>&nbsp;</strong></strong>
     </p>
