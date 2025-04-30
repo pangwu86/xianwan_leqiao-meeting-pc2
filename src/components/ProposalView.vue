@@ -79,9 +79,7 @@
                             <button
                               type="button"
                               class="btn btn-outline-primary btn-sm"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Edit"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Edit'"
                               @click="openSubmitterWin('edit')"
                             >
                               <i class="bi bi-pencil-square"></i>
@@ -146,18 +144,14 @@
                             <button
                               type="button"
                               class="btn btn-outline-primary btn-sm"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Edit"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Edit'"
                               @click="openConvenerWin('edit', index)"
                             >
                               <i class="bi bi-pencil-square"></i>
                             </button>
                             <button
                               type="button"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Delete"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Delete'"
                               class="btn btn-outline-danger btn-sm"
                               @click="removeConvener(index)"
                             >
@@ -167,9 +161,7 @@
                               type="button"
                               class="btn btn-outline-secondary btn-sm"
                               @click="sortUpConvener(index)"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Up"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Up'"
                               :disabled="index == 0"
                             >
                               <i class="bi bi-arrow-bar-up"></i>
@@ -177,9 +169,7 @@
                             <button
                               type="button"
                               class="btn btn-outline-secondary btn-sm"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Down"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Down'"
                               @click="sortDownConvener(index)"
                               :disabled="index == dataInfo.conveners.length - 1"
                             >

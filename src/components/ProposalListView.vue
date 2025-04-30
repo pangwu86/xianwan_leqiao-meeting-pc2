@@ -35,9 +35,7 @@
                             <button
                               type="button"
                               class="btn btn-outline-success btn-sm"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="View"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'View'"
                               @click="viewData(di)"
                             >
                               <i class="bi bi-file-earmark-text-fill"></i>
@@ -45,9 +43,7 @@
                             <button
                               type="button"
                               class="btn btn-outline-primary btn-sm"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Edit"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Edit'"
                               @click="editData(di)"
                             >
                               <i class="bi bi-pencil-square"></i>
@@ -55,9 +51,7 @@
                             <button
                               type="button"
                               class="btn btn-outline-danger btn-sm"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Delete"
-                              data-bs-placement="top"
+                              v-tooltip:top.accent="'Delete'"
                               @click="deleteData(di)"
                             >
                               <i class="bi bi-trash"></i>
@@ -99,7 +93,6 @@
 
 <script>
 import { clearToken, getToken } from "../api/token.js";
-import { Modal, Tooltip } from "bootstrap";
 import axios from "axios";
 
 export default {

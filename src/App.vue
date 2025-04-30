@@ -37,9 +37,10 @@ export default {
       self.refreshMain(isFill);
     });
 
-    new Tooltip(document.body, {
-      selector: "[data-bs-toggle='tooltip']",
-    });
+    // BUG: 无法隐藏 且会跑到屏幕左上角
+    // new Tooltip(document.body, {
+    //   selector: "[data-bs-toggle='tooltip']",
+    // });
   },
 };
 </script>

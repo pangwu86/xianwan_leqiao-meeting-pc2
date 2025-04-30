@@ -132,4 +132,12 @@ app.config.globalProperties.tokenWatch = function (func) {
 
 window._global_router_ = router;
 
+// import { tooltip } from "./tooltip.js";
+// app.directive("tooltip", tooltip);
+
+import { TooltipDirective, TooltipComponent } from "vue3-tooltip";
+import "vue3-tooltip/tooltip.css";
+app.directive("tooltip", TooltipDirective);
+app.component("tooltip", TooltipComponent);
+
 app.use(router).mount("#app");
