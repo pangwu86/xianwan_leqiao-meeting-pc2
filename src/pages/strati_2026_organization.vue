@@ -128,7 +128,8 @@
       Pingan Peng, Guangzhou Institute of Geochemistry, CAS<br />
       Chengshan Wang, China University of Geosciences, Peking<br />
       Fang Hao, China University of Petroleum, Peking<br />
-      Xie Shucheng, China University of Geosciences, Wuhan<br />
+      Hongfu Yin, China University of Geosciences, Wuhan<br />
+      Shucheng Xie, China University of Geosciences, Wuhan<br />
       Zhijun Jin, Peking University<br />
       Degan Shu, Northwest University<br />
       Zhiming Jian, Tongji University<br />
