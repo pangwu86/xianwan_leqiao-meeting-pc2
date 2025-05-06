@@ -67,20 +67,14 @@
       >&nbsp;persons
     </p>
     <p>
-      Trip duration: <strong><strong>7</strong></strong
+      Trip duration: <strong>7</strong
       >&nbsp;days
     </p>
     <p>
-      Estimated cost:<strong><strong>&nbsp;</strong></strong
-      ><strong><strong>62</strong></strong
-      ><strong><strong>00 RMB/</strong></strong
-      ><strong><strong>85</strong></strong
-      ><strong><strong>0</strong></strong
-      ><strong>$</strong>&nbsp;(including accommodation, meals, transport,
+      Estimated cost:<strong>&nbsp;6200 RMB/850$</strong>&nbsp;(including accommodation, meals, transport,
       guidebook, etc.; flight costs are not included)
     </p>
     <p>&nbsp;</p>
-    <p>Post-congress field excursions:</p>
     <p>
       Assembling Place：Longdongbao&nbsp;International Airport,
       Guiyang&nbsp;City, Guizhou&nbsp;Province, China
@@ -90,6 +84,14 @@
       Hunan Province, China
     </p>
     <p><strong>&nbsp;</strong></p>
+    <p>
+      <strong>Excursion Leaders：</strong>
+    </p>
+    <p>
+      Xinglian Yang, Guizhou University
+    </p>
+    <p>
+      Han Zeng, Nanjing Institute of Geology and Palaeontology, CAS</p>
     <p><strong>&nbsp;</strong></p>
     <p>
       <strong

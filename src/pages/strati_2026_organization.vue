@@ -91,7 +91,8 @@
       Yaowu Sun, Jilin University<br />
       Wenhui Wang, Central South University<br />
       Xinglian Yang, Guizhou University<br />
-      Deshun Zheng, Henan ST University<br />
+      Deshun Zheng, Henan Polytechnic University<br />
+      Lijun Zhang, Henan Polytechnic University<br />
       Guangyin Ren, Linyi University<br />
       Ning Tian, Shenyang Normal University<br />
       Cheng Quan, Chang’An University<br />
@@ -100,7 +101,7 @@
       Shiling Yang, Institute of Geology and Geophysics, CAS<br />
       Houyuan Lv, Institute of Geology and Geophysics, CAS<br />
       Fulong Cai, Institute of Tibetan Plateau Research, CAS<br />
-      Luwang Jia, Guangzhou Institute of Geochemistry, CAS<br />
+      Wanglu Jia, Guangzhou Institute of Geochemistry, CAS<br />
       Hongwei Kuang, Institute of Geology, CAGS<br />
       Xuri Wang, Institute of Geology, CAGS<br />
       Shixue Hu, Chengdu Center, China Geological Survey<br />
