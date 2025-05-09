@@ -71,7 +71,7 @@
                     placeholder="Please enter the email."
                     v-model="dataInfo.email"
                     :disabled="mode == 'view'"
-                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
+                    oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                   />
                 </div>
               </div>
