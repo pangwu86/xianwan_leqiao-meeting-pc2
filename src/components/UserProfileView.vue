@@ -149,7 +149,7 @@
                         class="form-select"
                         v-model="userInfo.phonePrefix"
                       >
-                        <option disabled="" value="">
+                        <option value="">
                           Please select the country code.
                         </option>
                         <option value="+86.">CHN (+86)</option>
@@ -357,6 +357,9 @@
                         type="text"
                         class="form-control"
                         v-model="userInfo.phoneNumber"
+                        maxlength="15"
+                        oninput="this.value = this.value.replace(/\D/g, '')"
+                        placeholder="Please enter your phone number."
                       />
                     </div>
                   </div>
