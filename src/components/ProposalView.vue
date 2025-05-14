@@ -216,7 +216,6 @@
                     ref="editorRef"
                     tinymce-script-src="/public/tinymce/tinymce.min.js"
                     :init="editConf"
-                    v-model="dataInfo.proposalText"
                     :initialValue="dataInfo.proposalText"
                   />
                 </div>
@@ -441,6 +440,7 @@ import { readonly } from "vue";
 export default {
   components: { Editor },
   data() {
+    let self = this;
     return {
       editConf: {
         readonly: true,
@@ -451,6 +451,11 @@ export default {
         toolbar: "undo redo | bold italic underline strikethrough | charmap",
         menubar: false,
         statusbar: false,
+        setup: function (editor) {
+          editor.on("change", function (e) {
+            self.editorChange(editor.getContent());
+          });
+        },
       },
       dataId: "",
       mode: "view",
@@ -791,6 +796,10 @@ export default {
       } else {
         ed.getEditor().mode.set("design");
       }
+    },
+    editorChange(content) {
+      console.log(content);
+      this.dataInfo.proposalText = content;
     },
   },
   mounted() {
