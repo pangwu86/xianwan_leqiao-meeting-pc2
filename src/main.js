@@ -130,6 +130,25 @@ app.config.globalProperties.tokenWatch = function (func) {
   tokenWatcher.push(func);
 };
 
+import { encode, decode } from "js-base64";
+
+app.config.globalProperties.base64Encode = function (content) {
+  return encode(content);
+};
+
+app.config.globalProperties.base64Decode = function (bytes) {
+  return decode(bytes);
+};
+
+app.config.globalProperties.html2text = function (content) {
+  return content
+    .replace(/<(style|script|iframe)[^>]*?>[\s\S]+?<\/\1\s*>/gi, "")
+    .replace(/<[^>]+?>/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/ /g, " ")
+    .replace(/>/g, " ");
+};
+
 window._global_router_ = router;
 
 // import { tooltip } from "./tooltip.js";

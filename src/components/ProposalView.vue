@@ -507,6 +507,7 @@ export default {
       if (text == "") {
         return 0;
       }
+      text = this.html2text(text);
       // 替换中文字符为空格
       text = text.replace(/[\u4e00-\u9fa5]+/g, " ");
       // 将换行符，前后空格不计算为单词数
@@ -800,6 +801,11 @@ export default {
     editorChange(content) {
       console.log(content);
       this.dataInfo.proposalText = content;
+
+      // let b64 = this.base64Encode(content);
+      // let b64C = this.base64Decode(b64);
+      // console.log("base64:" + b64);
+      // console.log("conten:" + b64C);
     },
   },
   mounted() {
