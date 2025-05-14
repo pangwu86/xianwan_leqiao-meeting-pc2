@@ -216,7 +216,7 @@
                     ref="editorRef"
                     tinymce-script-src="/public/tinymce/tinymce.min.js"
                     :init="editConf"
-                    :initialValue="dataInfo.proposalText"
+                    v-model="dataInfo.proposalText"
                   />
                 </div>
               </div>
@@ -578,6 +578,8 @@ export default {
       sParams.submitter = sd.submitter;
       sParams.conveners = convenersUp;
 
+      sParams.proposalText = this.base64Encode(sParams.proposalText);
+
       if (this.mode == "edit" && this.dataId) {
         sParams.conferenceProposalId = this.dataId;
         this.$api.updateProposal(sParams).then((resp) => {
@@ -761,7 +763,9 @@ export default {
             if (resp.data) {
               let pd = resp.data;
               this.dataInfo.proposalTitle = pd.proposalTitle;
-              this.dataInfo.proposalText = pd.proposalText;
+              this.dataInfo.proposalText = this.base64Decode(
+                pd.proposalText || ""
+              );
               this.dataInfo.sessionType = pd.sessionType;
               this.dataInfo.theme = pd.theme;
               this.dataInfo.proposalFileUrl = pd.proposalFileUrl;
@@ -799,13 +803,12 @@ export default {
       }
     },
     editorChange(content) {
-      console.log(content);
+      // console.log(content);
       this.dataInfo.proposalText = content;
-
-      // let b64 = this.base64Encode(content);
-      // let b64C = this.base64Decode(b64);
-      // console.log("base64:" + b64);
-      // console.log("conten:" + b64C);
+      let b64 = this.base64Encode(content);
+      let b64C = this.base64Decode(b64);
+      console.log("base64:" + b64);
+      console.log("conten:" + b64C);
     },
   },
   mounted() {

@@ -137,7 +137,14 @@ app.config.globalProperties.base64Encode = function (content) {
 };
 
 app.config.globalProperties.base64Decode = function (bytes) {
-  return decode(bytes);
+  if (bytes) {
+    try {
+      return decode(bytes);
+    } catch (err) {
+      return "";
+    }
+  }
+  return "";
 };
 
 app.config.globalProperties.html2text = function (content) {
