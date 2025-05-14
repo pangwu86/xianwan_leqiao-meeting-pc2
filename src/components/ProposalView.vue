@@ -205,13 +205,20 @@
                   </div>
                 </label>
                 <div class="position-relative">
-                  <textarea
+                  <!-- <textarea
                     class="form-control"
                     v-model="dataInfo.proposalText"
                     rows="5"
                     placeholder="The session description is limited to 600 words."
                     :disabled="mode == 'view'"
-                  ></textarea>
+                  ></textarea> -->
+                  <Editor
+                    ref="editorRef"
+                    tinymce-script-src="/public/tinymce/tinymce.min.js"
+                    :init="editConf"
+                    v-model="dataInfo.proposalText"
+                    :initialValue="dataInfo.proposalText"
+                  />
                 </div>
               </div>
               <div class="mb-3 col-12">
@@ -428,11 +435,23 @@
 import { clearToken, getToken } from "../api/token.js";
 import { Modal } from "bootstrap";
 import axios from "axios";
+import Editor from "@tinymce/tinymce-vue";
+import { readonly } from "vue";
 
 export default {
-  components: {},
+  components: { Editor },
   data() {
     return {
+      editConf: {
+        readonly: true,
+        height: 300,
+        license_key: "gpl",
+        promotion: false,
+        plugins: ["charmap", "table", "link", "lists"],
+        toolbar: "undo redo | bold italic underline strikethrough | charmap",
+        menubar: false,
+        statusbar: false,
+      },
       dataId: "",
       mode: "view",
       dataLoad: null,
@@ -759,6 +778,18 @@ export default {
           });
       } else {
         this.importSubmitter();
+      }
+
+      setTimeout(() => {
+        this.updateEditor();
+      }, 500);
+    },
+    updateEditor() {
+      let ed = this.$refs.editorRef;
+      if (this.mode == "view") {
+        ed.getEditor().mode.set("readonly");
+      } else {
+        ed.getEditor().mode.set("design");
       }
     },
   },
