@@ -42,7 +42,7 @@
                     placeholder="Please enter the session title."
                     v-model="dataInfo.proposalTitle"
                     :disabled="mode == 'view'"
-                    oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
+                    oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                   />
                 </div>
               </div>
@@ -383,7 +383,7 @@
                   class="form-control"
                   v-model="conInfo.affiliation"
                   placeholder="Please enter an affiliation."
-                  oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
+                  oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                 />
               </div>
             </div>
@@ -398,7 +398,7 @@
                   class="form-control"
                   v-model="conInfo.email"
                   placeholder="Please enter an email."
-                  oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
+                  oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
                 />
               </div>
             </div>

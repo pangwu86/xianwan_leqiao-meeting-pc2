@@ -109,8 +109,7 @@
     </p>
     <p>
       <strong
-        >Day 1: Arrival in Changshui International Airport of Kunming City, 3.5
-        h by air from Hongqiao airport of Shanghai&nbsp;City. Stay at Chengjiang City&nbsp;(1.5 h from Changshui airport to Chengjiang by bus).</strong>
+        >Day 1: Arrival in Changshui International Airport of Kunming City. Stay at Chengjiang City&nbsp;(1.5 h from Changshui airport to Chengjiang by bus).</strong>
     </p>
     <p>&nbsp;</p>
     <p>

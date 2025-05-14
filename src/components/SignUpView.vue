@@ -107,7 +107,7 @@
               </label>
               <div class="row">
                 <div class="col-7">
-                  <input type="email" oninput="value=value.replace(/[^\w\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')" class="form-control" v-model="email" placeholder="Please enter your email account." />
+                  <input type="email" oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')" class="form-control" v-model="email" placeholder="Please enter your email account." />
                 </div>
                 <div class="col-5">
                   <div class="d-grid">
