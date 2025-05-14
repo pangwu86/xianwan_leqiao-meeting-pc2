@@ -214,7 +214,6 @@
                   ></textarea> -->
                   <Editor
                     ref="editorRef"
-                    tinymce-script-src="/public/tinymce/tinymce.min.js"
                     :init="editConf"
                     v-model="dataInfo.proposalText"
                   />
