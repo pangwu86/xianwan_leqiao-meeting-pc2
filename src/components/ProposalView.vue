@@ -434,7 +434,6 @@ import { clearToken, getToken } from "../api/token.js";
 import { Modal } from "bootstrap";
 import axios from "axios";
 import Editor from "@tinymce/tinymce-vue";
-import { readonly } from "vue";
 
 export default {
   components: { Editor },
