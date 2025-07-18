@@ -7,6 +7,62 @@
       <img class="page-img" src="../imgs/venue1.jpg" alt="">
       <img class="page-img" src="../imgs/venue2.jpg" alt="">
     </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kunshan Crown International Exhibition Hotel 昆山皇冠国际会展酒店</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/venue1-1.jpg" alt="">
+      <img class="page-img" src="../imgs/venue1-2.jpg" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <p>Lobby</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/2-Lobby.png" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <p>Main conference room</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/3-Main_conference_room.png" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <p>Meeting rooms</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/4-Meeting_room1.jpg" alt="">
+      <img class="page-img" src="../imgs/4-Meeting_room2.jpg" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/4-Meeting_room3.jpg" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <p>Accommodations</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/5-Accommodations1.jpg" alt="">
+      <img class="page-img" src="../imgs/5-Accommodations2.jpg" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <p>Canteen</p>
+    <div class="image-container">
+      <img class="page-img" src="../imgs/6-Canteen.jpg" alt="">
+    </div>
+    <p>&nbsp;</p>
+    <p>Location</p>
+    <div class="image-container" style="width:150%;justify-content: left">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img class="page-img" src="../imgs/venue2-1.jpg" alt="">
+    </div>
+    <div class="image-container" style="width:150%;justify-content: left">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img class="page-img" src="../imgs/venue2-2.png" alt="">
+    </div>
   </div>
 </template>
 
