@@ -73,7 +73,7 @@
 
             <div class="mb-3">
               <label class="form-label"
-                >Password<span class="text-danger">*</span> （8 to 18 characters）</label
+                >Login Password<span class="text-danger">*</span> （8 to 18 characters）</label
               >
               <div class="position-relative">
                 <input
@@ -122,7 +122,7 @@
                       {{
                         codeRefresh
                           ? "Refresh In " + codeCountdown + "s"
-                          : "Get OTP"
+                          : "Get One-time verification code"
                       }}
                     </button>
                     <button
@@ -142,12 +142,16 @@
             <!-- 验证码 -->
             <div class="mb-3">
               <label for="formSignUpPassword" class="form-label"
-                >One-Time Password <span class="text-danger">*</span></label
+                >One-Time Verification Code <span class="text-danger">*</span></label
               >
 
               <div class="password-field position-relative">
                 <input type="text" class="form-control" v-model="code" placeholder="Please enter the one-time verification code sent to your email." />
               </div>
+            </div>
+
+            <div class="sign-tip" style="text-align: right">
+              Didn't get the code? Check your Email junk/spam folder.
             </div>
 
             <!-- 按钮 -->

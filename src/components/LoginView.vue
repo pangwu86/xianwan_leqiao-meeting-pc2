@@ -11,16 +11,16 @@
                   @click="tabNo = 0"
                   title="Log in to the system using your email account and login password."
                 >
-                  Log in with Password
+                  Log in with Login Password
                 </a>
               </li>
               <li class="nav-item">
                 <a
                   :class="'nav-link ' + (tabNo == 1 ? 'active' : '')"
                   @click="tabNo = 1"
-                  title="Log in to the system using a one-time verification code from your email."
+                  title="Log in to the system using a One-time Verification Code from your email."
                 >
-                  Log in with One-Time Password
+                  Log in with One-time Verification Code
                 </a>
               </li>
             </ul>
@@ -55,7 +55,7 @@
                         {{
                           codeRefresh
                             ? "Refresh In " + codeCountdown + "s"
-                            : "Get OTP"
+                            : "Get One-time verification code"
                         }}
                       </button>
                       <button
@@ -74,7 +74,7 @@
               <!-- 密码 -->
               <div class="mb-3" v-if="tabNo == 0">
                 <label for="formSignUpPassword" class="form-label"
-                  >Password <span class="text-danger">*</span></label
+                  >Login Password <span class="text-danger">*</span></label
                 >
                 <div class="password-field position-relative">
                   <input
@@ -85,7 +85,7 @@
                   />
                 </div>
                 <div class="sign-tip-right mt-3">
-                  Forgot your password?
+                  Forgot your Login password?
                   <RouterLink
                     to="/password/reset"
                     class="reset-txt"
@@ -98,17 +98,21 @@
               <!-- 验证码 -->
               <div class="mb-3" v-if="tabNo == 1">
                 <label for="formSignUpPassword" class="form-label"
-                  >One-Time Password <span class="text-danger">*</span></label
+                  >One-Time Verification Code <span class="text-danger">*</span></label
                 >
                 <div class="password-field position-relative">
                   <input
                     type="text"
                     class="form-control"
                     v-model="code"
-                    placeholder="Please enter the one-time verification code sent to your email."
+                    placeholder="Please enter the One-time Verification Code sent to your email."
                   />
                 </div>
               </div>
+            </div>
+
+            <div class="sign-tip" v-if="tabNo == 1" style="text-align: right">
+              Didn't get the code? Check your Email junk/spam folder.
             </div>
 
             <!-- 按钮 -->
