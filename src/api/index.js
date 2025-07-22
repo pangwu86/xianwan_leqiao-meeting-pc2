@@ -143,6 +143,79 @@ const urlConf = {
     method: "post",
     after: handleReturn,
   },
+  // submission
+  submitSubmission: {
+    url: "/api/submission/submitSubmission",
+    method: "post",
+    after: handleReturn,
+  },
+  updateSubmission: {
+    url: "/api/submission/changeSubmission",
+    method: "post",
+    after: handleReturn,
+  },
+  deleteSubmission: {
+    url: "/api/submission/deleteSubmission",
+    method: "post",
+    after: handleReturn,
+  },
+  getSubmission: {
+    url: "/api/submission/getSubmissionInfo",
+    method: "post",
+    after: handleReturn,
+  },
+  loadSubmissionList: {
+    url: "/api/submission/bizUserSubmissionList",
+    method: "get",
+    after: handleReturn,
+  },
+  loadSubmissionThemes: {
+    url: "/api/submission/getThemes/{conferenceId}",
+    method: "get",
+    after: handleReturn,
+  },
+  // signup
+  submitSignupInfo: {
+    url: "/api/signup/signup",
+    method: "post",
+    after: handleReturn,
+  },
+  updateSignupInfo: {
+    url: "/api/signup/changeSignup",
+    method: "post",
+    after: handleReturn,
+  },
+  getSignupInfo: {
+    url: "/api/signup/getSignupInfo/{conferenceId}",
+    method: "get",
+    after: handleReturn,
+  },
+  loadSignupThemes: {
+    url: "/api/signup/getThemes/{conferenceId}",
+    method: "get",
+    after: handleReturn,
+  },
+  loadSignupItems: {
+    url: "/api/signup/getSignupItems/{conferenceId}",
+    method: "get",
+    after: handleReturn,
+  },
+  loadSignupRecordList: {
+    url: "/api/signup/getBizUserSignupRecordList",
+    method: "get",
+    after: handleReturn,
+  },
+  getC2BPayInfo: {
+    url: "/api/payment/getC2BPayInfo",
+    method: "post",
+    after: handleReturn,
+  },
+  // tax
+  queryTaxInfo: {
+    url: "https://api.app.leqiaoxueshu.com/anon/queryTaxinfo",
+    method: "postForm",
+    after: handleReturn,
+  },
 };
 
 // 创造API实例

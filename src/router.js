@@ -20,6 +20,11 @@ import ProposalView from "./components/ProposalView.vue";
 import FeedbackListView from "./components/FeedbackListView.vue";
 import FeedbackView from "./components/FeedbackView.vue";
 
+import SubmissionListView from "./components/SubmissionListView.vue";
+import SubmissionView from "./components/SubmissionView.vue";
+
+import RegistrationView from "./components/RegistrationView.vue";
+
 const routesView = [
   {
     path: "/",
@@ -69,6 +74,21 @@ const routesView = [
   {
     path: "/feedback",
     component: FeedbackView,
+    meta: { showSideMenu: true },
+  },
+  {
+    path: "/submission",
+    component: SubmissionView,
+    meta: { showSideMenu: true },
+  },
+  {
+    path: "/submission/list",
+    component: SubmissionListView,
+    meta: { showSideMenu: true },
+  },
+  {
+    path: "/registration",
+    component: RegistrationView,
     meta: { showSideMenu: true },
   },
   {

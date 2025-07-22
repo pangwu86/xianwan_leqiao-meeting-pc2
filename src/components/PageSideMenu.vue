@@ -41,14 +41,23 @@ export default {
           path: "/password/change",
         },
         {
+          icon: "bi-r-circle-fill",
+          name: "Registration",
+          path: "/registration",
+        },
+        {
           icon: "bi-list-ol",
           name: "My Proposals",
           path: "/proposal/list",
         },
         {
+          icon: "bi-card-list",
+          name: "My Submissions",
+          path: "/submission/list",
+        },
+        {
           icon: "bi-info-lg",
           name: "Feedback",
-          // mailto: "strati2026@outlook.com",
           path: "/feedback/list",
         },
         {

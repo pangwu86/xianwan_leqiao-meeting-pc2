@@ -121,6 +121,16 @@ instance.interceptors.request.use(
 
     config.headers["Authorization"] = getToken() || "";
 
+    // urlParams
+    if (config.urlParams) {
+      let url = config.url;
+      Object.keys(config.urlParams).forEach((urlKey) => {
+        url = url.replace(`{${urlKey}}`, config.urlParams[urlKey]);
+      });
+      console.log("url-replaced:" + url);
+      config.url = url;
+    }
+
     if (config.method === "post") {
       const contentType = config.headers["Content-Type"];
       // 根据Content-Type转换data格式

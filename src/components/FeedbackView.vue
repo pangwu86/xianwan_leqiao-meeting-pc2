@@ -404,7 +404,7 @@ export default {
       dataLoad: null,
       dragging: false,
       dataInfo: {
-        conferenceId: "1899130655669882882",
+        conferenceId: this.$globalData.conferenceId,
         opinionType: "",
         contact: "",
         email: "",
