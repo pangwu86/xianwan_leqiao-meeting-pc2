@@ -10,8 +10,7 @@ export function checkPhone(mobile) {
 }
 
 export function checkEmail(email) {
-  var re =
-    /^[A-Za-z0-9]+([_\.][A-Za-z0-9]+)*@([A-Za-z0-9\-]+\.)+[A-Za-z]{2,6}$/;
+  var re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   var result = re.test(email);
   if (!result) {
     alert("Email is incorrect.");
