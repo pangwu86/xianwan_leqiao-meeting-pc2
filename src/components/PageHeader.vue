@@ -124,10 +124,6 @@ export default {
           title: "SPONSORS",
           to: "/page/sponsor.html",
         },
-        {
-          title: "CONTACT US",
-          to: "/page/contact.html",
-        },
       ],
     };
   },

@@ -4,7 +4,7 @@
       <div class="footer-info">
         <div class="row">
           <div class="col">
-            <div class="fi-title" style="font-size: 20px" onclick="window.location.href='/page/contact.html'">CONTACT US</div>
+            <div class="fi-title" style="font-size: 20px; cursor: hand" onclick="window.location.href='/page/contact.html'">CONTACT US</div>
             <p class="fi-desc" style="font-size: 20px; display: none">
               Abstract submission and early registration deadline
             </p>

@@ -16,7 +16,7 @@
                 Innovation in Stratigraphy,</b
               ></i
             >
-            taking place from June 28 to July 3, 2026, at the Suzhou DDE Center
+            taking place from June 28 to July 3, 2026, at the Kunshan Crown International Exhibition Hotel
             in Jiangsu Province, China.
           </div>
         </div>
@@ -192,7 +192,7 @@
     <div class="container">
       <div class="fb-list">
         <div class="fb-item">
-          <div class="fb-bg bg1">
+          <div class="fb-bg bg1" onclick="window.location.href='/page/scientific_session_types.html'">
             <div
               class="fb-title"
               onclick="window.location.href='/page/scientific_session_types.html'"
@@ -202,17 +202,16 @@
           </div>
         </div>
         <div class="fb-item">
-          <div class="fb-bg bg2">
+          <div class="fb-bg bg2" onclick="window.location.href='/page/strati_2026_field_excursions.html'">
             <div
-              class="fb-title"
-              onclick="window.location.href='/page/strati_2026_field_excursions.html'"
+              class="fb-title" onclick="window.location.href='/page/strati_2026_field_excursions.html'"
             >
               FIELD TRIPS
             </div>
           </div>
         </div>
         <div class="fb-item">
-          <div class="fb-bg bg3">
+          <div class="fb-bg bg3" onclick="window.location.href='/page/venue.html'">
             <div
               class="fb-title"
               onclick="window.location.href='/page/venue.html'"
@@ -222,7 +221,7 @@
           </div>
         </div>
         <div class="fb-item">
-          <div class="fb-bg bg4">
+          <div class="fb-bg bg4" onclick="window.location.href='/page/venue.html'">
             <div
               class="fb-title"
               onclick="window.location.href='/page/venue.html'"
