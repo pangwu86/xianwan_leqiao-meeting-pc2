@@ -4,7 +4,7 @@
       <div class="footer-info">
         <div class="row">
           <div class="col">
-            <div class="fi-title" style="font-size: 20px; cursor: hand" onclick="window.location.href='/page/contact.html'">CONTACT US</div>
+            <div class="fi-title" onclick="window.location.href='/page/contact.html'" style="font-size: 20px;cursor: pointer;">CONTACT US</div>
             <p class="fi-desc" style="font-size: 20px; display: none">
               Abstract submission and early registration deadline
             </p>
@@ -24,7 +24,7 @@
       </div>
       <div class="footer-copyright" style="font-size: 18px">
         Copyright@2025 STRATI 2026 All Rights Reserved Service <br>
-        <a style="color: #f2f4f7;text-decoration:none;font-size: 15px" class="copyright-text" title="Technical support: Nanjing Xianwan Network Technology Co., Ltd." href="mailto:jiangh@meetopia.cn">Technical Support</a>
+        <a style="color: #f2f4f7;text-decoration:none;font-size: 15px" class="copyright-text" title="Technical support: Nanjing Xianwan Network Technology Co., Ltd." href="mailto:haojiang322@gmail.com">Technical Support</a>
       </div>
     </div>
   </footer>
