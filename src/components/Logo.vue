@@ -1,6 +1,8 @@
 <template>
   <div class="menu-logo">
-    <img src="../imgs/logo2.png" alt="" class="logo-img" />
+    <img src="../imgs/IUGSlogo.png" alt="" class="logo-img iugs" />
+    <img src="../imgs/ICS_LOGO.png" alt="" class="logo-img ics" />
+    <img src="../imgs/logo2.png" alt="" class="logo-img strati" />
     <div class="logo-name">
       <div class="sub-title">5th International Congress on Stratigraphy</div>
       <div class="title">STRATI 2026</div>
@@ -14,16 +16,32 @@ export default {};
 
 <style lang="scss">
 .menu-logo {
-  width: 265px;
+  // width: 265px;
   display: flex;
   align-items: center;
   justify-content: center;
 
   .logo-img {
-    width: 95px;
-    height: 75px;
+    width: 76px;
+    height: 60px;
     margin-right: 10px;
+
+    &.iugs {
+      // width: 80px;
+      // height: 60px;
+    }
+
+    &.ics {
+      // width: 73px;
+      // height: 60px;
+    }
+
+    &.strati {
+      // width: 80px;
+      // height: 60px;
+    }
   }
+
   .logo-name {
     width: 160px;
 
