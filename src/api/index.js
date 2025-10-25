@@ -200,6 +200,11 @@ const urlConf = {
     method: "get",
     after: handleReturn,
   },
+  loadFees: {
+    url: "/api/signup/selectFees",
+    method: "post",
+    after: handleReturn,
+  },
   loadSignupRecordList: {
     url: "/api/signup/getBizUserSignupRecordList",
     method: "get",
