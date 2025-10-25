@@ -52,17 +52,17 @@
       <div class="container">
         <div class="welcome-menu-btns row">
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu1.png" alt="" />
+            <img src="../imgs/welcome_menu1.png" alt="" onclick="window.location.href='/user/home'"/>
             <div
               class="title"
               style="font-size: 20px"
-              onclick="window.location.href='/page/scientific_session_types.html'"
+              onclick="window.location.href='/user/home'"
             >
-              Sessions
+              Session proposal submit
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu2.png" alt="" />
+            <img src="../imgs/welcome_menu2.png" alt="" onclick="window.location.href='/page/wait.html'"/>
             <div
               class="title"
               style="font-size: 20px"
@@ -72,7 +72,7 @@
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu3.png" alt="" />
+            <img src="../imgs/welcome_menu3.png" alt="" onclick="window.location.href='/page/scientific_session_types.html'"/>
             <div
               class="title"
               style="font-size: 20px"
@@ -82,7 +82,7 @@
             </div>
           </div>
           <div class="col welcom-menu-btn">
-            <img src="../imgs/welcome_menu4.png" alt="" />
+            <img src="../imgs/welcome_menu4.png" alt="" onclick="window.location.href='/page/registration.html'"/>
             <div
               class="title"
               style="font-size: 20px"

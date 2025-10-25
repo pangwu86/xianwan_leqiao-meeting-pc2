@@ -43,7 +43,8 @@ export default {
         {
           icon: "bi-r-circle-fill",
           name: "Registration",
-          path: "/registration",
+          // path: "/registration",
+          path: "#",
         },
         {
           icon: "bi-list-ol",
@@ -53,7 +54,8 @@ export default {
         {
           icon: "bi-card-list",
           name: "My Submissions",
-          path: "/submission/list",
+          // path: "/submission/list",
+          path: "#",
         },
         {
           icon: "bi-info-lg",

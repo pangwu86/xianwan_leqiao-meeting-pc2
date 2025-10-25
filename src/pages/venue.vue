@@ -31,15 +31,14 @@
       <img class="page-img" src="../imgs/4-Meeting_room2.jpg" alt="">
     </div>
     <p>&nbsp;</p>
-    <div class="image-container">
-      <img class="page-img" src="../imgs/4-Meeting_room3.jpg" alt="">
-    </div>
-    <p>&nbsp;</p>
     <p>Accommodations</p>
     <div class="image-container">
       <img class="page-img" src="../imgs/5-Accommodations1.jpg" alt="">
       <img class="page-img" src="../imgs/5-Accommodations2.jpg" alt="">
     </div>
+    <p style="font-size: 18px;">Double / twin room price: 380 RMB / ~53 $ <br>
+      [680 rooms for the conference have been secured as this price, on a first-come, first-served basis]
+    </p>
     <p>&nbsp;</p>
     <p>Canteen</p>
     <div class="image-container">
