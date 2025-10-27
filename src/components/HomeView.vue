@@ -58,7 +58,7 @@
               style="font-size: 20px"
               onclick="window.location.href='/user/home'"
             >
-              Session proposal submit
+              <b>Session proposal submit</b>
             </div>
           </div>
           <div class="col welcom-menu-btn">

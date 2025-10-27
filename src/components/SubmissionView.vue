@@ -97,8 +97,8 @@
                         <th scope="col">First Name</th>
                         <th scope="col">Last Name</th>
                         <th scope="col">Email</th>
-                        <th scope="col">Is Presenter</th>
-                        <th scope="col">Is Contact</th>
+                        <th scope="col">Presenter</th>
+                        <th scope="col">Corresponding author</th>
                         <th scope="col">Sort</th>
                         <th scope="col">Actions</th>
                       </tr>
@@ -390,7 +390,7 @@
 
             <div class="mb-3">
               <label class="form-label"
-                >Whether the presenter<span class="text-danger">*</span></label
+                >Presenter<span class="text-danger">*</span></label
               >
               <div class="position-relative">
                 <div class="form-check form-check-inline">
@@ -416,7 +416,7 @@
 
             <div class="mb-3">
               <label class="form-label"
-                >Whether the corresponding author<span class="text-danger"
+                >Corresponding author<span class="text-danger"
                   >*</span
                 ></label
               >
@@ -444,11 +444,11 @@
 
             <div class="mb-3">
               <label class="form-label"
-                >Sort<span class="text-danger">*</span></label
+                >Author Order<span class="text-danger">*</span></label
               >
               <div class="position-relative">
                 <select class="form-select" v-model="conInfo.sort">
-                  <option disabled="" value="">Please select sort.</option>
+                  <option disabled="" value="">Please select Author Order.</option>
                   <option
                     v-for="bv in sortList"
                     :key="bv.value"
@@ -523,11 +523,11 @@
 
             <div class="mb-3">
               <label class="form-label"
-                >Sort<span class="text-danger">*</span></label
+                >Author Order<span class="text-danger">*</span></label
               >
               <div class="position-relative">
                 <select class="form-select" v-model="conInfo2.sort">
-                  <option disabled="" value="">Please select sort.</option>
+                  <option disabled="" value="">Please select Author Order.</option>
                   <option
                     v-for="bv in sortList"
                     :key="bv.value"
@@ -911,7 +911,7 @@ export default {
         return false;
       }
       if (cd.sort === "") {
-        alert("Please select a sort.");
+        alert("Please select Author Order.");
         return false;
       }
       return true;
@@ -923,7 +923,7 @@ export default {
         return false;
       }
       if (cd.sort === "") {
-        alert("Please select a sort.");
+        alert("Please select Author Order.");
         return false;
       }
       return true;

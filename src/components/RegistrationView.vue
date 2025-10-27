@@ -12,7 +12,7 @@
 
             <!-- 注册 -->
             <div class="">
-              <h6 class="form-subtitle">Attended</h6>
+              <h6 class="form-subtitle">Attendee</h6>
             </div>
 
             <div class="mb-3 col-12">

@@ -85,6 +85,7 @@
                   />
                 </div>
                 <div class="sign-tip-right mt-3">
+                  <p style="text-align: left; font-weight: bold;">Please login to submit session proposal.</p>
                   Forgot your Login password?
                   <RouterLink
                     to="/password/reset"
