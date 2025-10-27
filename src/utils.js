@@ -1,7 +1,7 @@
 // 通用方法
 export function checkPhone(mobile) {
-  var re = /^1[3,4,5,6,7,8,9][0-9]{9}$/;
-  var result = re.test(mobile);
+  let re = /^1[3,4,5,6,7,8,9][0-9]{9}$/;
+  let result = re.test(mobile);
   if (!result) {
     alert("Phone is incorrect");
     return false; //若手机号码格式不正确则返回false
@@ -10,8 +10,7 @@ export function checkPhone(mobile) {
 }
 
 export function checkEmail(email) {
-  var re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  var result = re.test(email);
+  let result = checkEmailFormat(email);
   if (!result) {
     alert("Email is incorrect.");
     return false; //若手机号码格式不正确则返回false
@@ -19,9 +18,14 @@ export function checkEmail(email) {
   return true;
 }
 
+export function checkEmailFormat(email) {
+  let re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return re.test(email);
+}
+
 export function checkTaxNumber(taxNumber) {
-  var re = /^[A-Z0-9]{15}$|^[A-Z0-9]{18}$|^[A-Z0-9]{20}$/;
-  var result = re.test(taxNumber);
+  let re = /^[A-Z0-9]{15}$|^[A-Z0-9]{18}$|^[A-Z0-9]{20}$/;
+  let result = re.test(taxNumber);
   if (!result) {
     alert("Tax Number is incorrect.");
     return false; //若手机号码格式不正确则返回false
@@ -30,8 +34,8 @@ export function checkTaxNumber(taxNumber) {
 }
 
 export function checkPassword(pwd, pwdName = "The password") {
-  var re = /^(?=.*[a-zA-Z])(?=.*\d)(?=.*[@#$.~!])[a-zA-Z\d@#$.~!]{8,18}$/;
-  var result = re.test(pwd);
+  let re = /^(?=.*[a-zA-Z])(?=.*\d).{8,18}$/;
+  let result = re.test(pwd);
   if (!result) {
     alert(
       pwdName +
@@ -60,15 +64,15 @@ export function formatFileSize(fileSize) {
   if (fileSize < 1024) {
     return fileSize + "B";
   } else if (fileSize < 1024 * 1024) {
-    var temp = fileSize / 1024;
+    let temp = fileSize / 1024;
     temp = temp.toFixed(2);
     return temp + "KB";
   } else if (fileSize < 1024 * 1024 * 1024) {
-    var temp = fileSize / (1024 * 1024);
+    let temp = fileSize / (1024 * 1024);
     temp = temp.toFixed(2);
     return temp + "MB";
   } else {
-    var temp = fileSize / (1024 * 1024 * 1024);
+    let temp = fileSize / (1024 * 1024 * 1024);
     temp = temp.toFixed(2);
     return temp + "GB";
   }
@@ -143,6 +147,7 @@ export function html2text(content) {
 
 export default {
   checkEmail,
+  checkEmailFormat,
   checkEmpty,
   checkPhone,
   checkPassword,

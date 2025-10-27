@@ -15,7 +15,13 @@
               >
               <div class="row">
                 <div class="col-7">
-                  <input type="email" class="form-control" v-model="email" placeholder="Please enter the email address you registered with the system." oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')" />
+                  <input
+                    type="email"
+                    class="form-control"
+                    v-model="email"
+                    placeholder="Please enter the email address you registered with the system."
+                    oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
+                  />
                 </div>
                 <div class="col-5">
                   <div class="d-grid">
@@ -44,6 +50,17 @@
                   </div>
                 </div>
               </div>
+
+              <div class="tip-email" v-if="showTipEmail">
+                <p>
+                  Should you encounter any difficulties resetting your password,
+                  please contact our operations team at
+                  <a href="mailto:haojiang322@gmail.com"
+                    >haojiang322@gmail.com</a
+                  >, and we will provide the necessary assistance with your
+                  password reset process.
+                </p>
+              </div>
             </div>
 
             <div class="mb-3">
@@ -51,7 +68,12 @@
                 >One-time Password <span class="text-danger">*</span></label
               >
               <div class="password-field position-relative">
-                <input type="text" class="form-control" v-model="code" placeholder="Please enter the one-time verification code sent to your email." />
+                <input
+                  type="text"
+                  class="form-control"
+                  v-model="code"
+                  placeholder="Please enter the one-time verification code sent to your email."
+                />
               </div>
             </div>
 
@@ -129,6 +151,7 @@ export default {
       codeCountdown: 60,
       codeRefresh: false,
       codeInterval: null,
+      showTipEmail: false,
     };
   },
   methods: {
@@ -151,9 +174,14 @@ export default {
         .then((resp) => {
           console.log(resp);
           this.codeIng = false;
-          alert(resp.msg);
           if (resp.code == 200) {
+            alert(resp.msg);
+            this.showTipEmail = true;
             this.codeStartCount();
+          } else {
+            // 报错，提示
+            alert(resp.msg || "An unknown error occurred on the server.");
+            this.showTipEmail = true;
           }
         });
     },
@@ -222,12 +250,9 @@ export default {
         })
         .then((resp) => {
           this.submitIng = false;
-          console.log(resp);
+          alert(resp.msg);
           if (resp.code == 200) {
-            alert(resp.msg);
             this.doLogout();
-          } else {
-            alert(resp.msg);
           }
         });
     },

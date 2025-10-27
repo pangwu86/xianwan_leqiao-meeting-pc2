@@ -15,7 +15,9 @@
                   aria-label="Default select example"
                   v-model="prefix"
                 >
-                  <option disabled="" value="">Please select your prefix.</option>
+                  <option disabled="" value="">
+                    Please select your prefix.
+                  </option>
                   <option>Mr.</option>
                   <option>Mrs.</option>
                   <option>Miss</option>
@@ -35,14 +37,24 @@
                 >First Name<span class="text-danger">*</span></label
               >
               <div class="position-relative">
-                <input type="text" class="form-control" v-model="firstName" placeholder="Please enter your first name." />
+                <input
+                  type="text"
+                  class="form-control"
+                  v-model="firstName"
+                  placeholder="Please enter your first name."
+                />
               </div>
             </div>
 
             <div class="mb-3">
               <label class="form-label">Middle Name </label>
               <div class="position-relative">
-                <input type="text" class="form-control" v-model="middleName" placeholder="Please enter your middle name." />
+                <input
+                  type="text"
+                  class="form-control"
+                  v-model="middleName"
+                  placeholder="Please enter your middle name."
+                />
               </div>
             </div>
 
@@ -51,7 +63,12 @@
                 >Last Name<span class="text-danger">*</span></label
               >
               <div class="position-relative">
-                <input type="text" class="form-control" v-model="lastName" placeholder="Please enter your last name." />
+                <input
+                  type="text"
+                  class="form-control"
+                  v-model="lastName"
+                  placeholder="Please enter your last name."
+                />
               </div>
             </div>
 
@@ -62,7 +79,9 @@
               >
               <div class="position-relative">
                 <select class="form-select" v-model="gender">
-                  <option disabled="" value="">Please select your gender.</option>
+                  <option disabled="" value="">
+                    Please select your gender.
+                  </option>
                   <option>Male</option>
                   <option>Female</option>
                   <option>Not listed here</option>
@@ -73,7 +92,8 @@
 
             <div class="mb-3">
               <label class="form-label"
-                >Login Password<span class="text-danger">*</span> （8 to 18 characters）</label
+                >Login Password<span class="text-danger">*</span> （8 to 18
+                characters）</label
               >
               <div class="position-relative">
                 <input
@@ -107,7 +127,14 @@
               </label>
               <div class="row">
                 <div class="col-7">
-                  <input type="email" oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')" class="form-control" v-model="email" placeholder="Please enter your email account." />
+                  <input
+                    type="email"
+                    @blur="checkEmailAccount"
+                    oninput="value=value.replace(/[^\w\x20\x21-\x2f\x3a-\x40\x5b-\x60\x7B-\x7F]/g,'')"
+                    class="form-control"
+                    v-model="email"
+                    placeholder="Please enter your email account."
+                  />
                 </div>
                 <div class="col-5">
                   <div class="d-grid">
@@ -136,17 +163,33 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="invalid-feedback">Please enter email.</div> -->
+
+              <div class="tip-email" v-if="showTipEmail">
+                <p>
+                  Should you encounter any difficulties creating an account,
+                  please contact our operations team at
+                  <a href="mailto:haojiang322@gmail.com"
+                    >haojiang322@gmail.com</a
+                  >, and we will provide the necessary assistance with your
+                  registration.
+                </p>
+              </div>
             </div>
 
             <!-- 验证码 -->
             <div class="mb-3">
               <label for="formSignUpPassword" class="form-label"
-                >One-Time Verification Code <span class="text-danger">*</span></label
+                >One-Time Verification Code
+                <span class="text-danger">*</span></label
               >
 
               <div class="password-field position-relative">
-                <input type="text" class="form-control" v-model="code" placeholder="Please enter the one-time verification code sent to your email." />
+                <input
+                  type="text"
+                  class="form-control"
+                  v-model="code"
+                  placeholder="Please enter the one-time verification code sent to your email."
+                />
               </div>
             </div>
 
@@ -173,7 +216,11 @@
 
           <div class="sign-tip">
             Already have an account?
-            <RouterLink to="/login" title="If you already have account information, click here to log into the system immediately.">Log in!</RouterLink>
+            <RouterLink
+              to="/login"
+              title="If you already have account information, click here to log into the system immediately."
+              >Log in!</RouterLink
+            >
           </div>
         </div>
       </div>
@@ -206,9 +253,26 @@ export default {
       codeCountdown: 60,
       codeRefresh: false,
       codeInterval: null,
+      showTipEmail: false,
     };
   },
   methods: {
+    checkEmailAccount() {
+      let currEmail = this.email.trim();
+      if (this.$utils.checkEmailFormat(currEmail)) {
+        console.log("check-email:" + currEmail);
+        this.$api
+          .checkEmail({
+            username: currEmail,
+          })
+          .then((resp) => {
+            console.log(resp);
+            if (resp.code == 500) {
+              alert(resp.msg);
+            }
+          });
+      }
+    },
     getPassword() {
       let email = this.email.trim();
       if (email == "") {
@@ -228,9 +292,14 @@ export default {
         .then((resp) => {
           console.log(resp);
           this.codeIng = false;
-          alert(resp.msg);
           if (resp.code == 200) {
+            alert(resp.msg);
+            this.showTipEmail = true;
             this.codeStartCount();
+          } else {
+            // 报错，提示
+            alert(resp.msg || "An unknown error occurred on the server.");
+            this.showTipEmail = true;
           }
         });
     },
@@ -303,26 +372,31 @@ export default {
       if (!this.checkEmpty("Gender", gender)) {
         return;
       }
-      this.submitIng = true;
-      this.$api
-        .signUp({
-          username: email,
-          code,
-          prefix,
-          firstName,
-          lastName,
-          middleName,
-          gender,
-          password,
-        })
-        .then((resp) => {
-          console.log(resp);
-          this.submitIng = false;
-          alert(resp.msg);
-          if (resp.code == 200) {
-            this.$router.push("/login");
-          }
-        });
+
+      if (
+        confirm(`Please confirm whether the email address ${email} is correct.`)
+      ) {
+        this.submitIng = true;
+        this.$api
+          .signUp({
+            username: email,
+            code,
+            prefix,
+            firstName,
+            lastName,
+            middleName,
+            gender,
+            password,
+          })
+          .then((resp) => {
+            console.log(resp);
+            this.submitIng = false;
+            alert(resp.msg);
+            if (resp.code == 200) {
+              this.$router.push("/login");
+            }
+          });
+      }
     },
   },
   unmounted() {

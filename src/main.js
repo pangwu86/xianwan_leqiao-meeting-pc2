@@ -21,6 +21,7 @@ app.config.globalProperties.$globalData = {
 // 绑定 $req $api
 app.config.globalProperties.$api = api;
 app.config.globalProperties.$http = http;
+app.config.globalProperties.$utils = utils;
 
 // eventbus
 app.config.globalProperties.$bus = eventBus;

@@ -221,6 +221,11 @@ const urlConf = {
     method: "postForm",
     after: handleReturn,
   },
+  checkEmail: {
+    url: "/ano-api/checkEmail",
+    method: "post",
+    after: handleReturn,
+  },
 };
 
 // 创造API实例
