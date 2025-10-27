@@ -12,18 +12,14 @@
 
             <!-- 注册 -->
             <div class="">
-              <h6 class="form-subtitle">Attendee</h6>
+              <h6 class="form-subtitle">Attended</h6>
             </div>
 
             <div class="mb-3 col-12">
-              <label class="form-label">&nbsp;</label>
+              <label class="form-label"
+              >&nbsp;</label>
               <div class="position-relative" style="color: #0d120a">
-                Online payment for registration fees on this website is
-                available through Alipay, WeChat Pay, and UnionPay. If you are
-                unable to pay using any of these three methods, you may first
-                register and submit your abstract, and pay the registration fee
-                on-site at the conference by card swiping. The registration fee
-                type is determined by your registration date.
+                Online payment for registration fees on this website is available through Alipay, WeChat Pay, and UnionPay. If you are unable to pay using any of these three methods, you may first register and submit your abstract, and pay the registration fee on-site at the conference by card swiping. The registration fee type is determined by your registration date.
               </div>
             </div>
 
@@ -36,25 +32,26 @@
                   <div class="row">
                     <div
                       class="col-6"
-                      v-for="si in feesList"
-                      :key="si.conferenceFeeId"
+                      v-for="si in signupItemsList"
+                      :key="si.conferenceSignupItemId"
                     >
                       <div
                         :class="
                           'signup-item-card ' +
-                          (si.conferenceFeeId == dataInfo.conferenceFeeId
+                          (si.conferenceSignupItemId ==
+                          dataInfo.conferenceSignupItemId
                             ? 'active '
                             : '') +
                           (canAdd ? '' : 'disabled')
                         "
-                        @click="switchTicketType(si)"
+                        @click="switchTicketType(si.conferenceSignupItemId)"
                       >
                         <div class="name">
-                          {{ si.conferenceFeeName }}
+                          {{ si.conferenceSignupItemName }}
                         </div>
                         <div class="price">
                           <span class="ccode">{{ si.currencyCode }}</span>
-                          <span>{{ moneyTxt(si.feeAmount) }}</span>
+                          <span>{{ moneyTxt(si.signupAmount) }}</span>
                         </div>
                         <div class="time">
                           <span class="">Ticketing Time: </span>
@@ -71,9 +68,7 @@
                 </div>
 
                 <div class="position-relative" style="color: #0d120a">
-                  The field-trip fee is 3500 RMB (490 USD) (including
-                  accommodation, meals, car rental, etc.), and air ticket and
-                  the insurance is not included.
+                  The field-trip fee is 3500 RMB (490 USD) (including accommodation, meals, car rental, etc.), and air ticket and the insurance is not included.
                 </div>
               </div>
 
@@ -509,18 +504,18 @@
                 <thead class="table-light">
                   <tr>
                     <th>SIGNUP TYPE</th>
-                    <th>AMOUNT PAYABLE</th>
+                    <th>AMOUNT PATABLE</th>
                     <th>ORDER STATUS</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>{{ dataInfo.fee.conferenceFeeName }}</td>
+                    <td>{{ dataInfo.signupItem.conferenceSignupItemName }}</td>
                     <td>
                       {{
-                        dataInfo.fee.currencyCode +
+                        dataInfo.signupItem.currencyCode +
                         ": " +
-                        moneyTxt(dataInfo.fee.feeAmount)
+                        moneyTxt(dataInfo.signupItem.signupAmount)
                       }}
                     </td>
                     <td>{{ statusMap[dataInfo.signupStatus] }}</td>
@@ -610,12 +605,9 @@ export default {
     let self = this;
     return {
       dataId: "",
-      currencyCode: "CNY",
-      feeType: 2,
-      bvHasChildren: false,
       dataInfo: {
         conferenceId: this.$globalData.conferenceId,
-        conferenceFeeId: "",
+        conferenceSignupItemId: "",
         attendanceType: "",
         branchVenue: "",
         academicTitle: "",
@@ -645,7 +637,7 @@ export default {
         "-4": "Closed",
       },
       branchVenueList: [],
-      feesList: [],
+      signupItemsList: [],
       submitIng: false,
       paymentInfo: null,
       paymentTime: null,
@@ -694,25 +686,14 @@ export default {
     },
   },
   methods: {
-    onTaxFocus() {
-      this.showTaxList = true;
-    },
-    onTaxBlur() {
-      setTimeout(() => {
-        this.showTaxList = false;
-      }, 150);
-    },
-    isCanSelectSigntypeFee(si) {
-      if (si.isList == false) {
-        return false;
-      }
-      let vEnd = new Date(si.validityEnd).getTime();
-      let vCurr = new Date().getTime();
-      if (vCurr < vEnd) {
-        return true;
-      }
-      return false;
-    },
+    // onTaxFocus() {
+    //   this.showTaxList = true;
+    // },
+    // onTaxBlur() {
+    //   setTimeout(() => {
+    //     this.showTaxList = false;
+    //   }, 150);
+    // },
     updateQueryTaxResult() {
       let invoiceTitle = this.dataInfo.invoiceTitle;
       this.$api
@@ -731,9 +712,9 @@ export default {
       }
       return valStr + ".00";
     },
-    switchTicketType(si) {
-      if (this.canAdd && this.isCanSelectSigntypeFee(si)) {
-        this.dataInfo.conferenceFeeId = si.conferenceFeeId;
+    switchTicketType(id) {
+      if (this.canAdd) {
+        this.dataInfo.conferenceSignupItemId = id;
       }
     },
     signupItemValidityTime(si) {
@@ -744,7 +725,7 @@ export default {
     checkParams() {
       let sd = this.dataInfo;
 
-      if (!this.checkEmpty("Signup Type", sd.conferenceFeeId)) {
+      if (!this.checkEmpty("Signup Type", sd.conferenceSignupItemId)) {
         return;
       }
       if (!this.checkEmpty("Attendance Type", sd.attendanceType)) {
@@ -842,16 +823,19 @@ export default {
           this.branchVenueList = resp.data || [];
         });
     },
-    loadFees() {
+    loadSignupItems() {
       this.$api
-        .loadFees({
-          conferenceId: this.dataInfo.conferenceId,
-          feeType: this.feeType,
-          currencyCode: this.currencyCode,
-        })
+        .loadSignupItems(
+          {},
+          {
+            urlParams: {
+              conferenceId: this.dataInfo.conferenceId,
+            },
+          }
+        )
         .then((resp) => {
           console.log(resp.data);
-          this.feesList = resp.data || [];
+          this.signupItemsList = resp.data || [];
         });
     },
     getPayment(force = false) {
@@ -969,7 +953,7 @@ export default {
     },
     initData() {
       this.loadThemes();
-      this.loadFees();
+      this.loadSignupItems();
       this.getSignupInfo();
     },
   },
