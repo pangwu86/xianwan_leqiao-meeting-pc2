@@ -16,6 +16,9 @@ const app = createApp(App);
 // 全局重要属性
 app.config.globalProperties.$globalData = {
   conferenceId: "1899130655669882882",
+  otvCodeForLogin: false,
+  otvCodeForSignup: false,
+  otvCodeDefault: "@@STRATI2026@@",
 };
 
 // 绑定 $req $api

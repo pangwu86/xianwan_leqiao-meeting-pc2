@@ -126,7 +126,7 @@
                 <span class="text-danger">*</span>
               </label>
               <div class="row">
-                <div class="col-7">
+                <div :class="otvCodeForSignup ? 'col-7' : 'col-12'">
                   <input
                     type="email"
                     @blur="checkEmailAccount"
@@ -136,7 +136,7 @@
                     placeholder="Please enter your email account."
                   />
                 </div>
-                <div class="col-5">
+                <div class="col-5" v-if="otvCodeForSignup">
                   <div class="d-grid">
                     <button
                       class="btn btn-outline-secondary"
@@ -177,7 +177,7 @@
             </div>
 
             <!-- 验证码 -->
-            <div class="mb-3">
+            <div class="mb-3" v-if="otvCodeForSignup">
               <label for="formSignUpPassword" class="form-label"
                 >One-Time Verification Code
                 <span class="text-danger">*</span></label
@@ -193,7 +193,11 @@
               </div>
             </div>
 
-            <div class="sign-tip" style="text-align: right">
+            <div
+              class="sign-tip"
+              style="text-align: right"
+              v-if="otvCodeForSignup"
+            >
               Didn't get the code? Check your Email junk/spam folder.
             </div>
 
@@ -240,7 +244,9 @@ export default {
       // lastName: "Peiwen",
       // gender: "Male",
       email: "",
-      code: "",
+      code: this.$globalData.otvCodeForSignup
+        ? ""
+        : this.$globalData.otvCodeDefault,
       prefix: "",
       firstName: "",
       middleName: "",
@@ -254,6 +260,7 @@ export default {
       codeRefresh: false,
       codeInterval: null,
       showTipEmail: false,
+      otvCodeForSignup: this.$globalData.otvCodeForSignup,
     };
   },
   methods: {
@@ -357,7 +364,7 @@ export default {
       if (!this.checkEmail(email)) {
         return;
       }
-      if (!this.checkEmpty("OTP-Code", code)) {
+      if (this.otvCodeForSignup && !this.checkEmpty("OTP-Code", code)) {
         return;
       }
       if (!this.checkEmpty("Prefix", prefix)) {
