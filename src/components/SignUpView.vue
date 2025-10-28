@@ -90,35 +90,6 @@
               </div>
             </div>
 
-            <div class="mb-3">
-              <label class="form-label"
-                >Login Password<span class="text-danger">*</span> （8 to 18
-                characters）</label
-              >
-              <div class="position-relative">
-                <input
-                  type="password"
-                  placeholder="Please enter a password with 8 to 18 characters, including numbers and special characters such as @#$~!."
-                  class="form-control"
-                  v-model="password"
-                />
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label"
-                >Confirm Password<span class="text-danger">*</span></label
-              >
-              <div class="position-relative">
-                <input
-                  type="password"
-                  placeholder="Please confirm the password by entering it again."
-                  class="form-control"
-                  v-model="password2"
-                />
-              </div>
-            </div>
-
             <!-- 邮件 -->
             <div class="mb-3">
               <label for="signinEmailInput" class="form-label">
@@ -199,6 +170,35 @@
               v-if="otvCodeForSignup"
             >
               Didn't get the code? Check your Email junk/spam folder.
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label"
+              >Login Password<span class="text-danger">*</span> （8 to 18
+                characters）</label
+              >
+              <div class="position-relative">
+                <input
+                    type="password"
+                    placeholder="Please enter a password with 8 to 18 characters, including numbers and special characters such as @#$~!."
+                    class="form-control"
+                    v-model="password"
+                />
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label"
+              >Confirm Password<span class="text-danger">*</span></label
+              >
+              <div class="position-relative">
+                <input
+                    type="password"
+                    placeholder="Please confirm the password by entering it again."
+                    class="form-control"
+                    v-model="password2"
+                />
+              </div>
             </div>
 
             <!-- 按钮 -->
