@@ -12,6 +12,8 @@
     </p>
     <p><strong>Accompanying person:</strong> 1000 RMB/150$, access to icebreaker, lunch and a bag.</p>
     <p>&nbsp;</p>
+    <p>Financial assistance for students can be applied after registration open.</p>
+    <p>&nbsp;</p>
     <p><a href="/signup">Sign up</a></p>
   </div>
 </template>
