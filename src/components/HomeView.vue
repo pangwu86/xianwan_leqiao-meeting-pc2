@@ -28,12 +28,7 @@
         <div class="row">
           <div class="col-4">
             <div class="read-desc">
-              The STRATI Congress has long served as a cornerstone of
-              international stratigraphic research, fostering dialogue and
-              innovation across continents with a legacy rooted in Europe. As
-              Earth science challenges and opportunities become increasingly
-              interconnected, STRATI 2026 represents a pivotal opportunity to
-              enhance …
+              The STRATI congress is the official meeting of the International Commission on Stratigraphy held between meetings of the International Geological Congress.  STRATI meetings serve as a cornerstone of international stratigraphic research, fostering dialogue and innovation across continents with a legacy rooted in Europe. As Earth science challenges and opportunities become increasingly interconnected, STRATI 2026 represents a pivotal opportunity to enhance global cooperation.….
             </div>
             <div
               class="home-btn mt-3"
@@ -175,7 +170,7 @@
               style="font-size: 20px"
               @click="toNewsPage(ni)"
             >
-              <div class="title col-9">{{ ni.title }}</div>
+              <div class="title col-9" :style="{ fontWeight: ni.isBold ? 'bold' : 'normal' }">{{ ni.title }}</div>
               <div class="date col-3" style="font-size: 20px">
                 {{ ni.date }}
               </div>
@@ -211,10 +206,10 @@
           </div>
         </div>
         <div class="fb-item">
-          <div class="fb-bg bg3" onclick="window.location.href='/page/venue.html'">
+          <div class="fb-bg bg3" onclick="window.location.href='/page/location.html'">
             <div
               class="fb-title"
-              onclick="window.location.href='/page/venue.html'"
+              onclick="window.location.href='/page/location.html'"
             >
               LOCATION
             </div>
@@ -279,31 +274,37 @@ export default {
           title: "First Circular of Strati 2026",
           date: "2025-04-30",
           link: "/pdf/First_Circular_of_Strati_2026.pdf",
+          isBold: true,
         },
         {
           title: "Travel to Suzhou",
           date: "2025-04-30",
           to: "/page/travel_to_suzhou.html",
+          isBold: true,
         },
         {
           title: "Call for Sessions",
           date: "2025-04-30",
           to: "/page/call_for_sessions.html",
+          isBold: true,
         },
         {
           title: "Visa policies",
           date: "2025-04-30",
           to: "/page/visa_policies.html",
+          isBold: true,
         },
         {
           title: "Congress Schedule",
           date: "2025-04-30",
           to: "/page/congress_schedule.html",
+          isBold: false,
         },
         {
           title: "Registration and fees",
           date: "2025-04-30",
           to: "/page/registration.html",
+          isBold: true,
         },
       ],
     };
