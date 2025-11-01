@@ -14,7 +14,7 @@
                   Log in with Login Password
                 </a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item" style="display: none">
                 <a
                   :class="'nav-link ' + (tabNo == 1 ? 'active' : '')"
                   @click="tabNo = 1"
