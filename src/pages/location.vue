@@ -11,6 +11,9 @@
     <p>&nbsp;</p>
     <h2>Location in map</h2>
     <p>&nbsp;</p>
+    <div class="image-container">
+      <img class="page-img" style="max-width: 94%" src="../imgs/map.png" alt="">
+    </div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h2>Travel to Suzhou</h2>
