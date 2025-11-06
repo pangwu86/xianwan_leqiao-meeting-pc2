@@ -183,6 +183,8 @@
 
   <!-- 4 ImgBtn -->
 
+  <img src="../imgs/index_session.jpg" class="floating-image" alt="Session proposal submit deadline Dec. 1, Please click to submit the proposal." onclick="window.location.href='/proposal/list'" />
+
   <div class="fourbtns-container mt-5">
     <div class="container">
       <div class="fb-list">
@@ -326,6 +328,15 @@ export default {
 </script>
 
 <style lang="scss">
+.floating-image {
+  position: fixed;       /* 页面滚动时仍保持位置 */
+  top: 50%;              /* 垂直居中 */
+  right: 3%;            /* 距离右边10%，可调整偏移 */
+  transform: translateY(-30%); /* 精准居中对齐 */
+  width: 200px;          /* 图片宽度 */
+  cursor: pointer;
+  z-index: 9999;         /* 保证在最上层 */
+}
 .home-title {
   font-size: 45px;
   font-family: "Arial";
