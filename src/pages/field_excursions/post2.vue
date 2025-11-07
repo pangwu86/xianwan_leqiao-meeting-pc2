@@ -99,6 +99,9 @@
     <p>
       Zhongyang Chen,&nbsp;Nanjing Institute of Geology and Palaeontology, CAS
     </p>
+    <p>
+      Xiang Fang, Nanjing Institute of Geology and Palaeontology, CAS
+    </p>
     <p>&nbsp;</p>
     <p>
       <strong>Itinerary:</strong>
