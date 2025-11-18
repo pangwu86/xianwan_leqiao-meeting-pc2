@@ -34,17 +34,17 @@ export default {
       tableHeader: ["Countries","Visa-free Transit Period","Policy validity period","More information"],
       tableData: [{
         d1: `Antigua and Barbuda, the United Arab Emirates, Armenia, Azerbaijan, the Bahamas, Barbados, Belarus, Bosnia and Herzegovina, Brunei, Dominica, Fiji, Georgia, Grenada, Kazakhstan, the Maldives, Malaysia, Mauritius, Qatar, Samoa, Serbia, Seychelles, San Marino, Singapore, Suriname, the Solomon Islands, Thailand, Tonga, Uzbekistan`,
-        d2: `30`,
+        d2: `30 days`,
         d3: `Long-term policy`,
         d4: `https://cs.mfa.gov.cn/zlbg/bgzl/lhqz/202506/t20250619_11653322.shtml`
       },{
         d1: `Andorra, Argentina, Australia, Austria, Bahrain, Belgium, Brazil, Bulgaria, Chile, Croatia, Cyprus, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Ireland, Japan, Kuwait, Latvia, Liechtenstein, Luxembourg, Malta, Monaco, Montenegro, the Netherlands, New Zealand, North Macedonia, Norway, Oman, Peru, Poland, Portugal, Romania, Saudi Arabia, Slovakia, Slovenia, South Korea, Spain, Switzerland, Sweden, Uruguay,`,
-        d2: `30`,
+        d2: `30 days`,
         d3: `-2026.12.31`,
         d4: `https://en.nia.gov.cn/n147418/n147463/c183390/content.html`
       },{
         d1: `Russia`,
-        d2: `30`,
+        d2: `30 days`,
         d3: `-2026.9.14`,
         d4: `https://en.nia.gov.cn/n147418/n147463/c183390/content.html`
       },{
