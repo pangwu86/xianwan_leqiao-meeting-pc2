@@ -26,14 +26,14 @@
     </p>
     <p style="font-size: 20px;"><b>&nbsp;&nbsp;2) Students’ accommodations in the hotels nearby</b>
     </p>
-    <p style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;Huaqi Hotel: standard room 130 RMB / ~18 $
+    <p style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;Huaqi Hotel: standard room 130 RMB / ~18 $ (1km to the venue)
     </p>
     <div class="image-container">
       <img class="page-img" src="../imgs/Huaqi1.png" alt="">
       <img class="page-img" src="../imgs/Huaqi2.png" alt="">
     </div>
     <p>&nbsp;</p>
-    <p style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;ChenRan Hotel: standard room 150 RMB / ~21 $
+    <p style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;ChenRan Hotel: standard room 150 RMB / ~21 $ (800m to the venue)
     </p>
     <div class="image-container">
       <img class="page-img" src="../imgs/ChenRan1.png" alt="">

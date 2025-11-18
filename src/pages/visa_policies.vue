@@ -37,11 +37,11 @@ export default {
       },{
         d1: '28 countries including France, Germany, Italy, the Netherlands, Spain, Malaysia, Switzerland, Ireland, Hungary, Austria, Belgium, Luxembourg, New Zealand, Australia, Poland, Portugal, Greece, Cyprus, Slovenia,Slovakia, Norway, Finland, Denmark, Iceland, Andorra, Monaco, Liechtenstein, and the ROK',
         d2: "15 days",
-        d3: "-2025.12.31"
+        d3: "-2026.12.31"
       },{
         d1: '54 countries: Albania, Argentina, Australia, Austria, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Brunei, Bulgaria, Canada, Chile, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, lreland, ltaly, Japan, Latvia, Lithuania, Luxembourg, Malta, Mexico, Monaco, Montenegro, the Netherlands, New Zealand, North Macedonia, Norway, Poland, Portugal, Qatar, the Republic of Korea, Romania, Russia, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, the United Arab Emirates, the United Kingdom, and the United States.',
         d2: "10 days visa-free transit policy",
-        d3: "-2025.12.31"
+        d3: "-2026.12.31"
       }]
     }
   }
