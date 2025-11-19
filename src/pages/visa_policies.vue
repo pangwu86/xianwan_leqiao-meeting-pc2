@@ -2,7 +2,7 @@
   <div class="container page-content">
     <h2>Visa Policies</h2>
     <p>&nbsp;</p>
-    <p>Under China's current policies, citizens from 31 countries can travel to China visa-free for up to 30 days. Additionally, citizens from 28 countries, including several major European nations, can stay visa-free for up to 15 days. Furthermore, citizens from 54 countries are eligible for visa-free transit, allowing them to stay in China for up to 10 days. Details are listed below:
+    <p>Under China's current visa policies, citizens from 86 countries are eligible for a visa-free stay of up to 30 days. Additionally, citizens from 10 countries are subject to a 10-day visa-free transit policy. Details are listed below.
     </p>
     <p>&nbsp;</p>
     <p>
